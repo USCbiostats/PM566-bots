@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-10-31.
+2022-11-07.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Midterm Elections (2022)              |          40 |
-| Republican Party                      |          30 |
-| United States Politics and Government |          30 |
-| Content Type: Personal Profile        |          20 |
-| Debates (Political)                   |          20 |
-| Democratic Party                      |          20 |
-| Elections, Senate                     |          20 |
-| Fetterman, John (1969- )              |          20 |
-| Oz, Mehmet C                          |          20 |
-| Pennsylvania                          |          20 |
-| Stroke                                |          20 |
-| ADIDAS AG                             |          10 |
-| Advertising and Marketing             |          10 |
-| AL QAEDA                              |          10 |
-| Anti-Semitism                         |          10 |
-| Appointments and Executive Changes    |          10 |
-| Athletics and Sports                  |          10 |
-| Balenciaga (Fashion Label)            |          10 |
-| Bragg, Alvin                          |          10 |
-| Civilian Casualties                   |          10 |
+| Keyword                        | \# Articles |
+|:-------------------------------|------------:|
+| Politics and Government        |          20 |
+| Vaccination and Immunization   |          20 |
+| AIRBUS INDUSTRIE               |          10 |
+| Backstreet Boys                |          10 |
+| BioNTech SE                    |          10 |
+| Canada                         |          10 |
+| Carter, Aaron                  |          10 |
+| Chiellini, Giorgio             |          10 |
+| China                          |          10 |
+| Cholera                        |          10 |
+| Coronavirus (2019-nCoV)        |          10 |
+| Deaths (Obituaries)            |          10 |
+| DeSantis, Ron                  |          10 |
+| Discrimination                 |          10 |
+| Disease Rates                  |          10 |
+| Doctors                        |          10 |
+| Drought                        |          10 |
+| Economic Conditions and Trends |          10 |
+| Elections, Senate              |          10 |
+| Fashion and Apparel            |          10 |
