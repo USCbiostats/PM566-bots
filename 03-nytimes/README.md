@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-11-07.
+2022-11-14.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                        | \# Articles |
-|:-------------------------------|------------:|
-| Politics and Government        |          20 |
-| Vaccination and Immunization   |          20 |
-| AIRBUS INDUSTRIE               |          10 |
-| Backstreet Boys                |          10 |
-| BioNTech SE                    |          10 |
-| Canada                         |          10 |
-| Carter, Aaron                  |          10 |
-| Chiellini, Giorgio             |          10 |
-| China                          |          10 |
-| Cholera                        |          10 |
-| Coronavirus (2019-nCoV)        |          10 |
-| Deaths (Obituaries)            |          10 |
-| DeSantis, Ron                  |          10 |
-| Discrimination                 |          10 |
-| Disease Rates                  |          10 |
-| Doctors                        |          10 |
-| Drought                        |          10 |
-| Economic Conditions and Trends |          10 |
-| Elections, Senate              |          10 |
-| Fashion and Apparel            |          10 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Midterm Elections (2022)              |          70 |
+| Democratic Party                      |          40 |
+| Republican Party                      |          40 |
+| United States Politics and Government |          30 |
+| Elections, Senate                     |          20 |
+| Polls and Public Opinion              |          20 |
+| States (US)                           |          20 |
+| United States                         |          20 |
+| Abortion                              |          10 |
+| Age, Chronological                    |          10 |
+| Assn of Southeast Asian Nations       |          10 |
+| Biden, Joseph R Jr                    |          10 |
+| Child Abuse and Neglect               |          10 |
+| Child Labor                           |          10 |
+| Children and Childhood                |          10 |
+| China                                 |          10 |
+| CNN                                   |          10 |
+| Consumer Price Index                  |          10 |
+| Coronavirus (2019-nCoV)               |          10 |
+| Crime and Criminals                   |          10 |
