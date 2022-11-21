@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-11-14.
+2022-11-21.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Midterm Elections (2022)              |          70 |
-| Democratic Party                      |          40 |
-| Republican Party                      |          40 |
-| United States Politics and Government |          30 |
-| Elections, Senate                     |          20 |
-| Polls and Public Opinion              |          20 |
-| States (US)                           |          20 |
-| United States                         |          20 |
-| Abortion                              |          10 |
-| Age, Chronological                    |          10 |
-| Assn of Southeast Asian Nations       |          10 |
-| Biden, Joseph R Jr                    |          10 |
-| Child Abuse and Neglect               |          10 |
-| Child Labor                           |          10 |
-| Children and Childhood                |          10 |
-| China                                 |          10 |
-| CNN                                   |          10 |
-| Consumer Price Index                  |          10 |
-| Coronavirus (2019-nCoV)               |          10 |
-| Crime and Criminals                   |          10 |
+| Keyword                                        | \# Articles |
+|:-----------------------------------------------|------------:|
+| United States Politics and Government          |          30 |
+| Deaths (Obituaries)                            |          20 |
+| Democratic Party                               |          20 |
+| Global Warming                                 |          20 |
+| Midterm Elections (2022)                       |          20 |
+| San Francisco (Calif)                          |          20 |
+| Women and Girls                                |          20 |
+| Age, Chronological                             |          10 |
+| Anxiety and Stress                             |          10 |
+| Biden, Joseph R Jr                             |          10 |
+| Books and Literature                           |          10 |
+| Brazil                                         |          10 |
+| California                                     |          10 |
+| Carbon Caps and Emissions Trading Programs     |          10 |
+| Careers and Professions                        |          10 |
+| Children and Childhood                         |          10 |
+| Computer and Video Games                       |          10 |
+| Computers and the Internet                     |          10 |
+| Congo, Democratic Republic of (Congo-Kinshasa) |          10 |
+| Conspiracy Theories                            |          10 |
