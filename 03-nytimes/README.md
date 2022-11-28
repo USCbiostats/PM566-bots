@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-11-21.
+2022-11-28.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                        | \# Articles |
-|:-----------------------------------------------|------------:|
-| United States Politics and Government          |          30 |
-| Deaths (Obituaries)                            |          20 |
-| Democratic Party                               |          20 |
-| Global Warming                                 |          20 |
-| Midterm Elections (2022)                       |          20 |
-| San Francisco (Calif)                          |          20 |
-| Women and Girls                                |          20 |
-| Age, Chronological                             |          10 |
-| Anxiety and Stress                             |          10 |
-| Biden, Joseph R Jr                             |          10 |
-| Books and Literature                           |          10 |
-| Brazil                                         |          10 |
-| California                                     |          10 |
-| Carbon Caps and Emissions Trading Programs     |          10 |
-| Careers and Professions                        |          10 |
-| Children and Childhood                         |          10 |
-| Computer and Video Games                       |          10 |
-| Computers and the Internet                     |          10 |
-| Congo, Democratic Republic of (Congo-Kinshasa) |          10 |
-| Conspiracy Theories                            |          10 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Deaths (Fatalities)                   |          20 |
+| House of Representatives              |          20 |
+| Philanthropy                          |          20 |
+| Republican Party                      |          20 |
+| Russia                                |          20 |
+| Ukraine                               |          20 |
+| United States Politics and Government |          20 |
+| Animal Abuse, Rights and Welfare      |          10 |
+| Animal Cognition                      |          10 |
+| Bezos, Jeffrey P                      |          10 |
+| Books and Literature                  |          10 |
+| California                            |          10 |
+| Cattle                                |          10 |
+| Chickens                              |          10 |
+| Content Type: Personal Profile        |          10 |
+| Coronavirus (2019-nCoV)               |          10 |
+| Courts and the Judiciary              |          10 |
+| Criminal Justice                      |          10 |
+| Delaney, Rob                          |          10 |
+| Democratic Party                      |          10 |
