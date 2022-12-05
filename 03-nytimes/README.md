@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-11-28.
+2022-12-05.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Deaths (Fatalities)                   |          20 |
-| House of Representatives              |          20 |
-| Philanthropy                          |          20 |
-| Republican Party                      |          20 |
-| Russia                                |          20 |
-| Ukraine                               |          20 |
-| United States Politics and Government |          20 |
-| Animal Abuse, Rights and Welfare      |          10 |
-| Animal Cognition                      |          10 |
-| Bezos, Jeffrey P                      |          10 |
+| Adams, Eric L                         |          20 |
+| China                                 |          20 |
+| Communist Party of China              |          20 |
+| Coronavirus (2019-nCoV)               |          20 |
+| Documentary Films and Programs        |          20 |
+| New York City                         |          20 |
+| Xi Jinping                            |          20 |
+| Alternative and Renewable Energy      |          10 |
+| Amazon.com Inc                        |          10 |
+| Biorhythms                            |          10 |
 | Books and Literature                  |          10 |
-| California                            |          10 |
-| Cattle                                |          10 |
-| Chickens                              |          10 |
-| Content Type: Personal Profile        |          10 |
-| Coronavirus (2019-nCoV)               |          10 |
-| Courts and the Judiciary              |          10 |
-| Criminal Justice                      |          10 |
-| Delaney, Rob                          |          10 |
-| Democratic Party                      |          10 |
+| Colleges and Universities             |          10 |
+| Content Type: Service                 |          10 |
+| Cooking and Cookbooks                 |          10 |
+| Coronavirus Omicron Variant           |          10 |
+| Coronavirus Risks and Safety Concerns |          10 |
+| Culinary Historians of New York       |          10 |
+| Demonstrations, Protests and Riots    |          10 |
+| Downtown Brooklyn (Brooklyn, NY)      |          10 |
+| El mar la mar (Movie)                 |          10 |
