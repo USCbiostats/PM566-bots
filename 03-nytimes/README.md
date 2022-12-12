@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-12-05.
+2022-12-12.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Adams, Eric L                         |          20 |
-| China                                 |          20 |
-| Communist Party of China              |          20 |
-| Coronavirus (2019-nCoV)               |          20 |
-| Documentary Films and Programs        |          20 |
-| New York City                         |          20 |
-| Xi Jinping                            |          20 |
-| Alternative and Renewable Energy      |          10 |
-| Amazon.com Inc                        |          10 |
-| Biorhythms                            |          10 |
-| Books and Literature                  |          10 |
-| Colleges and Universities             |          10 |
-| Content Type: Service                 |          10 |
-| Cooking and Cookbooks                 |          10 |
-| Coronavirus Omicron Variant           |          10 |
-| Coronavirus Risks and Safety Concerns |          10 |
-| Culinary Historians of New York       |          10 |
-| Demonstrations, Protests and Riots    |          10 |
-| Downtown Brooklyn (Brooklyn, NY)      |          10 |
-| El mar la mar (Movie)                 |          10 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Coronavirus (2019-nCoV)                 |          40 |
+| Health Insurance and Managed Care       |          20 |
+| Politics and Government                 |          20 |
+| Tests (Medical)                         |          20 |
+| Accidents and Safety                    |          10 |
+| Alternative for Germany                 |          10 |
+| Anti-Semitism                           |          10 |
+| Awards, Decorations and Honors          |          10 |
+| Bacteria                                |          10 |
+| Berggruen Institute                     |          10 |
+| Berggruen, Nicolas                      |          10 |
+| Biden, Joseph R Jr                      |          10 |
+| Brooklyn (NYC)                          |          10 |
+| China                                   |          10 |
+| Clean (Music Group)                     |          10 |
+| Conspiracy Theories                     |          10 |
+| Content Type: Service                   |          10 |
+| Coronavirus Omicron Variant             |          10 |
+| Coups D’Etat and Attempted Coups D’Etat |          10 |
+| Deaths (Obituaries)                     |          10 |
