@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-12-12.
+2022-12-19.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                 | \# Articles |
-|:----------------------------------------|------------:|
-| Coronavirus (2019-nCoV)                 |          40 |
-| Health Insurance and Managed Care       |          20 |
-| Politics and Government                 |          20 |
-| Tests (Medical)                         |          20 |
-| Accidents and Safety                    |          10 |
-| Alternative for Germany                 |          10 |
-| Anti-Semitism                           |          10 |
-| Awards, Decorations and Honors          |          10 |
-| Bacteria                                |          10 |
-| Berggruen Institute                     |          10 |
-| Berggruen, Nicolas                      |          10 |
-| Biden, Joseph R Jr                      |          10 |
-| Brooklyn (NYC)                          |          10 |
-| China                                   |          10 |
-| Clean (Music Group)                     |          10 |
-| Conspiracy Theories                     |          10 |
-| Content Type: Service                   |          10 |
-| Coronavirus Omicron Variant             |          10 |
-| Coups D’Etat and Attempted Coups D’Etat |          10 |
-| Deaths (Obituaries)                     |          10 |
+| Keyword                        | \# Articles |
+|:-------------------------------|------------:|
+| Content Type: Personal Profile |          20 |
+| Deaths (Obituaries)            |          20 |
+| Abortion                       |          10 |
+| Boss, Stephen (tWitch)         |          10 |
+| China                          |          10 |
+| China Manned Space Agency      |          10 |
+| Colleges and Universities      |          10 |
+| Conservatism (US Politics)     |          10 |
+| Consumer Price Index           |          10 |
+| Dancing                        |          10 |
+| Danelli, Dino (1944-2022)      |          10 |
+| DeSantis, Ron                  |          10 |
+| Deutsch, Herbert               |          10 |
+| Federal Reserve System         |          10 |
+| Graduate Schools and Students  |          10 |
+| Grief (Emotion)                |          10 |
+| Inflation (Economics)          |          10 |
+| Interest Rates                 |          10 |
+| internal-sub-only-nl           |          10 |
+| Inventions and Patents         |          10 |
