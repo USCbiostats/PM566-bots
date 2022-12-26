@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-12-19.
+2022-12-26.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                        | \# Articles |
-|:-------------------------------|------------:|
-| Content Type: Personal Profile |          20 |
-| Deaths (Obituaries)            |          20 |
-| Abortion                       |          10 |
-| Boss, Stephen (tWitch)         |          10 |
-| China                          |          10 |
-| China Manned Space Agency      |          10 |
-| Colleges and Universities      |          10 |
-| Conservatism (US Politics)     |          10 |
-| Consumer Price Index           |          10 |
-| Dancing                        |          10 |
-| Danelli, Dino (1944-2022)      |          10 |
-| DeSantis, Ron                  |          10 |
-| Deutsch, Herbert               |          10 |
-| Federal Reserve System         |          10 |
-| Graduate Schools and Students  |          10 |
-| Grief (Emotion)                |          10 |
-| Inflation (Economics)          |          10 |
-| Interest Rates                 |          10 |
-| internal-sub-only-nl           |          10 |
-| Inventions and Patents         |          10 |
+| Keyword                                        | \# Articles |
+|:-----------------------------------------------|------------:|
+| Biden, Joseph R Jr                             |          20 |
+| Coronavirus (2019-nCoV)                        |          20 |
+| United States Politics and Government          |          20 |
+| Abortion                                       |          10 |
+| Abortion Drugs                                 |          10 |
+| Anxiety and Stress                             |          10 |
+| Bahama Islands                                 |          10 |
+| Bankman-Fried, Sam                             |          10 |
+| Bankruptcies                                   |          10 |
+| Baseball                                       |          10 |
+| Bonuses                                        |          10 |
+| Brooklyn, NY, Subway Shooting (April 12, 2022) |          10 |
+| Candy                                          |          10 |
+| Children and Childhood                         |          10 |
+| China                                          |          10 |
+| Christmas                                      |          10 |
+| Crime and Criminals                            |          10 |
+| DeJoy, Louis                                   |          10 |
+| Democratic Party                               |          10 |
+| Diet and Nutrition                             |          10 |
