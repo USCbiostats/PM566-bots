@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2022-12-26.
+2023-01-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                        | \# Articles |
 |:-----------------------------------------------|------------:|
-| Biden, Joseph R Jr                             |          20 |
-| Coronavirus (2019-nCoV)                        |          20 |
-| United States Politics and Government          |          20 |
-| Abortion                                       |          10 |
-| Abortion Drugs                                 |          10 |
-| Anxiety and Stress                             |          10 |
-| Bahama Islands                                 |          10 |
-| Bankman-Fried, Sam                             |          10 |
-| Bankruptcies                                   |          10 |
-| Baseball                                       |          10 |
-| Bonuses                                        |          10 |
-| Brooklyn, NY, Subway Shooting (April 12, 2022) |          10 |
-| Candy                                          |          10 |
-| Children and Childhood                         |          10 |
+| Health Insurance and Managed Care              |          30 |
+| Mental Health and Disorders                    |          30 |
+| Anxiety and Stress                             |          20 |
+| Children and Childhood                         |          20 |
+| Deaths (Fatalities)                            |          20 |
+| Hospitals                                      |          20 |
+| Admissions Standards                           |          10 |
+| Amazon.com Inc                                 |          10 |
+| American Rescue Plan (2021)                    |          10 |
+| Banking and Financial Institutions             |          10 |
+| Black People                                   |          10 |
+| Blacks                                         |          10 |
+| Budgets and Budgeting                          |          10 |
+| Canada                                         |          10 |
 | China                                          |          10 |
-| Christmas                                      |          10 |
-| Crime and Criminals                            |          10 |
-| DeJoy, Louis                                   |          10 |
-| Democratic Party                               |          10 |
-| Diet and Nutrition                             |          10 |
+| City Councils                                  |          10 |
+| Colleges and Universities                      |          10 |
+| Computers and the Internet                     |          10 |
+| Congo, Democratic Republic of (Congo-Kinshasa) |          10 |
+| Content Type: Service                          |          10 |
