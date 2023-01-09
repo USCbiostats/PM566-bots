@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-01-02.
+2023-01-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                        | \# Articles |
-|:-----------------------------------------------|------------:|
-| Health Insurance and Managed Care              |          30 |
-| Mental Health and Disorders                    |          30 |
-| Anxiety and Stress                             |          20 |
-| Children and Childhood                         |          20 |
-| Deaths (Fatalities)                            |          20 |
-| Hospitals                                      |          20 |
-| Admissions Standards                           |          10 |
-| Amazon.com Inc                                 |          10 |
-| American Rescue Plan (2021)                    |          10 |
-| Banking and Financial Institutions             |          10 |
-| Black People                                   |          10 |
-| Blacks                                         |          10 |
-| Budgets and Budgeting                          |          10 |
-| Canada                                         |          10 |
-| China                                          |          10 |
-| City Councils                                  |          10 |
-| Colleges and Universities                      |          10 |
-| Computers and the Internet                     |          10 |
-| Congo, Democratic Republic of (Congo-Kinshasa) |          10 |
-| Content Type: Service                          |          10 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Coronavirus (2019-nCoV)                    |          20 |
+| Abortion                                   |          10 |
+| Abortion Drugs                             |          10 |
+| Buffalo (NY)                               |          10 |
+| Buffalo Bills                              |          10 |
+| Buffalo, NY, Shooting (May 14, 2022)       |          10 |
+| Cambodia                                   |          10 |
+| Centers for Disease Control and Prevention |          10 |
+| China                                      |          10 |
+| Coronavirus Omicron Variant                |          10 |
+| CVS Caremark Corporation                   |          10 |
+| Deaths (Obituaries)                        |          10 |
+| Demonstrations, Protests and Riots         |          10 |
+| Diet and Nutrition                         |          10 |
+| Disease Rates                              |          10 |
+| Drugstores                                 |          10 |
+| Fires and Firefighters                     |          10 |
+| Food                                       |          10 |
+| Food and Drug Administration               |          10 |
+| Football                                   |          10 |
