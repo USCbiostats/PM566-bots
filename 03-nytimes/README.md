@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-01-09.
+2023-01-16.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Coronavirus (2019-nCoV)                    |          20 |
-| Abortion                                   |          10 |
-| Abortion Drugs                             |          10 |
-| Buffalo (NY)                               |          10 |
-| Buffalo Bills                              |          10 |
-| Buffalo, NY, Shooting (May 14, 2022)       |          10 |
-| Cambodia                                   |          10 |
-| Centers for Disease Control and Prevention |          10 |
-| China                                      |          10 |
-| Coronavirus Omicron Variant                |          10 |
-| CVS Caremark Corporation                   |          10 |
-| Deaths (Obituaries)                        |          10 |
-| Demonstrations, Protests and Riots         |          10 |
-| Diet and Nutrition                         |          10 |
-| Disease Rates                              |          10 |
-| Drugstores                                 |          10 |
-| Fires and Firefighters                     |          10 |
-| Food                                       |          10 |
-| Food and Drug Administration               |          10 |
-| Football                                   |          10 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| Content Type: Service              |          20 |
+| World Health Organization          |          20 |
+| A Raisin in the Sun (Play)         |          10 |
+| Air Pollution                      |          10 |
+| Aquifers                           |          10 |
+| Army Corps of Engineers            |          10 |
+| Asthma                             |          10 |
+| Between Riverside and Crazy (Play) |          10 |
+| Black People                       |          10 |
+| Blacks                             |          10 |
+| Bragg, Alvin                       |          10 |
+| Buffalo Bills                      |          10 |
+| California                         |          10 |
+| Children and Childhood             |          10 |
+| China                              |          10 |
+| Consumer Product Safety Commission |          10 |
+| Consumer Protection                |          10 |
+| Coronavirus (2019-nCoV)            |          10 |
+| Coronavirus Reopenings             |          10 |
+| Crime and Criminals                |          10 |
