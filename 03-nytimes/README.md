@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-01-16.
+2023-01-23.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                            | \# Articles |
-|:-----------------------------------|------------:|
-| Content Type: Service              |          20 |
-| World Health Organization          |          20 |
-| A Raisin in the Sun (Play)         |          10 |
-| Air Pollution                      |          10 |
-| Aquifers                           |          10 |
-| Army Corps of Engineers            |          10 |
-| Asthma                             |          10 |
-| Between Riverside and Crazy (Play) |          10 |
-| Black People                       |          10 |
-| Blacks                             |          10 |
-| Bragg, Alvin                       |          10 |
-| Buffalo Bills                      |          10 |
-| California                         |          10 |
-| Children and Childhood             |          10 |
-| China                              |          10 |
-| Consumer Product Safety Commission |          10 |
-| Consumer Protection                |          10 |
-| Coronavirus (2019-nCoV)            |          10 |
-| Coronavirus Reopenings             |          10 |
-| Crime and Criminals                |          10 |
+| Keyword                           | \# Articles |
+|:----------------------------------|------------:|
+| Health Insurance and Managed Care |          20 |
+| Microsoft Corp                    |          20 |
+| Age, Chronological                |          10 |
+| Alameda Research LLC              |          10 |
+| Apple Inc                         |          10 |
+| Bank of Japan                     |          10 |
+| Bankman-Fried, Sam                |          10 |
+| Birth Rates                       |          10 |
+| BlackRock Inc                     |          10 |
+| Bluebird Bio Inc                  |          10 |
+| China                             |          10 |
+| Clinical Trials                   |          10 |
+| Coaches and Managers              |          10 |
+| Coinbase Inc                      |          10 |
+| Collective Bargaining             |          10 |
+| Company Reports                   |          10 |
+| Computers and the Internet        |          10 |
+| Content Type: Personal Profile    |          10 |
+| Content Type: Service             |          10 |
+| Corporate Social Responsibility   |          10 |
