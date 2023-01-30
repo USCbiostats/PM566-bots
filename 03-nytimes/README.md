@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-01-23.
+2023-01-30.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                           | \# Articles |
-|:----------------------------------|------------:|
-| Health Insurance and Managed Care |          20 |
-| Microsoft Corp                    |          20 |
-| Age, Chronological                |          10 |
-| Alameda Research LLC              |          10 |
-| Apple Inc                         |          10 |
-| Bank of Japan                     |          10 |
-| Bankman-Fried, Sam                |          10 |
-| Birth Rates                       |          10 |
-| BlackRock Inc                     |          10 |
-| Bluebird Bio Inc                  |          10 |
-| China                             |          10 |
-| Clinical Trials                   |          10 |
-| Coaches and Managers              |          10 |
-| Coinbase Inc                      |          10 |
-| Collective Bargaining             |          10 |
-| Company Reports                   |          10 |
-| Computers and the Internet        |          10 |
-| Content Type: Personal Profile    |          10 |
-| Content Type: Service             |          10 |
-| Corporate Social Responsibility   |          10 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Health Insurance and Managed Care     |          30 |
+| Drugs (Pharmaceuticals)               |          20 |
+| Suits and Litigation (Civil)          |          20 |
+| AbbVie Inc                            |          10 |
+| Alabama                               |          10 |
+| Alcoholic Beverages                   |          10 |
+| Anesthesia and Anesthetics            |          10 |
+| Antitrust Laws and Competition Issues |          10 |
+| Appointments and Executive Changes    |          10 |
+| Bedford-Stuyvesant (Brooklyn, NY)     |          10 |
+| Biden, Joseph R Jr                    |          10 |
+| Black People                          |          10 |
+| Blacks                                |          10 |
+| Brooklyn (NYC)                        |          10 |
+| Caesarean Section                     |          10 |
+| Childress, Hody                       |          10 |
+| Collective Bargaining                 |          10 |
+| Company Reports                       |          10 |
+| Computers and the Internet            |          10 |
+| Content Type: Personal Profile        |          10 |
