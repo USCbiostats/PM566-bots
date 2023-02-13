@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-02-06.
+2023-02-13.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                        | \# Articles |
-|:-----------------------------------------------|------------:|
-| United States Politics and Government          |          30 |
-| Biden, Joseph R Jr                             |          20 |
-| Content Type: Service                          |          20 |
-| Democratic Party                               |          20 |
-| Affordable Housing                             |          10 |
-| Black People                                   |          10 |
-| Blacks                                         |          10 |
-| Brady, Tom                                     |          10 |
-| Braverman, Suella                              |          10 |
-| Budgets and Budgeting                          |          10 |
-| Congo, Democratic Republic of (Congo-Kinshasa) |          10 |
-| Conservative Party (Great Britain)             |          10 |
-| Corporate Taxes                                |          10 |
-| Federal Budget (US)                            |          10 |
-| Football                                       |          10 |
-| Francis                                        |          10 |
-| Governors (US)                                 |          10 |
-| Great Britain                                  |          10 |
-| Green, Joshua (1972- )                         |          10 |
-| Healey, Maura (1971- )                         |          10 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Biden, Joseph R Jr                    |          30 |
+| Coronavirus (2019-nCoV)               |          30 |
+| Republican Party                      |          30 |
+| United States Politics and Government |          30 |
+| Deaths (Fatalities)                   |          20 |
+| Disability Insurance                  |          20 |
+| Earthquakes                           |          20 |
+| Suits and Litigation (Civil)          |          20 |
+| Syria                                 |          20 |
+| Trump, Donald J                       |          20 |
+| Turkey                                |          20 |
+| Turkey Earthquake (Feb 6, 2023)       |          20 |
+| 401(k), 403(b) and 457 Plans          |          10 |
+| Attorneys General                     |          10 |
+| Budgets and Budgeting                 |          10 |
+| Censorship                            |          10 |
+| China                                 |          10 |
+| Colleges and Universities             |          10 |
+| Computers and the Internet            |          10 |
+| Conservatism (US Politics)            |          10 |
