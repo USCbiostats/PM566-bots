@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-02-13.
+2023-02-20.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Biden, Joseph R Jr                    |          30 |
-| Coronavirus (2019-nCoV)               |          30 |
-| Republican Party                      |          30 |
-| United States Politics and Government |          30 |
-| Deaths (Fatalities)                   |          20 |
-| Disability Insurance                  |          20 |
-| Earthquakes                           |          20 |
-| Suits and Litigation (Civil)          |          20 |
-| Syria                                 |          20 |
-| Trump, Donald J                       |          20 |
-| Turkey                                |          20 |
-| Turkey Earthquake (Feb 6, 2023)       |          20 |
-| 401(k), 403(b) and 457 Plans          |          10 |
-| Attorneys General                     |          10 |
-| Budgets and Budgeting                 |          10 |
-| Censorship                            |          10 |
-| China                                 |          10 |
-| Colleges and Universities             |          10 |
-| Computers and the Internet            |          10 |
-| Conservatism (US Politics)            |          10 |
+| Doctors                               |          20 |
+| Great Britain                         |          20 |
+| Politics and Government               |          20 |
+| United States Politics and Government |          20 |
+| your-feed-healthcare                  |          20 |
+| Appointments and Executive Changes    |          10 |
+| Bay Ridge (Brooklyn, NY)              |          10 |
+| BMJ (Journal)                         |          10 |
+| Bulgaria                              |          10 |
+| Casey, Robert P Jr                    |          10 |
+| Congressional Budget Office           |          10 |
+| Content Type: Service                 |          10 |
+| Cornwall (England)                    |          10 |
+| Deaths (Fatalities)                   |          10 |
+| Democratic Party                      |          10 |
+| Diet and Nutrition                    |          10 |
+| Drug Abuse and Traffic                |          10 |
+| Drugs (Pharmaceuticals)               |          10 |
+| Drugstores                            |          10 |
+| Drunken and Reckless Driving          |          10 |
