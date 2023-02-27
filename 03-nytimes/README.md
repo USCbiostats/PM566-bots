@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-02-20.
+2023-02-27.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Doctors                               |          20 |
-| Great Britain                         |          20 |
-| Politics and Government               |          20 |
-| United States Politics and Government |          20 |
-| your-feed-healthcare                  |          20 |
-| Appointments and Executive Changes    |          10 |
-| Bay Ridge (Brooklyn, NY)              |          10 |
-| BMJ (Journal)                         |          10 |
-| Bulgaria                              |          10 |
-| Casey, Robert P Jr                    |          10 |
-| Congressional Budget Office           |          10 |
-| Content Type: Service                 |          10 |
-| Cornwall (England)                    |          10 |
-| Deaths (Fatalities)                   |          10 |
-| Democratic Party                      |          10 |
-| Diet and Nutrition                    |          10 |
-| Drug Abuse and Traffic                |          10 |
-| Drugs (Pharmaceuticals)               |          10 |
-| Drugstores                            |          10 |
-| Drunken and Reckless Driving          |          10 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Coronavirus (2019-nCoV)                    |          30 |
+| Carter, Jimmy                              |          20 |
+| United States Politics and Government      |          20 |
+| ADDARIO, LYNSEY                            |          10 |
+| Age, Chronological                         |          10 |
+| Archibald, John (1963- )                   |          10 |
+| Awards, Decorations and Honors             |          10 |
+| Bankruptcies                               |          10 |
+| Belgorod (Russia)                          |          10 |
+| Carlson, Tucker                            |          10 |
+| Centers for Disease Control and Prevention |          10 |
+| Cochrane Library                           |          10 |
+| Cohen, Roger                               |          10 |
+| CoinDesk Inc                               |          10 |
+| Content Type: Service                      |          10 |
+| Death and Dying                            |          10 |
+| Dementia                                   |          10 |
+| Discrimination                             |          10 |
+| Donbas (Ukraine)                           |          10 |
+| Elder Care                                 |          10 |
