@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-03-06.
+2023-03-13.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Economic Conditions and Trends        |          30 |
-| Politics and Government               |          30 |
-| United States Politics and Government |          20 |
-| AFGHANISTAN                           |          10 |
-| AFWERKI, ISAIAS                       |          10 |
-| Ahmed, Abiy                           |          10 |
-| Baseball                              |          10 |
-| Benioff, Marc                         |          10 |
-| Bogaerts, Xander                      |          10 |
-| Buttigieg, Pete (1982- )              |          10 |
-| Carter, Jimmy                         |          10 |
-| Chicago (Ill)                         |          10 |
-| China                                 |          10 |
-| Cold and Cold Spells                  |          10 |
-| Communist Party of China              |          10 |
-| Company Reports                       |          10 |
-| Coronavirus (2019-nCoV)               |          10 |
-| Crime and Criminals                   |          10 |
-| Cronenworth, Jake (1994- )            |          10 |
-| Cyberattacks and Hackers              |          10 |
+| United States Politics and Government |          40 |
+| Republican Party                      |          30 |
+| Abortion                              |          20 |
+| Biden, Joseph R Jr                    |          20 |
+| Coronavirus (2019-nCoV)               |          20 |
+| Health Insurance and Managed Care     |          20 |
+| Law and Legislation                   |          20 |
+| Abbott, Gregory W (1957- )            |          10 |
+| Adams, Eric L                         |          10 |
+| AL QAEDA                              |          10 |
+| al-Sharbi, Ghassan Abdullah           |          10 |
+| American Civil Liberties Union        |          10 |
+| Arrington, Jodey                      |          10 |
+| audio-neutral-informative             |          10 |
+| Automobiles                           |          10 |
+| Bombs and Explosives                  |          10 |
+| Coffeehouses                          |          10 |
+| Defense Department                    |          10 |
+| DeSantis, Ron                         |          10 |
+| Detainees                             |          10 |
