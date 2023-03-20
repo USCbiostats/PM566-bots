@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-03-13.
+2023-03-20.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          40 |
-| Republican Party                      |          30 |
-| Abortion                              |          20 |
-| Biden, Joseph R Jr                    |          20 |
-| Coronavirus (2019-nCoV)               |          20 |
-| Health Insurance and Managed Care     |          20 |
-| Law and Legislation                   |          20 |
-| Abbott, Gregory W (1957- )            |          10 |
-| Adams, Eric L                         |          10 |
-| AL QAEDA                              |          10 |
-| al-Sharbi, Ghassan Abdullah           |          10 |
-| American Civil Liberties Union        |          10 |
-| Arrington, Jodey                      |          10 |
-| audio-neutral-informative             |          10 |
-| Automobiles                           |          10 |
-| Bombs and Explosives                  |          10 |
-| Coffeehouses                          |          10 |
-| Defense Department                    |          10 |
-| DeSantis, Ron                         |          10 |
-| Detainees                             |          10 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Banking and Financial Institutions      |          20 |
+| Content Type: Personal Profile          |          20 |
+| Federal Deposit Insurance Corp          |          20 |
+| Federal Reserve System                  |          20 |
+| Regulation and Deregulation of Industry |          20 |
+| Silicon Valley Bank                     |          20 |
+| Stocks and Bonds                        |          20 |
+| United States                           |          20 |
+| United States Economy                   |          20 |
+| Women and Girls                         |          20 |
+| audio-neutral-informative               |          10 |
+| Books and Literature                    |          10 |
+| China                                   |          10 |
+| Commitment (Book)                       |          10 |
+| Cooking and Cookbooks                   |          10 |
+| Credit and Debt                         |          10 |
+| Credit Suisse Group AG                  |          10 |
+| Cyberwarfare and Defense                |          10 |
+| Deaths (Obituaries)                     |          10 |
+| Disasters and Emergencies               |          10 |
