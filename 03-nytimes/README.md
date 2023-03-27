@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-03-20.
+2023-03-27.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                 | \# Articles |
-|:----------------------------------------|------------:|
-| Banking and Financial Institutions      |          20 |
-| Content Type: Personal Profile          |          20 |
-| Federal Deposit Insurance Corp          |          20 |
-| Federal Reserve System                  |          20 |
-| Regulation and Deregulation of Industry |          20 |
-| Silicon Valley Bank                     |          20 |
-| Stocks and Bonds                        |          20 |
-| United States                           |          20 |
-| United States Economy                   |          20 |
-| Women and Girls                         |          20 |
-| audio-neutral-informative               |          10 |
-| Books and Literature                    |          10 |
-| China                                   |          10 |
-| Commitment (Book)                       |          10 |
-| Cooking and Cookbooks                   |          10 |
-| Credit and Debt                         |          10 |
-| Credit Suisse Group AG                  |          10 |
-| Cyberwarfare and Defense                |          10 |
-| Deaths (Obituaries)                     |          10 |
-| Disasters and Emergencies               |          10 |
+| Keyword                             | \# Articles |
+|:------------------------------------|------------:|
+| Hazardous and Toxic Substances      |          20 |
+| Air Pollution                       |          10 |
+| Amazon Jungle                       |          10 |
+| Audemars Piguet Group               |          10 |
+| Automobiles                         |          10 |
+| Basketball (College)                |          10 |
+| Batteries                           |          10 |
+| Biographical Information            |          10 |
+| Black People                        |          10 |
+| Blacks                              |          10 |
+| Bolsonaro, Jair (1955- )            |          10 |
+| Books and Literature                |          10 |
+| Brazil                              |          10 |
+| California                          |          10 |
+| CalRx Biosimilar Insulin Initiative |          10 |
+| Clarios International Inc           |          10 |
+| Compensation for Damages (Law)      |          10 |
+| Conservation of Resources           |          10 |
+| Coronavirus (2019-nCoV)             |          10 |
+| Da Silva, Luiz Inacio Lula          |          10 |
