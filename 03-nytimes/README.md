@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-03-27.
+2023-04-03.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                             | \# Articles |
-|:------------------------------------|------------:|
-| Hazardous and Toxic Substances      |          20 |
-| Air Pollution                       |          10 |
-| Amazon Jungle                       |          10 |
-| Audemars Piguet Group               |          10 |
-| Automobiles                         |          10 |
-| Basketball (College)                |          10 |
-| Batteries                           |          10 |
-| Biographical Information            |          10 |
-| Black People                        |          10 |
-| Blacks                              |          10 |
-| Bolsonaro, Jair (1955- )            |          10 |
-| Books and Literature                |          10 |
-| Brazil                              |          10 |
-| California                          |          10 |
-| CalRx Biosimilar Insulin Initiative |          10 |
-| Clarios International Inc           |          10 |
-| Compensation for Damages (Law)      |          10 |
-| Conservation of Resources           |          10 |
-| Coronavirus (2019-nCoV)             |          10 |
-| Da Silva, Luiz Inacio Lula          |          10 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| Coronavirus (2019-nCoV)            |          30 |
+| Russian Invasion of Ukraine (2022) |          30 |
+| Deaths (Fatalities)                |          20 |
+| Health Insurance and Managed Care  |          20 |
+| Ukraine                            |          20 |
+| Abuse of the Disabled              |          10 |
+| Adams, Eric L                      |          10 |
+| ADIDAS AG                          |          10 |
+| American Rescue Plan (2021)        |          10 |
+| Art                                |          10 |
+| AstraZeneca PLC                    |          10 |
+| Banga, Ajay                        |          10 |
+| Biden, Joseph R Jr                 |          10 |
+| Birth Certificates                 |          10 |
+| Birth Rates                        |          10 |
+| Blood Clots                        |          10 |
+| Bloomingdale’s                     |          10 |
+| Casinos                            |          10 |
+| Child Care                         |          10 |
+| Clean Water Act                    |          10 |
