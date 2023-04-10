@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-04-03.
+2023-04-10.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                            | \# Articles |
-|:-----------------------------------|------------:|
-| Coronavirus (2019-nCoV)            |          30 |
-| Russian Invasion of Ukraine (2022) |          30 |
-| Deaths (Fatalities)                |          20 |
-| Health Insurance and Managed Care  |          20 |
-| Ukraine                            |          20 |
-| Abuse of the Disabled              |          10 |
-| Adams, Eric L                      |          10 |
-| ADIDAS AG                          |          10 |
-| American Rescue Plan (2021)        |          10 |
-| Art                                |          10 |
-| AstraZeneca PLC                    |          10 |
-| Banga, Ajay                        |          10 |
-| Biden, Joseph R Jr                 |          10 |
-| Birth Certificates                 |          10 |
-| Birth Rates                        |          10 |
-| Blood Clots                        |          10 |
-| Bloomingdale’s                     |          10 |
-| Casinos                            |          10 |
-| Child Care                         |          10 |
-| Clean Water Act                    |          10 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Law and Legislation                         |          15 |
+| Decisions and Verdicts                      |          10 |
+| internal-storyline-no                       |          10 |
+| Italy                                       |          10 |
+| New York City                               |          10 |
+| Abortion                                    |           5 |
+| Abortion Drugs                              |           5 |
+| Alvarez, Ray                                |           5 |
+| Alzheimer’s Disease                         |           5 |
+| Artificial Insemination                     |           5 |
+| Babies and Infants                          |           5 |
+| Bagels                                      |           5 |
+| Berlusconi, Silvio                          |           5 |
+| Birth Certificates                          |           5 |
+| Black People                                |           5 |
+| Blacks                                      |           5 |
+| Books and Literature                        |           5 |
+| Brothers of Italy (Italian Political Party) |           5 |
+| Citizenship and Naturalization              |           5 |
+| City Harvest                                |           5 |
