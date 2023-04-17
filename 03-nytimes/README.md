@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-04-10.
+2023-04-17.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Law and Legislation                         |          15 |
-| Decisions and Verdicts                      |          10 |
-| internal-storyline-no                       |          10 |
-| Italy                                       |          10 |
-| New York City                               |          10 |
-| Abortion                                    |           5 |
-| Abortion Drugs                              |           5 |
-| Alvarez, Ray                                |           5 |
-| Alzheimer’s Disease                         |           5 |
-| Artificial Insemination                     |           5 |
-| Babies and Infants                          |           5 |
-| Bagels                                      |           5 |
-| Berlusconi, Silvio                          |           5 |
-| Birth Certificates                          |           5 |
-| Black People                                |           5 |
-| Blacks                                      |           5 |
-| Books and Literature                        |           5 |
-| Brothers of Italy (Italian Political Party) |           5 |
-| Citizenship and Naturalization              |           5 |
-| City Harvest                                |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Labor and Jobs                        |          15 |
+| internal-sub-only-nl                  |          10 |
+| New York City                         |          10 |
+| New York State                        |          10 |
+| United States Politics and Government |          10 |
+| Work-Life Balance                     |          10 |
+| Abortion                              |           5 |
+| Abortion Drugs                        |           5 |
+| Advertising and Marketing             |           5 |
+| Amazon.com Inc                        |           5 |
+| audio-neutral-informative             |           5 |
+| Books and Literature                  |           5 |
+| Buses                                 |           5 |
+| Child Abuse and Neglect               |           5 |
+| Children and Childhood                |           5 |
+| Citizens Budget Commission            |           5 |
+| Computers and the Internet            |           5 |
+| Content Type: Personal Profile        |           5 |
+| Content Type: Service                 |           5 |
+| Coronavirus (2019-nCoV)               |           5 |
