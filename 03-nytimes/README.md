@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-04-17.
+2023-04-24.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Labor and Jobs                        |          15 |
-| internal-sub-only-nl                  |          10 |
-| New York City                         |          10 |
-| New York State                        |          10 |
+| Age, Chronological                    |          10 |
+| Content Type: Service                 |          10 |
+| Ethics and Official Misconduct        |          10 |
 | United States Politics and Government |          10 |
-| Work-Life Balance                     |          10 |
-| Abortion                              |           5 |
-| Abortion Drugs                        |           5 |
-| Advertising and Marketing             |           5 |
-| Amazon.com Inc                        |           5 |
-| audio-neutral-informative             |           5 |
-| Books and Literature                  |           5 |
-| Buses                                 |           5 |
-| Child Abuse and Neglect               |           5 |
+| ALLERGIES                             |           5 |
+| ARTHRITIS                             |           5 |
+| Atacama Desert                        |           5 |
+| Autism                                |           5 |
+| Babies and Infants                    |           5 |
+| Baisho, Chieko                        |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Canada                                |           5 |
+| Cancer                                |           5 |
 | Children and Childhood                |           5 |
-| Citizens Budget Commission            |           5 |
-| Computers and the Internet            |           5 |
+| Children’s Health Defense             |           5 |
+| Chile                                 |           5 |
 | Content Type: Personal Profile        |           5 |
-| Content Type: Service                 |           5 |
 | Coronavirus (2019-nCoV)               |           5 |
+| Courts and the Judiciary              |           5 |
+| Cronenberg, David                     |           5 |
