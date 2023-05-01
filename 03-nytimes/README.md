@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-04-24.
+2023-05-01.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Age, Chronological                    |          10 |
-| Content Type: Service                 |          10 |
-| Ethics and Official Misconduct        |          10 |
-| United States Politics and Government |          10 |
-| ALLERGIES                             |           5 |
-| ARTHRITIS                             |           5 |
-| Atacama Desert                        |           5 |
-| Autism                                |           5 |
-| Babies and Infants                    |           5 |
-| Baisho, Chieko                        |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Canada                                |           5 |
-| Cancer                                |           5 |
-| Children and Childhood                |           5 |
-| Children’s Health Defense             |           5 |
-| Chile                                 |           5 |
-| Content Type: Personal Profile        |           5 |
-| Coronavirus (2019-nCoV)               |           5 |
-| Courts and the Judiciary              |           5 |
-| Cronenberg, David                     |           5 |
+| Keyword                                             | \# Articles |
+|:----------------------------------------------------|------------:|
+| Content Type: Service                               |          10 |
+| Movies                                              |          10 |
+| Republican Party                                    |          10 |
+| Television                                          |          10 |
+| Al Qaeda                                            |           5 |
+| Alliance of Motion Picture and Television Producers |           5 |
+| Art                                                 |           5 |
+| Biden, Joseph R Jr                                  |           5 |
+| Black People                                        |           5 |
+| Blacks                                              |           5 |
+| Cable Television                                    |           5 |
+| California                                          |           5 |
+| Carlson, Tucker                                     |           5 |
+| Central Intelligence Agency                         |           5 |
+| Chronic Condition (Health)                          |           5 |
+| Classified Information and State Secrets            |           5 |
+| Cole (USS)                                          |           5 |
+| Conservatism (US Politics)                          |           5 |
+| Courts and the Judiciary                            |           5 |
+| Detainees                                           |           5 |
