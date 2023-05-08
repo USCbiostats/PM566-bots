@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-05-01.
+2023-05-08.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                             | \# Articles |
-|:----------------------------------------------------|------------:|
-| Content Type: Service                               |          10 |
-| Movies                                              |          10 |
-| Republican Party                                    |          10 |
-| Television                                          |          10 |
-| Al Qaeda                                            |           5 |
-| Alliance of Motion Picture and Television Producers |           5 |
-| Art                                                 |           5 |
-| Biden, Joseph R Jr                                  |           5 |
-| Black People                                        |           5 |
-| Blacks                                              |           5 |
-| Cable Television                                    |           5 |
-| California                                          |           5 |
-| Carlson, Tucker                                     |           5 |
-| Central Intelligence Agency                         |           5 |
-| Chronic Condition (Health)                          |           5 |
-| Classified Information and State Secrets            |           5 |
-| Cole (USS)                                          |           5 |
-| Conservatism (US Politics)                          |           5 |
-| Courts and the Judiciary                            |           5 |
-| Detainees                                           |           5 |
+| Keyword                     | \# Articles |
+|:----------------------------|------------:|
+| audio-neutral-informative   |          15 |
+| Adams, Eric L               |          10 |
+| Content Type: Service       |          10 |
+| Coronavirus (2019-nCoV)     |          10 |
+| Deaths (Fatalities)         |          10 |
+| Immigration and Emigration  |          10 |
+| internal-sub-only-nl        |          10 |
+| Law and Legislation         |          10 |
+| Mental Health and Disorders |          10 |
+| New York City               |          10 |
+| Adams, Adrienne (1960- )    |           5 |
+| audio-neutral-immersive     |           5 |
+| Biden, Joseph R Jr          |           5 |
+| Black People                |           5 |
+| Blacks                      |           5 |
+| Bragg, Alvin                |           5 |
+| California                  |           5 |
+| Canada                      |           5 |
+| Child Labor                 |           5 |
+| China                       |           5 |
