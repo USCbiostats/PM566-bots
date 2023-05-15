@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-05-08.
+2023-05-15.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                     | \# Articles |
-|:----------------------------|------------:|
-| audio-neutral-informative   |          15 |
-| Adams, Eric L               |          10 |
-| Content Type: Service       |          10 |
-| Coronavirus (2019-nCoV)     |          10 |
-| Deaths (Fatalities)         |          10 |
-| Immigration and Emigration  |          10 |
-| internal-sub-only-nl        |          10 |
-| Law and Legislation         |          10 |
-| Mental Health and Disorders |          10 |
-| New York City               |          10 |
-| Adams, Adrienne (1960- )    |           5 |
-| audio-neutral-immersive     |           5 |
-| Biden, Joseph R Jr          |           5 |
-| Black People                |           5 |
-| Blacks                      |           5 |
-| Bragg, Alvin                |           5 |
-| California                  |           5 |
-| Canada                      |           5 |
-| Child Labor                 |           5 |
-| China                       |           5 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Polls and Public Opinion                |          10 |
+| Abortion                                |           5 |
+| Acquired Immune Deficiency Syndrome     |           5 |
+| Age, Chronological                      |           5 |
+| Allen, Tex, Mall Shooting (May 2023)    |           5 |
+| ALLERGIES                               |           5 |
+| Art                                     |           5 |
+| Barney, Matthew                         |           5 |
+| Bridgerton (TV Program)                 |           5 |
+| China                                   |           5 |
+| Consumer Price Index                    |           5 |
+| Content Type: Personal Profile          |           5 |
+| Costumes                                |           5 |
+| Coups D’Etat and Attempted Coups D’Etat |           5 |
+| Deaths (Fatalities)                     |           5 |
+| Democratic Party                        |           5 |
+| Depression (Mental)                     |           5 |
+| Disease Rates                           |           5 |
+| Elections                               |           5 |
+| Federal Reserve System                  |           5 |
