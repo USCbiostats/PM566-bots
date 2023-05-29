@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-05-22.
+2023-05-29.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          20 |
-| Decisions and Verdicts                |          15 |
-| United States                         |          15 |
-| Abortion                              |          10 |
-| Biden, Joseph R Jr                    |          10 |
-| Coronavirus (2019-nCoV)               |          10 |
-| Discrimination                        |          10 |
-| Law and Legislation                   |          10 |
-| Republican Party                      |          10 |
-| States (US)                           |          10 |
-| Supreme Court (US)                    |          10 |
-| Abortion Drugs                        |           5 |
-| Alcaraz, Carlos (2003- )              |           5 |
-| Appeals Courts (US)                   |           5 |
-| Asylum, Right of                      |           5 |
-| Babies and Infants                    |           5 |
-| Black People                          |           5 |
-| Blacks                                |           5 |
-| Bribery and Kickbacks                 |           5 |
-| Campaign Finance                      |           5 |
+| Keyword                                             | \# Articles |
+|:----------------------------------------------------|------------:|
+| Murders, Attempted Murders and Homicides            |          15 |
+| Coronavirus (2019-nCoV)                             |          10 |
+| Law and Legislation                                 |          10 |
+| Police Brutality, Misconduct and Shootings          |          10 |
+| Republican Party                                    |          10 |
+| United States Economy                               |          10 |
+| Wages and Salaries                                  |          10 |
+| Abbott, Gregory W (1957- )                          |           5 |
+| ACCOUNTING AND ACCOUNTANTS                          |           5 |
+| ALLIANCE OF MOTION PICTURE AND TELEVISION PRODUCERS |           5 |
+| Arkansas                                            |           5 |
+| Bicycles and Bicycling                              |           5 |
+| Black People                                        |           5 |
+| Blacks                                              |           5 |
+| Book Trade and Publishing                           |           5 |
+| California                                          |           5 |
+| Car Services and Livery Cabs                        |           5 |
+| Centers for Medicare and Medicaid Services          |           5 |
+| Children and Childhood                              |           5 |
+| Clear Creek County (Colo)                           |           5 |
