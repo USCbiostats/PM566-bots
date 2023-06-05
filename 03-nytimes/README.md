@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-05-29.
+2023-06-05.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                             | \# Articles |
-|:----------------------------------------------------|------------:|
-| Murders, Attempted Murders and Homicides            |          15 |
-| Coronavirus (2019-nCoV)                             |          10 |
-| Law and Legislation                                 |          10 |
-| Police Brutality, Misconduct and Shootings          |          10 |
-| Republican Party                                    |          10 |
-| United States Economy                               |          10 |
-| Wages and Salaries                                  |          10 |
-| Abbott, Gregory W (1957- )                          |           5 |
-| ACCOUNTING AND ACCOUNTANTS                          |           5 |
-| ALLIANCE OF MOTION PICTURE AND TELEVISION PRODUCERS |           5 |
-| Arkansas                                            |           5 |
-| Bicycles and Bicycling                              |           5 |
-| Black People                                        |           5 |
-| Blacks                                              |           5 |
-| Book Trade and Publishing                           |           5 |
-| California                                          |           5 |
-| Car Services and Livery Cabs                        |           5 |
-| Centers for Medicare and Medicaid Services          |           5 |
-| Children and Childhood                              |           5 |
-| Clear Creek County (Colo)                           |           5 |
+| Keyword                                              | \# Articles |
+|:-----------------------------------------------------|------------:|
+| Children and Childhood                               |          10 |
+| Content Type: Service                                |          10 |
+| LGBTQ Pride Month (US)                               |          10 |
+| Pittsburgh (Pa)                                      |          10 |
+| Poverty                                              |          10 |
+| Women and Girls                                      |          10 |
+| AGUILERA, CHRISTINA                                  |           5 |
+| Air Conditioning                                     |           5 |
+| Alamo Drafthouse Cinema                              |           5 |
+| Anti-Semitism                                        |           5 |
+| ARCTIC REGIONS                                       |           5 |
+| Charles, RuPaul                                      |           5 |
+| Computers and the Internet                           |           5 |
+| Deaths (Fatalities)                                  |           5 |
+| Detroit (Mich)                                       |           5 |
+| Developing Countries                                 |           5 |
+| Drag (Performance)                                   |           5 |
+| Education (K-12)                                     |           5 |
+| Far East, South and Southeast Asia and Pacific Areas |           5 |
+| Festivals                                            |           5 |
