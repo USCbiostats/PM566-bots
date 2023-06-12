@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-06-05.
+2023-06-12.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                              | \# Articles |
-|:-----------------------------------------------------|------------:|
-| Children and Childhood                               |          10 |
-| Content Type: Service                                |          10 |
-| LGBTQ Pride Month (US)                               |          10 |
-| Pittsburgh (Pa)                                      |          10 |
-| Poverty                                              |          10 |
-| Women and Girls                                      |          10 |
-| AGUILERA, CHRISTINA                                  |           5 |
-| Air Conditioning                                     |           5 |
-| Alamo Drafthouse Cinema                              |           5 |
-| Anti-Semitism                                        |           5 |
-| ARCTIC REGIONS                                       |           5 |
-| Charles, RuPaul                                      |           5 |
-| Computers and the Internet                           |           5 |
-| Deaths (Fatalities)                                  |           5 |
-| Detroit (Mich)                                       |           5 |
-| Developing Countries                                 |           5 |
-| Drag (Performance)                                   |           5 |
-| Education (K-12)                                     |           5 |
-| Far East, South and Southeast Asia and Pacific Areas |           5 |
-| Festivals                                            |           5 |
+| Keyword                                      | \# Articles |
+|:---------------------------------------------|------------:|
+| Air Pollution                                |          20 |
+| Wildfires                                    |          20 |
+| Canada                                       |          10 |
+| Content Type: Service                        |          10 |
+| Masks                                        |          10 |
+| Asthma                                       |           5 |
+| Butner (NC)                                  |           5 |
+| Children and Childhood                       |           5 |
+| Chronic Condition (Health)                   |           5 |
+| Climate and Environmental Research Institute |           5 |
+| Documentary Films and Programs               |           5 |
+| Gender                                       |           5 |
+| Global Warming                               |           5 |
+| Great Britain                                |           5 |
+| Hazardous and Toxic Substances               |           5 |
+| Headaches                                    |           5 |
+| Hormones                                     |           5 |
+| internal-sub-only-nl                         |           5 |
+| Kaczynski, Theodore J                        |           5 |
+| Kimberly Akimbo (Play)                       |           5 |
