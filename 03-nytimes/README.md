@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-06-12.
+2023-06-19.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                      | \# Articles |
-|:---------------------------------------------|------------:|
-| Air Pollution                                |          20 |
-| Wildfires                                    |          20 |
-| Canada                                       |          10 |
-| Content Type: Service                        |          10 |
-| Masks                                        |          10 |
-| Asthma                                       |           5 |
-| Butner (NC)                                  |           5 |
-| Children and Childhood                       |           5 |
-| Chronic Condition (Health)                   |           5 |
-| Climate and Environmental Research Institute |           5 |
-| Documentary Films and Programs               |           5 |
-| Gender                                       |           5 |
-| Global Warming                               |           5 |
-| Great Britain                                |           5 |
-| Hazardous and Toxic Substances               |           5 |
-| Headaches                                    |           5 |
-| Hormones                                     |           5 |
-| internal-sub-only-nl                         |           5 |
-| Kaczynski, Theodore J                        |           5 |
-| Kimberly Akimbo (Play)                       |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Computers and the Internet                  |          10 |
+| Death and Dying                             |          10 |
+| Social Media                                |          10 |
+| Age, Chronological                          |           5 |
+| All That’s Left in the World (Book)         |           5 |
+| Animal Behavior                             |           5 |
+| Animal Cognition                            |           5 |
+| Bayron, Kalynn                              |           5 |
+| Beating Heart Baby (Book)                   |           5 |
+| Bianca Torre Is Afraid of Everything (Book) |           5 |
+| Black People                                |           5 |
+| Blacks                                      |           5 |
+| Books and Literature                        |           5 |
+| Brain                                       |           5 |
+| Brown, Erik J                               |           5 |
+| California                                  |           5 |
+| Cinderella Is Dead (Book)                   |           5 |
+| City Council (NYC)                          |           5 |
+| Cole, Olivia A (Author)                     |           5 |
+| Conspiracy Theories                         |           5 |
