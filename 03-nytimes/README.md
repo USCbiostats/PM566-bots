@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-06-26.
+2023-07-03.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| United States Politics and Government    |          15 |
-| China                                    |          10 |
-| Classified Information and State Secrets |          10 |
-| Coronavirus (2019-nCoV)                  |          10 |
-| Coronavirus Origins Investigation        |          10 |
-| Democratic Party                         |          10 |
-| Genetic Engineering                      |          10 |
-| Republican Party                         |          10 |
-| Wuhan Institute of Virology (China)      |          10 |
-| Actors and Actresses                     |           5 |
-| Appointments and Executive Changes       |           5 |
-| Beaches                                  |           5 |
-| Biosphere (Movie)                        |           5 |
-| Black Sea                                |           5 |
-| Bridges and Tunnels                      |           5 |
-| Brown, Sterling K                        |           5 |
-| Central Intelligence Agency              |           5 |
-| Cicero Institute                         |           5 |
-| Conservatism (US Politics)               |           5 |
-| Content Type: Personal Profile           |           5 |
+| Keyword                         | \# Articles |
+|:--------------------------------|------------:|
+| Homosexuality and Bisexuality   |          10 |
+| Transgender                     |          10 |
+| Abortion                        |           5 |
+| Actors and Actresses            |           5 |
+| Admissions Standards            |           5 |
+| Affirmative Action              |           5 |
+| Arkansas                        |           5 |
+| Birth Rates                     |           5 |
+| Bloomberg Philanthropies        |           5 |
+| Canada                          |           5 |
+| Chan Zuckerberg Initiative LLC  |           5 |
+| Chicago (Ill)                   |           5 |
+| Chronic Condition (Health)      |           5 |
+| Cleveland (Ohio)                |           5 |
+| Colleges and Universities       |           5 |
+| Conservatism (US Politics)      |           5 |
+| Constitution (US)               |           5 |
+| Corporate Social Responsibility |           5 |
+| Corporations                    |           5 |
+| Courts and the Judiciary        |           5 |
