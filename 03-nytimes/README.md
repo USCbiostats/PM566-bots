@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-07-03.
+2023-07-10.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                         | \# Articles |
-|:--------------------------------|------------:|
-| Homosexuality and Bisexuality   |          10 |
-| Transgender                     |          10 |
-| Abortion                        |           5 |
-| Actors and Actresses            |           5 |
-| Admissions Standards            |           5 |
-| Affirmative Action              |           5 |
-| Arkansas                        |           5 |
-| Birth Rates                     |           5 |
-| Bloomberg Philanthropies        |           5 |
-| Canada                          |           5 |
-| Chan Zuckerberg Initiative LLC  |           5 |
-| Chicago (Ill)                   |           5 |
-| Chronic Condition (Health)      |           5 |
-| Cleveland (Ohio)                |           5 |
-| Colleges and Universities       |           5 |
-| Conservatism (US Politics)      |           5 |
-| Constitution (US)               |           5 |
-| Corporate Social Responsibility |           5 |
-| Corporations                    |           5 |
-| Courts and the Judiciary        |           5 |
+| Keyword                     | \# Articles |
+|:----------------------------|------------:|
+| Discrimination              |          10 |
+| Law and Legislation         |          10 |
+| Republican Party            |          10 |
+| United States               |          10 |
+| Abortion                    |           5 |
+| AMERICAN SAMOA              |           5 |
+| Campaign Finance            |           5 |
+| Children and Childhood      |           5 |
+| China                       |           5 |
+| Christians and Christianity |           5 |
+| Civil Rights and Liberties  |           5 |
+| Colonization                |           5 |
+| Constitution (US)           |           5 |
+| Constitutions               |           5 |
+| Deaths (Fatalities)         |           5 |
+| Democratic Party            |           5 |
+| Doctors                     |           5 |
+| Drownings                   |           5 |
+| Dust and Sand Storms        |           5 |
+| Federal Election Commission |           5 |
