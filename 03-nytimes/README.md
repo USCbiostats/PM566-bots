@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-07-17.
+2023-07-24.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Black People                          |          10 |
-| Blacks                                |          10 |
-| Deaths (Fatalities)                   |          10 |
-| Discrimination                        |          10 |
-| Heat and Heat Waves                   |          10 |
-| Homeland Security Department          |          10 |
-| United States                         |          10 |
-| United States Politics and Government |          10 |
-| Air Conditioning                      |           5 |
-| AMERICAN BEVERAGE ASSN                |           5 |
-| AMERICAN CANCER SOCIETY               |           5 |
-| Anti-Semitism                         |           5 |
-| Appeals Courts (US)                   |           5 |
-| Artificial Sweeteners                 |           5 |
-| Aspartame                             |           5 |
-| Asylum, Right of                      |           5 |
-| audio-neutral-informative             |           5 |
-| Austin (Tex)                          |           5 |
-| Beauty (Concept)                      |           5 |
-| Bernstein, Leonard                    |           5 |
+| Keyword                        | \# Articles |
+|:-------------------------------|------------:|
+| internal-sub-only              |          15 |
+| Content Type: Service          |          10 |
+| Exercise                       |          10 |
+| Actors and Actresses           |           5 |
+| Actors Studio                  |           5 |
+| Alaska                         |           5 |
+| Alaska Natives                 |           5 |
+| Art                            |           5 |
+| audio-neutral-informative      |           5 |
+| audio-positive-escape          |           5 |
+| Biden, Joseph R Jr             |           5 |
+| Boxing                         |           5 |
+| Cancer                         |           5 |
+| Children and Childhood         |           5 |
+| Close, Chuck                   |           5 |
+| Content Type: Personal Profile |           5 |
+| Courts and the Judiciary       |           5 |
+| Deaths (Obituaries)            |           5 |
+| Dementia                       |           5 |
+| Democratic Party               |           5 |
