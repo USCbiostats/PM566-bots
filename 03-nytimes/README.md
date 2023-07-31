@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-07-24.
+2023-07-31.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                        | \# Articles |
-|:-------------------------------|------------:|
-| internal-sub-only              |          15 |
-| Content Type: Service          |          10 |
-| Exercise                       |          10 |
-| Actors and Actresses           |           5 |
-| Actors Studio                  |           5 |
-| Alaska                         |           5 |
-| Alaska Natives                 |           5 |
-| Art                            |           5 |
-| audio-neutral-informative      |           5 |
-| audio-positive-escape          |           5 |
-| Biden, Joseph R Jr             |           5 |
-| Boxing                         |           5 |
-| Cancer                         |           5 |
-| Children and Childhood         |           5 |
-| Close, Chuck                   |           5 |
-| Content Type: Personal Profile |           5 |
-| Courts and the Judiciary       |           5 |
-| Deaths (Obituaries)            |           5 |
-| Dementia                       |           5 |
-| Democratic Party               |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| United States Politics and Government |          15 |
+| Age, Chronological                    |          10 |
+| Biden, Joseph R Jr                    |          10 |
+| Content Type: Personal Profile        |          10 |
+| Elderly                               |          10 |
+| Jews and Judaism                      |          10 |
+| Longevity                             |          10 |
+| Presidential Election of 2024         |          10 |
+| Senate                                |          10 |
+| Trump, Donald J                       |          10 |
+| Affordable Housing                    |           5 |
+| Area Planning and Renewal             |           5 |
+| Art                                   |           5 |
+| Black People                          |           5 |
+| Blacks                                |           5 |
+| Books and Literature                  |           5 |
+| Border Barriers                       |           5 |
+| BRUNSWICK (GA)                        |           5 |
+| Buchanan, Beverly (1940-2015)         |           5 |
+| Buettner, Dan (1960- )                |           5 |
