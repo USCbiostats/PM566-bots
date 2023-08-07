@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-07-31.
+2023-08-07.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          15 |
-| Age, Chronological                    |          10 |
-| Biden, Joseph R Jr                    |          10 |
-| Content Type: Personal Profile        |          10 |
-| Elderly                               |          10 |
-| Jews and Judaism                      |          10 |
-| Longevity                             |          10 |
-| Presidential Election of 2024         |          10 |
-| Senate                                |          10 |
-| Trump, Donald J                       |          10 |
-| Affordable Housing                    |           5 |
-| Area Planning and Renewal             |           5 |
-| Art                                   |           5 |
-| Black People                          |           5 |
-| Blacks                                |           5 |
-| Books and Literature                  |           5 |
-| Border Barriers                       |           5 |
-| BRUNSWICK (GA)                        |           5 |
-| Buchanan, Beverly (1940-2015)         |           5 |
-| Buettner, Dan (1960- )                |           5 |
+| Keyword                                   | \# Articles |
+|:------------------------------------------|------------:|
+| internal-storyline-no                     |          10 |
+| Medicine and Health                       |          10 |
+| United States Economy                     |          10 |
+| United States Politics and Government     |          10 |
+| Actors and Actresses                      |           5 |
+| ADIRONDACK MOUNTAINS (NY)                 |           5 |
+| AMERICAN ACADEMY OF PEDIATRICS            |           5 |
+| Biden, Joseph R Jr                        |           5 |
+| Biotechnology and Bioengineering          |           5 |
+| Black People                              |           5 |
+| Blacks                                    |           5 |
+| Box Office Sales                          |           5 |
+| Cervical Cancer                           |           5 |
+| Children and Childhood                    |           5 |
+| Cloud, Angus                              |           5 |
+| Compensation for Damages (Law)            |           5 |
+| Conspiracy Theories                       |           5 |
+| Coronavirus (2019-nCoV)                   |           5 |
+| Credit Ratings and Credit Rating Agencies |           5 |
+| Deaths (Obituaries)                       |           5 |
