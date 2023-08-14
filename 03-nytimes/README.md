@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-08-07.
+2023-08-14.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                   | \# Articles |
-|:------------------------------------------|------------:|
-| internal-storyline-no                     |          10 |
-| Medicine and Health                       |          10 |
-| United States Economy                     |          10 |
-| United States Politics and Government     |          10 |
-| Actors and Actresses                      |           5 |
-| ADIRONDACK MOUNTAINS (NY)                 |           5 |
-| AMERICAN ACADEMY OF PEDIATRICS            |           5 |
-| Biden, Joseph R Jr                        |           5 |
-| Biotechnology and Bioengineering          |           5 |
-| Black People                              |           5 |
-| Blacks                                    |           5 |
-| Box Office Sales                          |           5 |
-| Cervical Cancer                           |           5 |
-| Children and Childhood                    |           5 |
-| Cloud, Angus                              |           5 |
-| Compensation for Damages (Law)            |           5 |
-| Conspiracy Theories                       |           5 |
-| Coronavirus (2019-nCoV)                   |           5 |
-| Credit Ratings and Credit Rating Agencies |           5 |
-| Deaths (Obituaries)                       |           5 |
+| Keyword                                             | \# Articles |
+|:----------------------------------------------------|------------:|
+| Biden, Joseph R Jr                                  |          10 |
+| United States Politics and Government               |          10 |
+| Advertising and Marketing                           |           5 |
+| Assassinations and Attempted Assassinations         |           5 |
+| Barthes, Sophie                                     |           5 |
+| Biden, Hunter                                       |           5 |
+| City Councils                                       |           5 |
+| Clarke, Emilia                                      |           5 |
+| Clemente Soto Velez Cultural and Educational Center |           5 |
+| Conservatism (US Politics)                          |           5 |
+| Consumer Protection                                 |           5 |
+| Consumer Reports                                    |           5 |
+| Consumers Union                                     |           5 |
+| Content Type: Personal Profile                      |           5 |
+| Content Type: Service                               |           5 |
+| Coronavirus (2019-nCoV)                             |           5 |
+| Coronavirus Omicron Variant                         |           5 |
+| Coronavirus Risks and Safety Concerns               |           5 |
+| Deaths (Obituaries)                                 |           5 |
+| Disease Rates                                       |           5 |
