@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-08-14.
+2023-08-21.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                             | \# Articles |
-|:----------------------------------------------------|------------:|
-| Biden, Joseph R Jr                                  |          10 |
-| United States Politics and Government               |          10 |
-| Advertising and Marketing                           |           5 |
-| Assassinations and Attempted Assassinations         |           5 |
-| Barthes, Sophie                                     |           5 |
-| Biden, Hunter                                       |           5 |
-| City Councils                                       |           5 |
-| Clarke, Emilia                                      |           5 |
-| Clemente Soto Velez Cultural and Educational Center |           5 |
-| Conservatism (US Politics)                          |           5 |
-| Consumer Protection                                 |           5 |
-| Consumer Reports                                    |           5 |
-| Consumers Union                                     |           5 |
-| Content Type: Personal Profile                      |           5 |
-| Content Type: Service                               |           5 |
-| Coronavirus (2019-nCoV)                             |           5 |
-| Coronavirus Omicron Variant                         |           5 |
-| Coronavirus Risks and Safety Concerns               |           5 |
-| Deaths (Obituaries)                                 |           5 |
-| Disease Rates                                       |           5 |
+| Keyword                                                          | \# Articles |
+|:-----------------------------------------------------------------|------------:|
+| Adams, Eric L                                                    |           5 |
+| Agriculture and Farming                                          |           5 |
+| Agriculture Department                                           |           5 |
+| Andaya, Herman                                                   |           5 |
+| Animal and Plant Health Inspection Service                       |           5 |
+| Appointments and Executive Changes                               |           5 |
+| Asylum, Right of                                                 |           5 |
+| Athens (Greece)                                                  |           5 |
+| Bees                                                             |           5 |
+| Birth Control: The Insidious Power of Men Over Motherhood (Book) |           5 |
+| Bodrum (Turkey)                                                  |           5 |
+| Books and Literature                                             |           5 |
+| California                                                       |           5 |
+| Content Type: Personal Profile                                   |           5 |
+| Content Type: Service                                            |           5 |
+| Country Music                                                    |           5 |
+| Defense and Military Forces                                      |           5 |
+| Department of Housing Preservation and Development (NYC)         |           5 |
+| DocGo Inc                                                        |           5 |
+| Erie County (NY)                                                 |           5 |
