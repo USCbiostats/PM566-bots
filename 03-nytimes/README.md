@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-08-21.
+2023-08-28.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                                          | \# Articles |
-|:-----------------------------------------------------------------|------------:|
-| Adams, Eric L                                                    |           5 |
-| Agriculture and Farming                                          |           5 |
-| Agriculture Department                                           |           5 |
-| Andaya, Herman                                                   |           5 |
-| Animal and Plant Health Inspection Service                       |           5 |
-| Appointments and Executive Changes                               |           5 |
-| Asylum, Right of                                                 |           5 |
-| Athens (Greece)                                                  |           5 |
-| Bees                                                             |           5 |
-| Birth Control: The Insidious Power of Men Over Motherhood (Book) |           5 |
-| Bodrum (Turkey)                                                  |           5 |
-| Books and Literature                                             |           5 |
-| California                                                       |           5 |
-| Content Type: Personal Profile                                   |           5 |
-| Content Type: Service                                            |           5 |
-| Country Music                                                    |           5 |
-| Defense and Military Forces                                      |           5 |
-| Department of Housing Preservation and Development (NYC)         |           5 |
-| DocGo Inc                                                        |           5 |
-| Erie County (NY)                                                 |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Economic Conditions and Trends           |          10 |
+| Russia                                   |          10 |
+| Russian Invasion of Ukraine (2022)       |          10 |
+| Ukraine                                  |          10 |
+| Accidents and Safety                     |           5 |
+| ALS Assn                                 |           5 |
+| Amyotrophic Lateral Sclerosis            |           5 |
+| Appointments and Executive Changes       |           5 |
+| audio-neutral-informative                |           5 |
+| Bacteria                                 |           5 |
+| Black Lives Matter Movement              |           5 |
+| Blood                                    |           5 |
+| Cable Cars and Trams                     |           5 |
+| Cavalluzzi, Frank                        |           5 |
+| Children and Childhood                   |           5 |
+| China                                    |           5 |
+| Consumer Behavior                        |           5 |
+| Consumer Confidence (Economic Indicator) |           5 |
+| Deaths (Fatalities)                      |           5 |
+| Deaths (Obituaries)                      |           5 |
