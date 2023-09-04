@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-08-28.
+2023-09-04.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Economic Conditions and Trends           |          10 |
-| Russia                                   |          10 |
-| Russian Invasion of Ukraine (2022)       |          10 |
-| Ukraine                                  |          10 |
-| Accidents and Safety                     |           5 |
-| ALS Assn                                 |           5 |
-| Amyotrophic Lateral Sclerosis            |           5 |
-| Appointments and Executive Changes       |           5 |
-| audio-neutral-informative                |           5 |
-| Bacteria                                 |           5 |
-| Black Lives Matter Movement              |           5 |
-| Blood                                    |           5 |
-| Cable Cars and Trams                     |           5 |
-| Cavalluzzi, Frank                        |           5 |
-| Children and Childhood                   |           5 |
-| China                                    |           5 |
-| Consumer Behavior                        |           5 |
-| Consumer Confidence (Economic Indicator) |           5 |
-| Deaths (Fatalities)                      |           5 |
-| Deaths (Obituaries)                      |           5 |
+| Keyword                                                                | \# Articles |
+|:-----------------------------------------------------------------------|------------:|
+| United States Politics and Government                                  |          20 |
+| Law and Legislation                                                    |          15 |
+| Abortion                                                               |          10 |
+| Biden, Joseph R Jr                                                     |          10 |
+| Conservatism (US Politics)                                             |          10 |
+| Republican Party                                                       |          10 |
+| Acquired Immune Deficiency Syndrome                                    |           5 |
+| Agriculture and Farming                                                |           5 |
+| Anxiety and Stress                                                     |           5 |
+| Aquifers                                                               |           5 |
+| Asylum, Right of                                                       |           5 |
+| Bloomberg LP                                                           |           5 |
+| Bloomberg, Michael R                                                   |           5 |
+| Bush, George W                                                         |           5 |
+| California                                                             |           5 |
+| Campaign Finance                                                       |           5 |
+| Citizens United v Federal Election Commission (Supreme Court Decision) |           5 |
+| Conservation of Resources                                              |           5 |
+| Content Type: Service                                                  |           5 |
+| Coronavirus (2019-nCoV)                                                |           5 |
