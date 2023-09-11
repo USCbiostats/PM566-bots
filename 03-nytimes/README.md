@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-09-04.
+2023-09-11.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                                                | \# Articles |
-|:-----------------------------------------------------------------------|------------:|
-| United States Politics and Government                                  |          20 |
-| Law and Legislation                                                    |          15 |
-| Abortion                                                               |          10 |
-| Biden, Joseph R Jr                                                     |          10 |
-| Conservatism (US Politics)                                             |          10 |
-| Republican Party                                                       |          10 |
-| Acquired Immune Deficiency Syndrome                                    |           5 |
-| Agriculture and Farming                                                |           5 |
-| Anxiety and Stress                                                     |           5 |
-| Aquifers                                                               |           5 |
-| Asylum, Right of                                                       |           5 |
-| Bloomberg LP                                                           |           5 |
-| Bloomberg, Michael R                                                   |           5 |
-| Bush, George W                                                         |           5 |
-| California                                                             |           5 |
-| Campaign Finance                                                       |           5 |
-| Citizens United v Federal Election Commission (Supreme Court Decision) |           5 |
-| Conservation of Resources                                              |           5 |
-| Content Type: Service                                                  |           5 |
-| Coronavirus (2019-nCoV)                                                |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Deaths (Fatalities)                      |          15 |
+| Biden, Joseph R Jr                       |          10 |
+| Content Type: Personal Profile           |          10 |
+| Grief (Emotion)                          |          10 |
+| September 11 (2001)                      |          10 |
+| 12 Angry Men (Movie)                     |           5 |
+| Amnesties, Commutations and Pardons      |           5 |
+| Artificial Intelligence                  |           5 |
+| audio-neutral-informative                |           5 |
+| Aviation Accidents, Safety and Disasters |           5 |
+| Bahrain                                  |           5 |
+| bin al-Shibh, Ramzi                      |           5 |
+| Birth Control and Family Planning        |           5 |
+| Boston (Mass)                            |           5 |
+| Buffett, Jimmy                           |           5 |
+| Children and Childhood                   |           5 |
+| Colleges and Universities                |           5 |
+| Corruption (Institutional)               |           5 |
+| Dark Energy (Astronomy)                  |           5 |
+| Dark Matter (Astronomy)                  |           5 |
