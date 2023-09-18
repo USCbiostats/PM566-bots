@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-09-11.
+2023-09-18.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Deaths (Fatalities)                      |          15 |
-| Biden, Joseph R Jr                       |          10 |
-| Content Type: Personal Profile           |          10 |
-| Grief (Emotion)                          |          10 |
-| September 11 (2001)                      |          10 |
-| 12 Angry Men (Movie)                     |           5 |
-| Amnesties, Commutations and Pardons      |           5 |
-| Artificial Intelligence                  |           5 |
-| audio-neutral-informative                |           5 |
-| Aviation Accidents, Safety and Disasters |           5 |
-| Bahrain                                  |           5 |
-| bin al-Shibh, Ramzi                      |           5 |
-| Birth Control and Family Planning        |           5 |
-| Boston (Mass)                            |           5 |
-| Buffett, Jimmy                           |           5 |
-| Children and Childhood                   |           5 |
-| Colleges and Universities                |           5 |
-| Corruption (Institutional)               |           5 |
-| Dark Energy (Astronomy)                  |           5 |
-| Dark Matter (Astronomy)                  |           5 |
+| Keyword                                      | \# Articles |
+|:---------------------------------------------|------------:|
+| United States Politics and Government        |          15 |
+| Age, Chronological                           |          10 |
+| Biden, Joseph R Jr                           |          10 |
+| Argo (Movie)                                 |           5 |
+| audio-neutral-immersive                      |           5 |
+| audio-neutral-informative                    |           5 |
+| Awards, Decorations and Honors               |           5 |
+| Biden, Hunter                                |           5 |
+| Bohannon, Cat                                |           5 |
+| Books and Literature                         |           5 |
+| Bronx (NYC)                                  |           5 |
+| Central Intelligence Agency                  |           5 |
+| Chefs                                        |           5 |
+| Child Care                                   |           5 |
+| Classified Information and State Secrets     |           5 |
+| Colorado                                     |           5 |
+| Content Type: Personal Profile               |           5 |
+| Day Care Centers                             |           5 |
+| Diplomatic Service, Embassies and Consulates |           5 |
+| Elderly                                      |           5 |
