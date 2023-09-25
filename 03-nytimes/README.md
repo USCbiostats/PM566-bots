@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-09-18.
+2023-09-25.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                      | \# Articles |
-|:---------------------------------------------|------------:|
-| United States Politics and Government        |          15 |
-| Age, Chronological                           |          10 |
-| Biden, Joseph R Jr                           |          10 |
-| Argo (Movie)                                 |           5 |
-| audio-neutral-immersive                      |           5 |
-| audio-neutral-informative                    |           5 |
-| Awards, Decorations and Honors               |           5 |
-| Biden, Hunter                                |           5 |
-| Bohannon, Cat                                |           5 |
-| Books and Literature                         |           5 |
-| Bronx (NYC)                                  |           5 |
-| Central Intelligence Agency                  |           5 |
-| Chefs                                        |           5 |
-| Child Care                                   |           5 |
-| Classified Information and State Secrets     |           5 |
-| Colorado                                     |           5 |
-| Content Type: Personal Profile               |           5 |
-| Day Care Centers                             |           5 |
-| Diplomatic Service, Embassies and Consulates |           5 |
-| Elderly                                      |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Biden, Joseph R Jr                    |          10 |
+| United Nations                        |          10 |
+| \#MeToo Movement                      |           5 |
+| Anesthesia and Anesthetics            |           5 |
+| Antitrust Laws and Competition Issues |           5 |
+| Appointments and Executive Changes    |           5 |
+| Black People                          |           5 |
+| Blacks                                |           5 |
+| Brand, Russell                        |           5 |
+| British Journal of Surgery            |           5 |
+| California                            |           5 |
+| Christians and Christianity           |           5 |
+| Columbia University                   |           5 |
+| Corporations                          |           5 |
+| Deaths (Fatalities)                   |           5 |
+| Decisions and Verdicts                |           5 |
+| Detainees                             |           5 |
+| Discrimination                        |           5 |
+| Diversity Initiatives                 |           5 |
+| England                               |           5 |
