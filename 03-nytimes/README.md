@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-09-25.
+2023-10-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Biden, Joseph R Jr                    |          10 |
-| United Nations                        |          10 |
-| \#MeToo Movement                      |           5 |
-| Anesthesia and Anesthetics            |           5 |
+| Diet and Nutrition                    |          10 |
+| Feinstein, Dianne                     |          10 |
+| Politics and Government               |          10 |
+| Senate                                |          10 |
+| Women and Girls                       |          10 |
+| Adams, Eric L                         |           5 |
+| Age, Chronological                    |           5 |
+| Amazon.com Inc                        |           5 |
 | Antitrust Laws and Competition Issues |           5 |
-| Appointments and Executive Changes    |           5 |
-| Black People                          |           5 |
-| Blacks                                |           5 |
-| Brand, Russell                        |           5 |
-| British Journal of Surgery            |           5 |
+| Books and Literature                  |           5 |
+| Buddhism                              |           5 |
+| Budgets and Budgeting                 |           5 |
 | California                            |           5 |
-| Christians and Christianity           |           5 |
-| Columbia University                   |           5 |
-| Corporations                          |           5 |
-| Deaths (Fatalities)                   |           5 |
-| Decisions and Verdicts                |           5 |
-| Detainees                             |           5 |
-| Discrimination                        |           5 |
-| Diversity Initiatives                 |           5 |
-| England                               |           5 |
+| Children and Childhood                |           5 |
+| China                                 |           5 |
+| Colds                                 |           5 |
+| College Athletics                     |           5 |
+| Content Type: Personal Profile        |           5 |
+| Content Type: Service                 |           5 |
+| Coughs                                |           5 |
