@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-10-02.
+2023-10-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Diet and Nutrition                    |          10 |
-| Feinstein, Dianne                     |          10 |
-| Politics and Government               |          10 |
-| Senate                                |          10 |
+| Decisions and Verdicts                |          15 |
+| Deaths (Obituaries)                   |          10 |
+| internal-storyline-no                 |          10 |
+| Israel                                |          10 |
 | Women and Girls                       |          10 |
 | Adams, Eric L                         |           5 |
-| Age, Chronological                    |           5 |
-| Amazon.com Inc                        |           5 |
-| Antitrust Laws and Competition Issues |           5 |
+| Advertising and Marketing             |           5 |
+| Alissa, Ahmad Al Aliwi                |           5 |
+| Architecture                          |           5 |
+| Assaults                              |           5 |
+| Black Girl Unlimited (Book)           |           5 |
+| Black People                          |           5 |
+| Blacks                                |           5 |
 | Books and Literature                  |           5 |
-| Buddhism                              |           5 |
-| Budgets and Budgeting                 |           5 |
-| California                            |           5 |
-| Children and Childhood                |           5 |
-| China                                 |           5 |
-| Colds                                 |           5 |
-| College Athletics                     |           5 |
-| Content Type: Personal Profile        |           5 |
-| Content Type: Service                 |           5 |
-| Coughs                                |           5 |
+| Boulder (Colo)                        |           5 |
+| Boulder, Colo, Shooting (March, 2021) |           5 |
+| Brewer, Gale A                        |           5 |
+| Brown, Echo (Author)                  |           5 |
+| Buildings (Structures)                |           5 |
+| City Council (NYC)                    |           5 |
