@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-10-09.
+2023-10-16.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Decisions and Verdicts                |          15 |
-| Deaths (Obituaries)                   |          10 |
-| internal-storyline-no                 |          10 |
-| Israel                                |          10 |
-| Women and Girls                       |          10 |
-| Adams, Eric L                         |           5 |
-| Advertising and Marketing             |           5 |
-| Alissa, Ahmad Al Aliwi                |           5 |
-| Architecture                          |           5 |
-| Assaults                              |           5 |
-| Black Girl Unlimited (Book)           |           5 |
-| Black People                          |           5 |
-| Blacks                                |           5 |
-| Books and Literature                  |           5 |
-| Boulder (Colo)                        |           5 |
-| Boulder, Colo, Shooting (March, 2021) |           5 |
-| Brewer, Gale A                        |           5 |
-| Brown, Echo (Author)                  |           5 |
-| Buildings (Structures)                |           5 |
-| City Council (NYC)                    |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Children and Childhood                   |          10 |
+| Computers and the Internet               |          10 |
+| Gaza Strip                               |          10 |
+| Israel                                   |          10 |
+| Israel-Gaza War (2023- )                 |          10 |
+| Law and Legislation                      |          10 |
+| Politics and Government                  |          10 |
+| Regulation and Deregulation of Industry  |          10 |
+| Social Media                             |          10 |
+| Accidents and Safety                     |           5 |
+| Addiction (Psychology)                   |           5 |
+| Airports                                 |           5 |
+| Arkansas                                 |           5 |
+| Attention Deficit Hyperactivity Disorder |           5 |
+| Bananas                                  |           5 |
+| Banking and Financial Institutions       |           5 |
+| Building (Construction)                  |           5 |
+| California                               |           5 |
+| China                                    |           5 |
+| Computer and Video Games                 |           5 |
