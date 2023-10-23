@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-10-16.
+2023-10-23.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Children and Childhood                   |          10 |
-| Computers and the Internet               |          10 |
-| Gaza Strip                               |          10 |
-| Israel                                   |          10 |
-| Israel-Gaza War (2023- )                 |          10 |
-| Law and Legislation                      |          10 |
-| Politics and Government                  |          10 |
-| Regulation and Deregulation of Industry  |          10 |
-| Social Media                             |          10 |
-| Accidents and Safety                     |           5 |
-| Addiction (Psychology)                   |           5 |
-| Airports                                 |           5 |
-| Arkansas                                 |           5 |
-| Attention Deficit Hyperactivity Disorder |           5 |
-| Bananas                                  |           5 |
-| Banking and Financial Institutions       |           5 |
-| Building (Construction)                  |           5 |
-| California                               |           5 |
-| China                                    |           5 |
-| Computer and Video Games                 |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Gaza Strip                            |          15 |
+| Israel                                |          15 |
+| Israel-Gaza War (2023- )              |          15 |
+| Palestinians                          |          15 |
+| Research                              |          15 |
+| United States International Relations |          15 |
+| Politics and Government               |          10 |
+| Presidential Election of 2024         |          10 |
+| Social Media                          |          10 |
+| Terrorism                             |          10 |
+| United States Politics and Government |          10 |
+| Women and Girls                       |          10 |
+| Accidents and Safety                  |           5 |
+| ANEMIA                                |           5 |
+| Avian Influenza                       |           5 |
+| Bank of Israel                        |           5 |
+| Banking and Financial Institutions    |           5 |
+| Beauty (Concept)                      |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Blood                                 |           5 |
