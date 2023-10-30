@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-10-23.
+2023-10-30.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Gaza Strip                            |          15 |
-| Israel                                |          15 |
-| Israel-Gaza War (2023- )              |          15 |
-| Palestinians                          |          15 |
-| Research                              |          15 |
-| United States International Relations |          15 |
-| Politics and Government               |          10 |
-| Presidential Election of 2024         |          10 |
-| Social Media                          |          10 |
-| Terrorism                             |          10 |
-| United States Politics and Government |          10 |
-| Women and Girls                       |          10 |
-| Accidents and Safety                  |           5 |
-| ANEMIA                                |           5 |
-| Avian Influenza                       |           5 |
-| Bank of Israel                        |           5 |
-| Banking and Financial Institutions    |           5 |
-| Beauty (Concept)                      |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Blood                                 |           5 |
+| Keyword                                              | \# Articles |
+|:-----------------------------------------------------|------------:|
+| Hamas                                                |          25 |
+| Israel                                               |          25 |
+| House of Representatives                             |          15 |
+| Israel-Gaza War (2023- )                             |          15 |
+| Children and Childhood                               |          10 |
+| Far East, South and Southeast Asia and Pacific Areas |          10 |
+| Gaza Strip                                           |          10 |
+| United States Politics and Government                |          10 |
+| Alcohol Abuse                                        |           5 |
+| Alcoholic Beverages                                  |           5 |
+| AMERICAN ACADEMY OF PEDIATRICS                       |           5 |
+| AstraZeneca PLC                                      |           5 |
+| Babies and Infants                                   |           5 |
+| Bacteria                                             |           5 |
+| Bedouins                                             |           5 |
+| Centers for Disease Control and Prevention           |           5 |
+| China                                                |           5 |
+| Computers and the Internet                           |           5 |
+| Consumer Protection                                  |           5 |
+| Content Type: Service                                |           5 |
