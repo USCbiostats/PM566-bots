@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-10-30.
+2023-11-06.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                              | \# Articles |
-|:-----------------------------------------------------|------------:|
-| Hamas                                                |          25 |
-| Israel                                               |          25 |
-| House of Representatives                             |          15 |
-| Israel-Gaza War (2023- )                             |          15 |
-| Children and Childhood                               |          10 |
-| Far East, South and Southeast Asia and Pacific Areas |          10 |
-| Gaza Strip                                           |          10 |
-| United States Politics and Government                |          10 |
-| Alcohol Abuse                                        |           5 |
-| Alcoholic Beverages                                  |           5 |
-| AMERICAN ACADEMY OF PEDIATRICS                       |           5 |
-| AstraZeneca PLC                                      |           5 |
-| Babies and Infants                                   |           5 |
-| Bacteria                                             |           5 |
-| Bedouins                                             |           5 |
-| Centers for Disease Control and Prevention           |           5 |
-| China                                                |           5 |
-| Computers and the Internet                           |           5 |
-| Consumer Protection                                  |           5 |
-| Content Type: Service                                |           5 |
+| Keyword                     | \# Articles |
+|:----------------------------|------------:|
+| Biden, Joseph R Jr          |          15 |
+| Gaza Strip                  |          15 |
+| Hamas                       |          15 |
+| Deaths (Fatalities)         |          10 |
+| Israel                      |          10 |
+| Israel-Gaza War (2023- )    |          10 |
+| Palestinians                |          10 |
+| Terrorism                   |          10 |
+| Ambulances                  |           5 |
+| Amir Abdollahian, Hossein   |           5 |
+| Blinken, Antony J           |           5 |
+| Bridges and Tunnels         |           5 |
+| Card, Robert R              |           5 |
+| Civilian Casualties         |           5 |
+| Clinical Trials             |           5 |
+| Content Type: Service       |           5 |
+| Crispr (DNA)                |           5 |
+| CRISPR Therapeutics         |           5 |
+| Defense and Military Forces |           5 |
+| Drugs (Pharmaceuticals)     |           5 |
