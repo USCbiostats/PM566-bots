@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-11-06.
+2023-11-13.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                     | \# Articles |
-|:----------------------------|------------:|
-| Biden, Joseph R Jr          |          15 |
-| Gaza Strip                  |          15 |
-| Hamas                       |          15 |
-| Deaths (Fatalities)         |          10 |
-| Israel                      |          10 |
-| Israel-Gaza War (2023- )    |          10 |
-| Palestinians                |          10 |
-| Terrorism                   |          10 |
-| Ambulances                  |           5 |
-| Amir Abdollahian, Hossein   |           5 |
-| Blinken, Antony J           |           5 |
-| Bridges and Tunnels         |           5 |
-| Card, Robert R              |           5 |
-| Civilian Casualties         |           5 |
-| Clinical Trials             |           5 |
-| Content Type: Service       |           5 |
-| Crispr (DNA)                |           5 |
-| CRISPR Therapeutics         |           5 |
-| Defense and Military Forces |           5 |
-| Drugs (Pharmaceuticals)     |           5 |
+| Keyword                                          | \# Articles |
+|:-------------------------------------------------|------------:|
+| Gaza Strip                                       |          20 |
+| Hamas                                            |          20 |
+| Israel-Gaza War (2023- )                         |          20 |
+| Civilian Casualties                              |          15 |
+| Israel                                           |          15 |
+| Biden, Joseph R Jr                               |          10 |
+| Defense and Military Forces                      |          10 |
+| Drugs (Pharmaceuticals)                          |          10 |
+| Palestinians                                     |          10 |
+| Terrorism                                        |          10 |
+| War Crimes, Genocide and Crimes Against Humanity |          10 |
+| your-feed-science                                |          10 |
+| Africa                                           |           5 |
+| Al Shifa Hospital (Gaza Strip)                   |           5 |
+| Apple Inc                                        |           5 |
+| Australia                                        |           5 |
+| Blinken, Antony J                                |           5 |
+| Clinical Trials                                  |           5 |
+| Colleges and Universities                        |           5 |
+| Computers and the Internet                       |           5 |
