@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-11-13.
+2023-11-20.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                          | \# Articles |
-|:-------------------------------------------------|------------:|
-| Gaza Strip                                       |          20 |
-| Hamas                                            |          20 |
-| Israel-Gaza War (2023- )                         |          20 |
-| Civilian Casualties                              |          15 |
-| Israel                                           |          15 |
-| Biden, Joseph R Jr                               |          10 |
-| Defense and Military Forces                      |          10 |
-| Drugs (Pharmaceuticals)                          |          10 |
-| Palestinians                                     |          10 |
-| Terrorism                                        |          10 |
-| War Crimes, Genocide and Crimes Against Humanity |          10 |
-| your-feed-science                                |          10 |
-| Africa                                           |           5 |
-| Al Shifa Hospital (Gaza Strip)                   |           5 |
-| Apple Inc                                        |           5 |
-| Australia                                        |           5 |
-| Blinken, Antony J                                |           5 |
-| Clinical Trials                                  |           5 |
-| Colleges and Universities                        |           5 |
-| Computers and the Internet                       |           5 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| Content Type: Service              |          10 |
+| Israel                             |          10 |
+| Israel-Gaza War (2023- )           |          10 |
+| Longevity                          |          10 |
+| Al Shifa Hospital (Gaza Strip)     |           5 |
+| Art                                |           5 |
+| Auctions                           |           5 |
+| Banking and Financial Institutions |           5 |
+| Bovet 1822 (Bovet Fleurier SA)     |           5 |
+| Bulgari SpA                        |           5 |
+| California                         |           5 |
+| China                              |           5 |
+| Close, Chuck                       |           5 |
+| Collectors and Collections         |           5 |
+| Colorado                           |           5 |
+| Communications and Media Blackouts |           5 |
+| Defense and Military Forces        |           5 |
+| Elder Care                         |           5 |
+| Elderly                            |           5 |
+| Exercise                           |           5 |
