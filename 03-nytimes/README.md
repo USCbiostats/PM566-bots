@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-11-20.
+2023-11-27.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                            | \# Articles |
-|:-----------------------------------|------------:|
-| Content Type: Service              |          10 |
-| Israel                             |          10 |
-| Israel-Gaza War (2023- )           |          10 |
-| Longevity                          |          10 |
-| Al Shifa Hospital (Gaza Strip)     |           5 |
-| Art                                |           5 |
-| Auctions                           |           5 |
-| Banking and Financial Institutions |           5 |
-| Bovet 1822 (Bovet Fleurier SA)     |           5 |
-| Bulgari SpA                        |           5 |
-| California                         |           5 |
-| China                              |           5 |
-| Close, Chuck                       |           5 |
-| Collectors and Collections         |           5 |
-| Colorado                           |           5 |
-| Communications and Media Blackouts |           5 |
-| Defense and Military Forces        |           5 |
-| Elder Care                         |           5 |
-| Elderly                            |           5 |
-| Exercise                           |           5 |
+| Keyword                          | \# Articles |
+|:---------------------------------|------------:|
+| Israel-Gaza War (2023- )         |          15 |
+| Gaza Strip                       |          10 |
+| Hospitals                        |          10 |
+| Israel                           |          10 |
+| ACAPULCO (MEXICO)                |           5 |
+| Al Shifa Hospital (Gaza Strip)   |           5 |
+| American Veterinary Medical Assn |           5 |
+| Antioxidants                     |           5 |
+| Area Planning and Renewal        |           5 |
+| Civilian Casualties              |           5 |
+| Colorado                         |           5 |
+| Consumer Behavior                |           5 |
+| Content Type: Service            |           5 |
+| Dallas (Tex)                     |           5 |
+| Deaths (Fatalities)              |           5 |
+| Deaths (Obituaries)              |           5 |
+| Dogs                             |           5 |
+| Drug Abuse and Traffic           |           5 |
+| Hamas                            |           5 |
+| Hazardous and Toxic Substances   |           5 |
