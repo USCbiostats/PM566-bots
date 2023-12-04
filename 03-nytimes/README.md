@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-11-27.
+2023-12-04.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                          | \# Articles |
-|:---------------------------------|------------:|
-| Israel-Gaza War (2023- )         |          15 |
-| Gaza Strip                       |          10 |
-| Hospitals                        |          10 |
-| Israel                           |          10 |
-| ACAPULCO (MEXICO)                |           5 |
-| Al Shifa Hospital (Gaza Strip)   |           5 |
-| American Veterinary Medical Assn |           5 |
-| Antioxidants                     |           5 |
-| Area Planning and Renewal        |           5 |
-| Civilian Casualties              |           5 |
-| Colorado                         |           5 |
-| Consumer Behavior                |           5 |
-| Content Type: Service            |           5 |
-| Dallas (Tex)                     |           5 |
-| Deaths (Fatalities)              |           5 |
-| Deaths (Obituaries)              |           5 |
-| Dogs                             |           5 |
-| Drug Abuse and Traffic           |           5 |
-| Hamas                            |           5 |
-| Hazardous and Toxic Substances   |           5 |
+| Keyword                             | \# Articles |
+|:------------------------------------|------------:|
+| Black People                        |          10 |
+| Blacks                              |          10 |
+| Deaths (Fatalities)                 |          10 |
+| Hamas                               |          10 |
+| Israel-Gaza War (2023- )            |          10 |
+| Refugees and Displaced Persons      |          10 |
+| your-feed-science                   |          10 |
+| Accidents and Safety                |           5 |
+| AMPUTATION                          |           5 |
+| Anti-Semitism                       |           5 |
+| Blindness                           |           5 |
+| Blood                               |           5 |
+| Boycotts                            |           5 |
+| Bridges and Tunnels                 |           5 |
+| Brodie, Kerry                       |           5 |
+| Burke, Raymond L                    |           5 |
+| Cardinals (Roman Catholic Prelates) |           5 |
+| Careers and Professions             |           5 |
+| Children and Childhood              |           5 |
+| Civilian Casualties                 |           5 |
