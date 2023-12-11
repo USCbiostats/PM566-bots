@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-12-04.
+2023-12-11.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                             | \# Articles |
-|:------------------------------------|------------:|
-| Black People                        |          10 |
-| Blacks                              |          10 |
-| Deaths (Fatalities)                 |          10 |
-| Hamas                               |          10 |
-| Israel-Gaza War (2023- )            |          10 |
-| Refugees and Displaced Persons      |          10 |
-| your-feed-science                   |          10 |
-| Accidents and Safety                |           5 |
-| AMPUTATION                          |           5 |
-| Anti-Semitism                       |           5 |
-| Blindness                           |           5 |
-| Blood                               |           5 |
-| Boycotts                            |           5 |
-| Bridges and Tunnels                 |           5 |
-| Brodie, Kerry                       |           5 |
-| Burke, Raymond L                    |           5 |
-| Cardinals (Roman Catholic Prelates) |           5 |
-| Careers and Professions             |           5 |
-| Children and Childhood              |           5 |
-| Civilian Casualties                 |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Republican Party                      |          15 |
+| Civilian Casualties                   |          10 |
+| Defense and Military Forces           |          10 |
+| Gaza Strip                            |          10 |
+| Hamas                                 |          10 |
+| Health Insurance and Managed Care     |          10 |
+| Israel                                |          10 |
+| Israel-Gaza War (2023- )              |          10 |
+| Palestinians                          |          10 |
+| Terrorism                             |          10 |
+| United States International Relations |          10 |
+| Artificial Intelligence               |           5 |
+| Biden, Hunter                         |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Cass, Oren                            |           5 |
+| Children and Childhood                |           5 |
+| Christie, Christopher J               |           5 |
+| Computer Vision                       |           5 |
+| Computers and the Internet            |           5 |
+| Conservatism (US Politics)            |           5 |
