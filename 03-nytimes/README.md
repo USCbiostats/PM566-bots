@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-12-11.
+2023-12-18.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Republican Party                      |          15 |
-| Civilian Casualties                   |          10 |
-| Defense and Military Forces           |          10 |
-| Gaza Strip                            |          10 |
-| Hamas                                 |          10 |
-| Health Insurance and Managed Care     |          10 |
-| Israel                                |          10 |
-| Israel-Gaza War (2023- )              |          10 |
-| Palestinians                          |          10 |
-| Terrorism                             |          10 |
-| United States International Relations |          10 |
-| Artificial Intelligence               |           5 |
-| Biden, Hunter                         |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Cass, Oren                            |           5 |
-| Children and Childhood                |           5 |
-| Christie, Christopher J               |           5 |
-| Computer Vision                       |           5 |
-| Computers and the Internet            |           5 |
-| Conservatism (US Politics)            |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Colleges and Universities                  |          10 |
+| Abortion                                   |           5 |
+| Anti-Semitism                              |           5 |
+| audio-negative-sad                         |           5 |
+| audio-neutral-informative                  |           5 |
+| Boats and Boating                          |           5 |
+| California                                 |           5 |
+| Caribbean Area                             |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Collectors and Collections                 |           5 |
+| Conspiracy Theories                        |           5 |
+| Content Type: Personal Profile             |           5 |
+| Coronavirus (2019-nCoV)                    |           5 |
+| Cox, Kate (1992- )                         |           5 |
+| Crossword Puzzles                          |           5 |
+| Deaths (Fatalities)                        |           5 |
+| Disease Rates                              |           5 |
+| Education Department (US)                  |           5 |
+| Elmira (NY)                                |           5 |
+| France                                     |           5 |
