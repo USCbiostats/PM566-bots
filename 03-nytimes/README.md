@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2023-12-18.
+2023-12-25.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Colleges and Universities                  |          10 |
-| Abortion                                   |           5 |
-| Anti-Semitism                              |           5 |
-| audio-negative-sad                         |           5 |
-| audio-neutral-informative                  |           5 |
-| Boats and Boating                          |           5 |
-| California                                 |           5 |
-| Caribbean Area                             |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Collectors and Collections                 |           5 |
-| Conspiracy Theories                        |           5 |
-| Content Type: Personal Profile             |           5 |
-| Coronavirus (2019-nCoV)                    |           5 |
-| Cox, Kate (1992- )                         |           5 |
-| Crossword Puzzles                          |           5 |
-| Deaths (Fatalities)                        |           5 |
-| Disease Rates                              |           5 |
-| Education Department (US)                  |           5 |
-| Elmira (NY)                                |           5 |
-| France                                     |           5 |
+| Keyword                                           | \# Articles |
+|:--------------------------------------------------|------------:|
+| Fetterman, John (1969- )                          |          10 |
+| Gaza Strip                                        |          10 |
+| internal-storyline-no                             |          10 |
+| Israel                                            |          10 |
+| Israel-Gaza War (2023- )                          |          10 |
+| United States Politics and Government             |          10 |
+| Adams, Eric L                                     |           5 |
+| AFRICA                                            |           5 |
+| Africa Centers for Disease Control and Prevention |           5 |
+| AIRLINES AND AIRPLANES                            |           5 |
+| Alternative and Complementary Medicine            |           5 |
+| ANTHRAX                                           |           5 |
+| Aviation Accidents, Safety and Disasters          |           5 |
+| Bethlehem (West Bank)                             |           5 |
+| Brown, Sherrod                                    |           5 |
+| Casey, Robert P Jr                                |           5 |
+| Cattle                                            |           5 |
+| Christians and Christianity                       |           5 |
+| Christmas                                         |           5 |
+| City Council (NYC)                                |           5 |
