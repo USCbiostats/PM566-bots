@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-01-01.
+2024-01-08.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                      | \# Articles |
-|:-----------------------------|------------:|
-| Biden, Joseph R Jr           |          10 |
-| Content Type: Service        |          10 |
-| Global Warming               |          10 |
-| Two Thousand Twenty Three    |          10 |
-| Air Pollution                |           5 |
-| AMERICAN TRUCKING ASSN       |           5 |
-| Animal Behavior              |           5 |
-| Anxiety and Stress           |           5 |
-| Asthma                       |           5 |
-| Babies and Infants           |           5 |
-| Black People                 |           5 |
-| Blacks                       |           5 |
-| Breastfeeding                |           5 |
-| Bronx (NYC)                  |           5 |
-| Children and Childhood       |           5 |
-| Civilian Casualties          |           5 |
-| Deaths (Obituaries)          |           5 |
-| Diet and Nutrition           |           5 |
-| Drones (Pilotless Planes)    |           5 |
-| Electric and Hybrid Vehicles |           5 |
+| Keyword                           | \# Articles |
+|:----------------------------------|------------:|
+| Content Type: Service             |          10 |
+| Exercise                          |          10 |
+| New York City                     |          10 |
+| Abortion                          |           5 |
+| Abortion Drugs                    |           5 |
+| Adams, Eric L                     |           5 |
+| Alpine Skiing                     |           5 |
+| Anatomy and Physiology            |           5 |
+| Biden, Joseph R Jr                |           5 |
+| Bombs and Explosives              |           5 |
+| Cadavers                          |           5 |
+| Content Type: Personal Profile    |           5 |
+| Coronavirus (2019-nCoV)           |           5 |
+| Deaths (Fatalities)               |           5 |
+| Democracy (Theory and Philosophy) |           5 |
+| DeSantis, Ron                     |           5 |
+| DNA (Deoxyribonucleic Acid)       |           5 |
+| Drug Abuse and Traffic            |           5 |
+| Florida                           |           5 |
+| Food and Drug Administration      |           5 |
