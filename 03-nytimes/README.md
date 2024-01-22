@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-01-15.
+2024-01-22.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                                      | \# Articles |
-|:-------------------------------------------------------------|------------:|
-| Content Type: Service                                        |          15 |
-| American Federation of State, County and Municipal Employees |           5 |
-| Arevalo, Bernardo (1958- )                                   |           5 |
-| Autoimmune Diseases                                          |           5 |
-| Babies and Infants                                           |           5 |
-| Black People                                                 |           5 |
-| Blacks                                                       |           5 |
-| Civil Rights Movement (1954-68)                              |           5 |
-| Civilian Casualties                                          |           5 |
-| Coronavirus (2019-nCoV)                                      |           5 |
-| Coronavirus Risks and Safety Concerns                        |           5 |
-| Deaths (Obituaries)                                          |           5 |
-| Democracy (Theory and Philosophy)                            |           5 |
-| Demonstrations, Protests and Riots                           |           5 |
-| Diet and Nutrition                                           |           5 |
-| Ecuador                                                      |           5 |
-| Elections                                                    |           5 |
-| Electric and Hybrid Vehicles                                 |           5 |
-| Embargoes and Sanctions                                      |           5 |
-| Embezzlement                                                 |           5 |
+| Keyword                                                                | \# Articles |
+|:-----------------------------------------------------------------------|------------:|
+| Coronavirus (2019-nCoV)                                                |          10 |
+| Defense and Military Forces                                            |          10 |
+| Gaza Strip                                                             |          10 |
+| Hamas                                                                  |          10 |
+| Israel-Gaza War (2023- )                                               |          10 |
+| Real Estate and Housing (Residential)                                  |          10 |
+| United States Politics and Government                                  |          10 |
+| Affordable Housing                                                     |           5 |
+| Americans for Prosperity                                               |           5 |
+| Automobiles                                                            |           5 |
+| Banking and Financial Institutions                                     |           5 |
+| California                                                             |           5 |
+| Cause of Action Institute                                              |           5 |
+| Chevron Corporation                                                    |           5 |
+| China                                                                  |           5 |
+| Citizens United v Federal Election Commission (Supreme Court Decision) |           5 |
+| Civilian Casualties                                                    |           5 |
+| Conservation of Resources                                              |           5 |
+| Conservatism (US Politics)                                             |           5 |
+| Credit and Debt                                                        |           5 |
