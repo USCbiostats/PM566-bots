@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-01-22.
+2024-01-29.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                                                | \# Articles |
-|:-----------------------------------------------------------------------|------------:|
-| Coronavirus (2019-nCoV)                                                |          10 |
-| Defense and Military Forces                                            |          10 |
-| Gaza Strip                                                             |          10 |
-| Hamas                                                                  |          10 |
-| Israel-Gaza War (2023- )                                               |          10 |
-| Real Estate and Housing (Residential)                                  |          10 |
-| United States Politics and Government                                  |          10 |
-| Affordable Housing                                                     |           5 |
-| Americans for Prosperity                                               |           5 |
-| Automobiles                                                            |           5 |
-| Banking and Financial Institutions                                     |           5 |
-| California                                                             |           5 |
-| Cause of Action Institute                                              |           5 |
-| Chevron Corporation                                                    |           5 |
-| China                                                                  |           5 |
-| Citizens United v Federal Election Commission (Supreme Court Decision) |           5 |
-| Civilian Casualties                                                    |           5 |
-| Conservation of Resources                                              |           5 |
-| Conservatism (US Politics)                                             |           5 |
-| Credit and Debt                                                        |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Israel-Gaza War (2023- )                   |          20 |
+| Palestinians                               |          20 |
+| Hamas                                      |          15 |
+| Israel                                     |          15 |
+| United States Politics and Government      |          15 |
+| Gaza Strip                                 |          10 |
+| Health Insurance and Managed Care          |          10 |
+| Russia                                     |          10 |
+| American Rescue Plan (2021)                |           5 |
+| audio-neutral-informative                  |           5 |
+| audio-neutral-suspenseful                  |           5 |
+| Aviation Accidents, Safety and Disasters   |           5 |
+| Babies and Infants                         |           5 |
+| Belgorod (Russia)                          |           5 |
+| Biden, Joseph R Jr                         |           5 |
+| Birth Control and Family Planning          |           5 |
+| Borrell Fontelles, Josep                   |           5 |
+| Canada                                     |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Civilian Casualties                        |           5 |
