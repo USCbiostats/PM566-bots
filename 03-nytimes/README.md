@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-01-29.
+2024-02-05.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Israel-Gaza War (2023- )                   |          20 |
-| Palestinians                               |          20 |
-| Hamas                                      |          15 |
-| Israel                                     |          15 |
-| United States Politics and Government      |          15 |
-| Gaza Strip                                 |          10 |
-| Health Insurance and Managed Care          |          10 |
-| Russia                                     |          10 |
-| American Rescue Plan (2021)                |           5 |
-| audio-neutral-informative                  |           5 |
-| audio-neutral-suspenseful                  |           5 |
-| Aviation Accidents, Safety and Disasters   |           5 |
-| Babies and Infants                         |           5 |
-| Belgorod (Russia)                          |           5 |
-| Biden, Joseph R Jr                         |           5 |
-| Birth Control and Family Planning          |           5 |
-| Borrell Fontelles, Josep                   |           5 |
-| Canada                                     |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Civilian Casualties                        |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Content Type: Personal Profile        |          10 |
+| Content Type: Service                 |          10 |
+| United States Politics and Government |          10 |
+| Abstinence (Sexual)                   |           5 |
+| Alcohol Abuse                         |           5 |
+| Alcoholic Beverages                   |           5 |
+| Alig, Michael                         |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Boluarte, Dina                        |           5 |
+| Cancer                                |           5 |
+| Celibacy                              |           5 |
+| Chronic Condition (Health)            |           5 |
+| Comedy and Humor                      |           5 |
+| Crumbley, Ethan                       |           5 |
+| Crumbley, James                       |           5 |
+| Crumbley, Jennifer                    |           5 |
+| Dating and Relationships              |           5 |
+| Demonstrations, Protests and Riots    |           5 |
+| Diabetes                              |           5 |
+| Diet and Nutrition                    |           5 |
