@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-02-05.
+2024-02-12.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Content Type: Personal Profile        |          10 |
-| Content Type: Service                 |          10 |
-| United States Politics and Government |          10 |
-| Abstinence (Sexual)                   |           5 |
-| Alcohol Abuse                         |           5 |
-| Alcoholic Beverages                   |           5 |
-| Alig, Michael                         |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Boluarte, Dina                        |           5 |
-| Cancer                                |           5 |
-| Celibacy                              |           5 |
-| Chronic Condition (Health)            |           5 |
-| Comedy and Humor                      |           5 |
-| Crumbley, Ethan                       |           5 |
-| Crumbley, James                       |           5 |
-| Crumbley, Jennifer                    |           5 |
-| Dating and Relationships              |           5 |
-| Demonstrations, Protests and Riots    |           5 |
-| Diabetes                              |           5 |
-| Diet and Nutrition                    |           5 |
+| Gaza Strip                            |          15 |
+| Israel                                |          15 |
+| Israel-Gaza War (2023- )              |          15 |
+| Palestinians                          |          15 |
+| United States Politics and Government |          15 |
+| Alternative and Renewable Energy      |          10 |
+| Biden, Joseph R Jr                    |          10 |
+| Defense and Military Forces           |          10 |
+| Federal Budget (US)                   |          10 |
+| Peace Process                         |          10 |
+| United States Economy                 |          10 |
+| United States International Relations |          10 |
+| Advertising and Marketing             |           5 |
+| Anxiety and Stress                    |           5 |
+| ARAB-AMERICANS                        |           5 |
+| Brain                                 |           5 |
+| Camps and Camping                     |           5 |
+| CBS Corporation                       |           5 |
+| Civilian Casualties                   |           5 |
+| Combatants for Peace                  |           5 |
