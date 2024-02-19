@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-02-12.
+2024-02-19.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Gaza Strip                            |          15 |
-| Israel                                |          15 |
-| Israel-Gaza War (2023- )              |          15 |
-| Palestinians                          |          15 |
-| United States Politics and Government |          15 |
-| Alternative and Renewable Energy      |          10 |
-| Biden, Joseph R Jr                    |          10 |
-| Defense and Military Forces           |          10 |
-| Federal Budget (US)                   |          10 |
-| Peace Process                         |          10 |
-| United States Economy                 |          10 |
-| United States International Relations |          10 |
-| Advertising and Marketing             |           5 |
-| Anxiety and Stress                    |           5 |
-| ARAB-AMERICANS                        |           5 |
-| Brain                                 |           5 |
-| Camps and Camping                     |           5 |
-| CBS Corporation                       |           5 |
-| Civilian Casualties                   |           5 |
-| Combatants for Peace                  |           5 |
+| Keyword                          | \# Articles |
+|:---------------------------------|------------:|
+| Civilian Casualties              |          10 |
+| Defense and Military Forces      |          10 |
+| Discrimination                   |          10 |
+| Gaza Strip                       |          10 |
+| Hamas                            |          10 |
+| Israel-Gaza War (2023- )         |          10 |
+| Kidnapping and Hostages          |          10 |
+| Palestinians                     |          10 |
+| Social Media                     |          10 |
+| Advertising and Marketing        |           5 |
+| Age, Chronological               |           5 |
+| American Civil Liberties Union   |           5 |
+| Bob’s Red Mill Natural Foods Inc |           5 |
+| California                       |           5 |
+| Cosmetics and Toiletries         |           5 |
+| Cox, Spencer J (1975- )          |           5 |
+| Deaths (Obituaries)              |           5 |
+| Dementia                         |           5 |
+| Depression (Mental)              |           5 |
+| Diet and Nutrition               |           5 |
