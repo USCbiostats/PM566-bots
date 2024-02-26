@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-02-19.
+2024-02-26.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                          | \# Articles |
-|:---------------------------------|------------:|
-| Civilian Casualties              |          10 |
-| Defense and Military Forces      |          10 |
-| Discrimination                   |          10 |
-| Gaza Strip                       |          10 |
-| Hamas                            |          10 |
-| Israel-Gaza War (2023- )         |          10 |
-| Kidnapping and Hostages          |          10 |
-| Palestinians                     |          10 |
-| Social Media                     |          10 |
-| Advertising and Marketing        |           5 |
-| Age, Chronological               |           5 |
-| American Civil Liberties Union   |           5 |
-| Bob’s Red Mill Natural Foods Inc |           5 |
-| California                       |           5 |
-| Cosmetics and Toiletries         |           5 |
-| Cox, Spencer J (1975- )          |           5 |
-| Deaths (Obituaries)              |           5 |
-| Dementia                         |           5 |
-| Depression (Mental)              |           5 |
-| Diet and Nutrition               |           5 |
+| Keyword                                | \# Articles |
+|:---------------------------------------|------------:|
+| Global Warming                         |          10 |
+| International Relations                |          10 |
+| Politics and Government                |          10 |
+| AFRICA                                 |           5 |
+| AFRICAN UNION                          |           5 |
+| Alabama                                |           5 |
+| Alternative and Complementary Medicine |           5 |
+| An Enemy of the People (Play)          |           5 |
+| Animal Abuse, Rights and Welfare       |           5 |
+| audio-neutral-informative              |           5 |
+| audio-neutral-suspenseful              |           5 |
+| Books and Literature                   |           5 |
+| Car Services and Livery Cabs           |           5 |
+| China                                  |           5 |
+| Content Type: Personal Profile         |           5 |
+| Demonstrations, Protests and Riots     |           5 |
+| Disabilities                           |           5 |
+| Donkeys                                |           5 |
+| Embryos (Human)                        |           5 |
+| England                                |           5 |
