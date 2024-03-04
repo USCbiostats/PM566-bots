@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-02-26.
+2024-03-04.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                | \# Articles |
-|:---------------------------------------|------------:|
-| Global Warming                         |          10 |
-| International Relations                |          10 |
-| Politics and Government                |          10 |
-| AFRICA                                 |           5 |
-| AFRICAN UNION                          |           5 |
-| Alabama                                |           5 |
-| Alternative and Complementary Medicine |           5 |
-| An Enemy of the People (Play)          |           5 |
-| Animal Abuse, Rights and Welfare       |           5 |
-| audio-neutral-informative              |           5 |
-| audio-neutral-suspenseful              |           5 |
-| Books and Literature                   |           5 |
-| Car Services and Livery Cabs           |           5 |
-| China                                  |           5 |
-| Content Type: Personal Profile         |           5 |
-| Demonstrations, Protests and Riots     |           5 |
-| Disabilities                           |           5 |
-| Donkeys                                |           5 |
-| Embryos (Human)                        |           5 |
-| England                                |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| United States Politics and Government |          15 |
+| Agriculture and Farming               |          10 |
+| Content Type: Personal Profile        |          10 |
+| Disease Rates                         |          10 |
+| Elderly                               |          10 |
+| Fires and Firefighters                |          10 |
+| internal-sub-only-nl                  |          10 |
+| United States                         |          10 |
+| Vaccination and Immunization          |          10 |
+| your-feed-science                     |          10 |
+| Abortion                              |           5 |
+| Age, Chronological                    |           5 |
+| Art                                   |           5 |
+| Aurora (Colo)                         |           5 |
+| Beshear, Andrew G (1977- )            |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Birth Control and Family Planning     |           5 |
+| Black People                          |           5 |
+| Blacks                                |           5 |
+| Bridges and Tunnels                   |           5 |
