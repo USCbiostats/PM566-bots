@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-03-04.
+2024-03-11.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          15 |
-| Agriculture and Farming               |          10 |
-| Content Type: Personal Profile        |          10 |
-| Disease Rates                         |          10 |
-| Elderly                               |          10 |
-| Fires and Firefighters                |          10 |
-| internal-sub-only-nl                  |          10 |
-| United States                         |          10 |
-| Vaccination and Immunization          |          10 |
-| your-feed-science                     |          10 |
-| Abortion                              |           5 |
-| Age, Chronological                    |           5 |
-| Art                                   |           5 |
-| Aurora (Colo)                         |           5 |
-| Beshear, Andrew G (1977- )            |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Birth Control and Family Planning     |           5 |
-| Black People                          |           5 |
-| Blacks                                |           5 |
-| Bridges and Tunnels                   |           5 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| Deaths (Obituaries)                |          10 |
+| Drugs (Pharmaceuticals)            |          10 |
+| your-feed-healthcare               |          10 |
+| Addiction (Psychology)             |           5 |
+| AGENT ORANGE (DEFOLIANT)           |           5 |
+| Birth Control and Family Planning  |           5 |
+| Black People                       |           5 |
+| Blacks                             |           5 |
+| Budgets and Budgeting              |           5 |
+| Caribbean Area                     |           5 |
+| Carpets and Rugs                   |           5 |
+| Chefs                              |           5 |
+| Chemicals                          |           5 |
+| Chemistry                          |           5 |
+| Children and Childhood             |           5 |
+| Clinical Trials                    |           5 |
+| Conservative Party (Great Britain) |           5 |
+| Detroit (Mich)                     |           5 |
+| Dow Chemical Company               |           5 |
+| Drug Enforcement Administration    |           5 |
