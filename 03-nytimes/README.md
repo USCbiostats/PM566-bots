@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-03-11.
+2024-03-18.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                            | \# Articles |
-|:-----------------------------------|------------:|
-| Deaths (Obituaries)                |          10 |
-| Drugs (Pharmaceuticals)            |          10 |
-| your-feed-healthcare               |          10 |
-| Addiction (Psychology)             |           5 |
-| AGENT ORANGE (DEFOLIANT)           |           5 |
-| Birth Control and Family Planning  |           5 |
-| Black People                       |           5 |
-| Blacks                             |           5 |
-| Budgets and Budgeting              |           5 |
-| Caribbean Area                     |           5 |
-| Carpets and Rugs                   |           5 |
-| Chefs                              |           5 |
-| Chemicals                          |           5 |
-| Chemistry                          |           5 |
-| Children and Childhood             |           5 |
-| Clinical Trials                    |           5 |
-| Conservative Party (Great Britain) |           5 |
-| Detroit (Mich)                     |           5 |
-| Dow Chemical Company               |           5 |
-| Drug Enforcement Administration    |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| United States Politics and Government      |          15 |
+| Biden, Joseph R Jr                         |          10 |
+| Democratic Party                           |          10 |
+| Law and Legislation                        |          10 |
+| Republican Party                           |          10 |
+| Abbott, Gregory W (1957- )                 |           5 |
+| Abortion                                   |           5 |
+| Affordable Housing                         |           5 |
+| Africa                                     |           5 |
+| Alabama                                    |           5 |
+| Anxiety and Stress                         |           5 |
+| Area Planning and Renewal                  |           5 |
+| Asylum, Right of                           |           5 |
+| Beijing Bytedance Technology Co Ltd        |           5 |
+| Britt, Katie (1982- )                      |           5 |
+| California                                 |           5 |
+| Campbell, Kent (1944-2024)                 |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Chicago (Ill)                              |           5 |
+| Child Care                                 |           5 |
