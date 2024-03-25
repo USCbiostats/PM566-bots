@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-03-18.
+2024-03-25.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| United States Politics and Government      |          15 |
-| Biden, Joseph R Jr                         |          10 |
-| Democratic Party                           |          10 |
-| Law and Legislation                        |          10 |
-| Republican Party                           |          10 |
-| Abbott, Gregory W (1957- )                 |           5 |
-| Abortion                                   |           5 |
-| Affordable Housing                         |           5 |
-| Africa                                     |           5 |
-| Alabama                                    |           5 |
-| Anxiety and Stress                         |           5 |
-| Area Planning and Renewal                  |           5 |
-| Asylum, Right of                           |           5 |
-| Beijing Bytedance Technology Co Ltd        |           5 |
-| Britt, Katie (1982- )                      |           5 |
-| California                                 |           5 |
-| Campbell, Kent (1944-2024)                 |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Chicago (Ill)                              |           5 |
-| Child Care                                 |           5 |
+| Keyword                           | \# Articles |
+|:----------------------------------|------------:|
+| Civilian Casualties               |          15 |
+| Defense and Military Forces       |          15 |
+| Gaza Strip                        |          15 |
+| Israel                            |          15 |
+| Israel-Gaza War (2023- )          |          15 |
+| Palestinians                      |          15 |
+| Artificial Intelligence           |          10 |
+| Hamas                             |          10 |
+| Politics and Government           |          10 |
+| Pregnancy and Childbirth          |          10 |
+| Terrorism                         |          10 |
+| Abortion                          |           5 |
+| Al Shifa Hospital (Gaza Strip)    |           5 |
+| ANGUILLA                          |           5 |
+| Animal Behavior                   |           5 |
+| Birth Control and Family Planning |           5 |
+| Books and Literature              |           5 |
+| Budgets and Budgeting             |           5 |
+| Caldwell, Tommy (1978- )          |           5 |
+| Content Type: Service             |           5 |
