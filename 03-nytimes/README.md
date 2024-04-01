@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-03-25.
+2024-04-01.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                           | \# Articles |
-|:----------------------------------|------------:|
-| Civilian Casualties               |          15 |
-| Defense and Military Forces       |          15 |
-| Gaza Strip                        |          15 |
-| Israel                            |          15 |
-| Israel-Gaza War (2023- )          |          15 |
-| Palestinians                      |          15 |
-| Artificial Intelligence           |          10 |
-| Hamas                             |          10 |
-| Politics and Government           |          10 |
-| Pregnancy and Childbirth          |          10 |
-| Terrorism                         |          10 |
-| Abortion                          |           5 |
-| Al Shifa Hospital (Gaza Strip)    |           5 |
-| ANGUILLA                          |           5 |
-| Animal Behavior                   |           5 |
-| Birth Control and Family Planning |           5 |
-| Books and Literature              |           5 |
-| Budgets and Budgeting             |           5 |
-| Caldwell, Tommy (1978- )          |           5 |
-| Content Type: Service             |           5 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Biden, Joseph R Jr                      |          10 |
+| Defense and Military Forces             |          10 |
+| Federal-State Relations (US)            |          10 |
+| Gaza Strip                              |          10 |
+| Israel                                  |          10 |
+| Israel-Gaza War (2023- )                |          10 |
+| Polls and Public Opinion                |          10 |
+| Regulation and Deregulation of Industry |          10 |
+| United States International Relations   |          10 |
+| Abortion                                |           5 |
+| Abortion Drugs                          |           5 |
+| Agriculture and Farming                 |           5 |
+| Agriculture Department                  |           5 |
+| Avian Influenza                         |           5 |
+| Biodiversity                            |           5 |
+| Birds                                   |           5 |
+| Books and Literature                    |           5 |
+| Careers and Professions                 |           5 |
+| Cattle                                  |           5 |
+| Constitution (US)                       |           5 |
