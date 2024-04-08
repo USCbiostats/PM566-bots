@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-04-01.
+2024-04-08.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                 | \# Articles |
-|:----------------------------------------|------------:|
-| Biden, Joseph R Jr                      |          10 |
-| Defense and Military Forces             |          10 |
-| Federal-State Relations (US)            |          10 |
-| Gaza Strip                              |          10 |
-| Israel                                  |          10 |
-| Israel-Gaza War (2023- )                |          10 |
-| Polls and Public Opinion                |          10 |
-| Regulation and Deregulation of Industry |          10 |
-| United States International Relations   |          10 |
-| Abortion                                |           5 |
-| Abortion Drugs                          |           5 |
-| Agriculture and Farming                 |           5 |
-| Agriculture Department                  |           5 |
-| Avian Influenza                         |           5 |
-| Biodiversity                            |           5 |
-| Birds                                   |           5 |
-| Books and Literature                    |           5 |
-| Careers and Professions                 |           5 |
-| Cattle                                  |           5 |
-| Constitution (US)                       |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Defense and Military Forces           |          20 |
+| Gaza Strip                            |          20 |
+| Hospitals                             |          20 |
+| Israel                                |          20 |
+| Israel-Gaza War (2023- )              |          20 |
+| United States Politics and Government |          20 |
+| Abortion                              |          10 |
+| Abortion Drugs                        |          10 |
+| Advertising and Marketing             |          10 |
+| Agriculture and Farming               |          10 |
+| AGRICULTURE DEPARTMENT                |          10 |
+| Al Shifa Hospital (Gaza Strip)        |          10 |
+| Andres, Jose (1969- )                 |          10 |
+| Art                                   |          10 |
+| Avian Influenza                       |          10 |
+| Banking and Financial Institutions    |          10 |
+| Birds                                 |          10 |
+| Books and Literature                  |          10 |
+| Cattle                                |          10 |
+| Chefs                                 |          10 |
