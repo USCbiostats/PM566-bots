@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-04-08.
+2024-04-15.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Defense and Military Forces           |          20 |
-| Gaza Strip                            |          20 |
-| Hospitals                             |          20 |
-| Israel                                |          20 |
-| Israel-Gaza War (2023- )              |          20 |
-| United States Politics and Government |          20 |
-| Abortion                              |          10 |
-| Abortion Drugs                        |          10 |
-| Advertising and Marketing             |          10 |
-| Agriculture and Farming               |          10 |
-| AGRICULTURE DEPARTMENT                |          10 |
-| Al Shifa Hospital (Gaza Strip)        |          10 |
-| Andres, Jose (1969- )                 |          10 |
-| Art                                   |          10 |
-| Avian Influenza                       |          10 |
-| Banking and Financial Institutions    |          10 |
-| Birds                                 |          10 |
-| Books and Literature                  |          10 |
-| Cattle                                |          10 |
-| Chefs                                 |          10 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Regulation and Deregulation of Industry |          15 |
+| Suits and Litigation (Civil)            |          10 |
+| \#MeToo Movement                        |           5 |
+| Affordable Housing                      |           5 |
+| Asphyxiation, Choking, and Suffocation  |           5 |
+| Assaults                                |           5 |
+| Bedford-Stuyvesant (Brooklyn, NY)       |           5 |
+| Biden, Joseph R Jr                      |           5 |
+| Black People                            |           5 |
+| Blacks                                  |           5 |
+| Brain                                   |           5 |
+| Braun, Bennett (1940-2024)              |           5 |
+| Budgets and Budgeting                   |           5 |
+| Caesarean Section                       |           5 |
+| Chemicals                               |           5 |
+| Chicago (Ill)                           |           5 |
+| Colleges and Universities               |           5 |
+| Conflicts of Interest                   |           5 |
+| Content Type: Personal Profile          |           5 |
+| Country Music                           |           5 |
