@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-04-22.
+2024-04-29.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Decisions and Verdicts                   |          15 |
-| State Legislatures                       |          15 |
-| Trump, Donald J                          |          15 |
-| Abortion                                 |          10 |
-| Arizona                                  |          10 |
-| Biden, Joseph R Jr                       |          10 |
-| Law and Legislation                      |          10 |
-| Presidential Election of 2024            |          10 |
-| Women’s Rights                           |          10 |
-| Actors and Actresses                     |           5 |
-| Alabama                                  |           5 |
-| Alliance Defending Freedom               |           5 |
-| AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE |           5 |
-| Astaan TV                                |           5 |
-| Australia                                |           5 |
-| Bone Valley (Radio Program)              |           5 |
-| Bowman, Jamaal                           |           5 |
-| Bribery and Kickbacks                    |           5 |
-| Budgets and Budgeting                    |           5 |
-| Bush, Cori                               |           5 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| United States Politics and Government   |          15 |
+| Biden, Joseph R Jr                      |          10 |
+| Food and Drug Administration            |          10 |
+| Polls and Public Opinion                |          10 |
+| Presidential Election of 2024           |          10 |
+| Regulation and Deregulation of Industry |          10 |
+| Antibiotics                             |           5 |
+| Australia                               |           5 |
+| Bacteria                                |           5 |
+| Black People                            |           5 |
+| Blacks                                  |           5 |
+| Boise (Idaho)                           |           5 |
+| Censorship                              |           5 |
+| Computers and the Internet              |           5 |
+| Decisions and Verdicts                  |           5 |
+| Democratic Party                        |           5 |
+| Doctors                                 |           5 |
+| Drug Resistance (Microbial)             |           5 |
+| Drugs (Pharmaceuticals)                 |           5 |
+| Eighth Amendment (US Constitution)      |           5 |
