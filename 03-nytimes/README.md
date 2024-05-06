@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-04-29.
+2024-05-06.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                 | \# Articles |
-|:----------------------------------------|------------:|
-| United States Politics and Government   |          15 |
-| Biden, Joseph R Jr                      |          10 |
-| Food and Drug Administration            |          10 |
-| Polls and Public Opinion                |          10 |
-| Presidential Election of 2024           |          10 |
-| Regulation and Deregulation of Industry |          10 |
-| Antibiotics                             |           5 |
-| Australia                               |           5 |
-| Bacteria                                |           5 |
-| Black People                            |           5 |
-| Blacks                                  |           5 |
-| Boise (Idaho)                           |           5 |
-| Censorship                              |           5 |
-| Computers and the Internet              |           5 |
-| Decisions and Verdicts                  |           5 |
-| Democratic Party                        |           5 |
-| Doctors                                 |           5 |
-| Drug Resistance (Microbial)             |           5 |
-| Drugs (Pharmaceuticals)                 |           5 |
-| Eighth Amendment (US Constitution)      |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Law and Legislation                   |          10 |
+| United States Politics and Government |          10 |
+| Abortion                              |           5 |
+| Actors and Actresses                  |           5 |
+| ALITO, SAMUEL A JR                    |           5 |
+| Amnesties, Commutations and Pardons   |           5 |
+| Avian Influenza                       |           5 |
+| Barrett, Amy Coney                    |           5 |
+| Best, Ahmed                           |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Black People                          |           5 |
+| Blacks                                |           5 |
+| Cheese                                |           5 |
+| Child Labor                           |           5 |
+| Colombia                              |           5 |
+| Conservatism (US Politics)            |           5 |
+| Constitution (US)                     |           5 |
+| Content Type: Personal Profile        |           5 |
+| Dairy Products                        |           5 |
+| Deaths (Fatalities)                   |           5 |
