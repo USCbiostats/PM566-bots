@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-05-06.
+2024-05-13.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Law and Legislation                   |          10 |
+| internal-truncator                    |          15 |
+| Content Type: Personal Profile        |          10 |
+| internal-storyline-no                 |          10 |
+| Medicaid                              |          10 |
+| New York City                         |          10 |
 | United States Politics and Government |          10 |
-| Abortion                              |           5 |
-| Actors and Actresses                  |           5 |
-| ALITO, SAMUEL A JR                    |           5 |
-| Amnesties, Commutations and Pardons   |           5 |
-| Avian Influenza                       |           5 |
-| Barrett, Amy Coney                    |           5 |
-| Best, Ahmed                           |           5 |
-| Biden, Joseph R Jr                    |           5 |
+| Al Qaeda                              |           5 |
+| Anand, Anita (1972- )                 |           5 |
+| Art                                   |           5 |
+| Aung San Suu Kyi                      |           5 |
+| Belize City (Belize)                  |           5 |
+| Bicycles and Bicycling                |           5 |
 | Black People                          |           5 |
 | Blacks                                |           5 |
-| Cheese                                |           5 |
-| Child Labor                           |           5 |
-| Colombia                              |           5 |
-| Conservatism (US Politics)            |           5 |
-| Constitution (US)                     |           5 |
-| Content Type: Personal Profile        |           5 |
-| Dairy Products                        |           5 |
-| Deaths (Fatalities)                   |           5 |
+| Braddock (Pa)                         |           5 |
+| Canada                                |           5 |
+| Central Intelligence Agency           |           5 |
+| China                                 |           5 |
+| de Blasio, Bill                       |           5 |
+| Death and Dying                       |           5 |
