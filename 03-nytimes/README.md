@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-05-20.
+2024-05-27.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| United States Politics and Government      |          15 |
-| Biden, Joseph R Jr                         |          10 |
-| Content Type: Personal Profile             |          10 |
-| Coronavirus (2019-nCoV)                    |          10 |
-| Democratic Party                           |          10 |
-| Abortion                                   |           5 |
-| Aftab, Arooj                               |           5 |
-| Antitrust Laws and Competition Issues      |           5 |
-| Arsenal (Soccer Team)                      |           5 |
-| Avian Influenza                            |           5 |
-| Blood                                      |           5 |
-| Books and Literature                       |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Cholesterol                                |           5 |
-| Cohen, Mandy K                             |           5 |
-| Comedy and Humor                           |           5 |
-| Constitutional Amendments                  |           5 |
-| Coronavirus Origins Investigation          |           5 |
-| Courts and the Judiciary                   |           5 |
-| Daszak, Peter                              |           5 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| Arizona                            |           5 |
+| Arizona State University           |           5 |
+| Ascension Health                   |           5 |
+| Bank of England                    |           5 |
+| Blood                              |           5 |
+| Cancer                             |           5 |
+| Civilian Casualties                |           5 |
+| Colleges and Universities          |           5 |
+| Colon and Colorectal Cancer        |           5 |
+| Colonoscopy                        |           5 |
+| Computer Security                  |           5 |
+| Conservative Party (Great Britain) |           5 |
+| Content Type: Personal Profile     |           5 |
+| Content Type: Service              |           5 |
+| Cooking and Cookbooks              |           5 |
+| Cyberattacks and Hackers           |           5 |
+| Defense and Military Forces        |           5 |
+| Economic Conditions and Trends     |           5 |
+| Elections                          |           5 |
+| Electronic Health Records          |           5 |
