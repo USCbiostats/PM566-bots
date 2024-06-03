@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-05-27.
+2024-06-03.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                            | \# Articles |
-|:-----------------------------------|------------:|
-| Arizona                            |           5 |
-| Arizona State University           |           5 |
-| Ascension Health                   |           5 |
-| Bank of England                    |           5 |
-| Blood                              |           5 |
-| Cancer                             |           5 |
-| Civilian Casualties                |           5 |
-| Colleges and Universities          |           5 |
-| Colon and Colorectal Cancer        |           5 |
-| Colonoscopy                        |           5 |
-| Computer Security                  |           5 |
-| Conservative Party (Great Britain) |           5 |
-| Content Type: Personal Profile     |           5 |
-| Content Type: Service              |           5 |
-| Cooking and Cookbooks              |           5 |
-| Cyberattacks and Hackers           |           5 |
-| Defense and Military Forces        |           5 |
-| Economic Conditions and Trends     |           5 |
-| Elections                          |           5 |
-| Electronic Health Records          |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Colleges and Universities                   |          10 |
+| Israel-Gaza War (2023- )                    |          10 |
+| Law and Legislation                         |          10 |
+| Medicine and Health                         |          10 |
+| United States Politics and Government       |          10 |
+| Agriculture and Farming                     |           5 |
+| Air Pollution                               |           5 |
+| ALITO, SAMUEL A JR                          |           5 |
+| Anxiety and Stress                          |           5 |
+| Arms Control and Limitation and Disarmament |           5 |
+| Art                                         |           5 |
+| Avian Influenza                             |           5 |
+| Biden, Joseph R Jr                          |           5 |
+| Bindle & Keep (Brooklyn, NY, Retailer)      |           5 |
+| Black People                                |           5 |
+| Blacks                                      |           5 |
+| Brinkley, Christie                          |           5 |
+| Cattle                                      |           5 |
+| Conflicts of Interest                       |           5 |
+| Congestion Pricing                          |           5 |
