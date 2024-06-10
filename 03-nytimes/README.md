@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-06-03.
+2024-06-10.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Colleges and Universities                   |          10 |
-| Israel-Gaza War (2023- )                    |          10 |
-| Law and Legislation                         |          10 |
-| Medicine and Health                         |          10 |
-| United States Politics and Government       |          10 |
-| Agriculture and Farming                     |           5 |
-| Air Pollution                               |           5 |
-| ALITO, SAMUEL A JR                          |           5 |
-| Anxiety and Stress                          |           5 |
-| Arms Control and Limitation and Disarmament |           5 |
-| Art                                         |           5 |
-| Avian Influenza                             |           5 |
-| Biden, Joseph R Jr                          |           5 |
-| Bindle & Keep (Brooklyn, NY, Retailer)      |           5 |
-| Black People                                |           5 |
-| Blacks                                      |           5 |
-| Brinkley, Christie                          |           5 |
-| Cattle                                      |           5 |
-| Conflicts of Interest                       |           5 |
-| Congestion Pricing                          |           5 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| Israel-Gaza War (2023- )           |          15 |
+| Content Type: Service              |          10 |
+| Gaza Strip                         |          10 |
+| Hamas                              |          10 |
+| Arizona                            |           5 |
+| Asylum, Right of                   |           5 |
+| Avocados                           |           5 |
+| Blood Pressure                     |           5 |
+| Border Patrol (US)                 |           5 |
+| British Broadcasting Corp          |           5 |
+| California                         |           5 |
+| Cholesterol                        |           5 |
+| Civilian Casualties                |           5 |
+| Comedy and Humor                   |           5 |
+| Cooking and Cookbooks              |           5 |
+| Coronavirus (2019-nCoV)            |           5 |
+| Customs and Border Protection (US) |           5 |
+| Defense and Military Forces        |           5 |
+| Diet and Nutrition                 |           5 |
+| Einbinder, Spike (Comedian)        |           5 |
