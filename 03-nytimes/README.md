@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-06-10.
+2024-06-17.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                            | \# Articles |
 |:-----------------------------------|------------:|
-| Israel-Gaza War (2023- )           |          15 |
-| Content Type: Service              |          10 |
-| Gaza Strip                         |          10 |
-| Hamas                              |          10 |
-| Arizona                            |           5 |
-| Asylum, Right of                   |           5 |
-| Avocados                           |           5 |
-| Blood Pressure                     |           5 |
-| Border Patrol (US)                 |           5 |
-| British Broadcasting Corp          |           5 |
-| California                         |           5 |
-| Cholesterol                        |           5 |
-| Civilian Casualties                |           5 |
-| Comedy and Humor                   |           5 |
-| Cooking and Cookbooks              |           5 |
-| Coronavirus (2019-nCoV)            |           5 |
-| Customs and Border Protection (US) |           5 |
-| Defense and Military Forces        |           5 |
-| Diet and Nutrition                 |           5 |
-| Einbinder, Spike (Comedian)        |           5 |
+| Black People                       |          10 |
+| Blacks                             |          10 |
+| Race and Ethnicity                 |          10 |
+| Suits and Litigation (Civil)       |          10 |
+| AL JAZEERA                         |           5 |
+| AMERICAN CHEMISTRY COUNCIL         |           5 |
+| Anxiety and Stress                 |           5 |
+| Artificial Intelligence            |           5 |
+| Ascension Health                   |           5 |
+| Beauty (Concept)                   |           5 |
+| Biden, Hunter                      |           5 |
+| Biden, Joseph R Jr                 |           5 |
+| Boycotts                           |           5 |
+| Burns                              |           5 |
+| Calendars                          |           5 |
+| Chemicals                          |           5 |
+| Coffeehouses                       |           5 |
+| Conservative Party (Great Britain) |           5 |
+| Content Type: Service              |           5 |
+| Corporations                       |           5 |
