@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-06-17.
+2024-06-24.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                            | \# Articles |
 |:-----------------------------------|------------:|
-| Black People                       |          10 |
-| Blacks                             |          10 |
-| Race and Ethnicity                 |          10 |
-| Suits and Litigation (Civil)       |          10 |
-| AL JAZEERA                         |           5 |
-| AMERICAN CHEMISTRY COUNCIL         |           5 |
-| Anxiety and Stress                 |           5 |
-| Artificial Intelligence            |           5 |
-| Ascension Health                   |           5 |
-| Beauty (Concept)                   |           5 |
-| Biden, Hunter                      |           5 |
-| Biden, Joseph R Jr                 |           5 |
+| Workplace Hazards and Violations   |          10 |
+| Accidents and Safety               |           5 |
+| Amazon.com Inc                     |           5 |
+| Asian-Americans                    |           5 |
+| Avian Influenza                    |           5 |
+| Back (Human Body Part)             |           5 |
 | Boycotts                           |           5 |
-| Burns                              |           5 |
-| Calendars                          |           5 |
-| Chemicals                          |           5 |
-| Coffeehouses                       |           5 |
-| Conservative Party (Great Britain) |           5 |
-| Content Type: Service              |           5 |
-| Corporations                       |           5 |
+| Bragg, Alvin                       |           5 |
+| Candy Cane Lane (Movie)            |           5 |
+| Chinatown (Manhattan, NY)          |           5 |
+| CSL Ltd                            |           5 |
+| Deaths (Fatalities)                |           5 |
+| Demonstrations, Protests and Riots |           5 |
+| Disease Rates                      |           5 |
+| Egypt                              |           5 |
+| Elections                          |           5 |
+| Exercise                           |           5 |
+| Farhat, Jon                        |           5 |
+| Ghalibaf, Mohammad Baqer           |           5 |
+| Hate Crimes                        |           5 |
