@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-06-24.
+2024-07-01.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                            | \# Articles |
-|:-----------------------------------|------------:|
-| Workplace Hazards and Violations   |          10 |
-| Accidents and Safety               |           5 |
-| Amazon.com Inc                     |           5 |
-| Asian-Americans                    |           5 |
-| Avian Influenza                    |           5 |
-| Back (Human Body Part)             |           5 |
-| Boycotts                           |           5 |
-| Bragg, Alvin                       |           5 |
-| Candy Cane Lane (Movie)            |           5 |
-| Chinatown (Manhattan, NY)          |           5 |
-| CSL Ltd                            |           5 |
-| Deaths (Fatalities)                |           5 |
-| Demonstrations, Protests and Riots |           5 |
-| Disease Rates                      |           5 |
-| Egypt                              |           5 |
-| Elections                          |           5 |
-| Exercise                           |           5 |
-| Farhat, Jon                        |           5 |
-| Ghalibaf, Mohammad Baqer           |           5 |
-| Hate Crimes                        |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Biden, Joseph R Jr                         |          15 |
+| Presidential Election of 2024              |          15 |
+| Computers and the Internet                 |          10 |
+| Debates (Political)                        |          10 |
+| Decisions and Verdicts                     |          10 |
+| Suits and Litigation (Civil)               |          10 |
+| Supreme Court (US)                         |          10 |
+| Trump, Donald J                            |          10 |
+| United States Politics and Government      |          10 |
+| Abortion                                   |           5 |
+| Agriculture and Farming                    |           5 |
+| Avian Influenza                            |           5 |
+| Bankruptcies                               |           5 |
+| Biden, Jill Tracy Jacobs                   |           5 |
+| Car Services and Livery Cabs               |           5 |
+| Castro, Julian                             |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Children and Childhood                     |           5 |
+| Coronavirus (2019-nCoV)                    |           5 |
+| Coronavirus Risks and Safety Concerns      |           5 |
