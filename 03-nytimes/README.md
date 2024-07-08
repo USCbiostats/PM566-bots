@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-07-01.
+2024-07-08.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Biden, Joseph R Jr                         |          15 |
-| Presidential Election of 2024              |          15 |
-| Computers and the Internet                 |          10 |
-| Debates (Political)                        |          10 |
-| Decisions and Verdicts                     |          10 |
-| Suits and Litigation (Civil)               |          10 |
-| Supreme Court (US)                         |          10 |
-| Trump, Donald J                            |          10 |
-| United States Politics and Government      |          10 |
-| Abortion                                   |           5 |
-| Agriculture and Farming                    |           5 |
-| Avian Influenza                            |           5 |
-| Bankruptcies                               |           5 |
-| Biden, Jill Tracy Jacobs                   |           5 |
-| Car Services and Livery Cabs               |           5 |
-| Castro, Julian                             |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Children and Childhood                     |           5 |
-| Coronavirus (2019-nCoV)                    |           5 |
-| Coronavirus Risks and Safety Concerns      |           5 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Biden, Joseph R Jr                      |          15 |
+| Presidential Election of 2024           |          15 |
+| Alzheimer’s Disease                     |          10 |
+| Dementia                                |          10 |
+| Democratic Party                        |          10 |
+| Politics and Government                 |          10 |
+| Prices (Fares, Fees and Rates)          |          10 |
+| Trump, Donald J                         |          10 |
+| ABC News                                |           5 |
+| All Kings Project Inc (Nonprofit)       |           5 |
+| Amnesties, Commutations and Pardons     |           5 |
+| ARGENTINA                               |           5 |
+| Artificial Intelligence                 |           5 |
+| audio-neutral-informative               |           5 |
+| Biogen Inc                              |           5 |
+| Brain                                   |           5 |
+| Bucks County (Pa)                       |           5 |
+| Catskills (NYS Area)                    |           5 |
+| Clinical Trials                         |           5 |
+| Coups D’Etat and Attempted Coups D’Etat |           5 |
