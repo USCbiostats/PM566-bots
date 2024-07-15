@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-07-08.
+2024-07-15.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                 | \# Articles |
-|:----------------------------------------|------------:|
-| Biden, Joseph R Jr                      |          15 |
-| Presidential Election of 2024           |          15 |
-| Alzheimer’s Disease                     |          10 |
-| Dementia                                |          10 |
-| Democratic Party                        |          10 |
-| Politics and Government                 |          10 |
-| Prices (Fares, Fees and Rates)          |          10 |
-| Trump, Donald J                         |          10 |
-| ABC News                                |           5 |
-| All Kings Project Inc (Nonprofit)       |           5 |
-| Amnesties, Commutations and Pardons     |           5 |
-| ARGENTINA                               |           5 |
-| Artificial Intelligence                 |           5 |
-| audio-neutral-informative               |           5 |
-| Biogen Inc                              |           5 |
-| Brain                                   |           5 |
-| Bucks County (Pa)                       |           5 |
-| Catskills (NYS Area)                    |           5 |
-| Clinical Trials                         |           5 |
-| Coups D’Etat and Attempted Coups D’Etat |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Biden, Joseph R Jr                          |          10 |
+| Democratic Party                            |          10 |
+| Presidential Election of 2024               |          10 |
+| Adani Group                                 |           5 |
+| Adani, Gautam S                             |           5 |
+| Alternative and Complementary Medicine      |           5 |
+| Ambani, Mukesh D                            |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| Campaign Finance                            |           5 |
+| Computers and the Internet                  |           5 |
+| Cooper, Roy A                               |           5 |
+| Copper, Brass and Bronze                    |           5 |
+| Deif, Muhammad                              |           5 |
+| Elections                                   |           5 |
+| Gardens and Gardening                       |           5 |
+| Gaza Strip                                  |           5 |
+| Gender                                      |           5 |
+| Greensboro (NC)                             |           5 |
+| Hamas                                       |           5 |
+| Harris, Kamala D                            |           5 |
