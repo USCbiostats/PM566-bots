@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-07-15.
+2024-07-22.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Biden, Joseph R Jr                          |          10 |
-| Democratic Party                            |          10 |
-| Presidential Election of 2024               |          10 |
-| Adani Group                                 |           5 |
-| Adani, Gautam S                             |           5 |
-| Alternative and Complementary Medicine      |           5 |
-| Ambani, Mukesh D                            |           5 |
-| Assassinations and Attempted Assassinations |           5 |
-| Campaign Finance                            |           5 |
-| Computers and the Internet                  |           5 |
-| Cooper, Roy A                               |           5 |
-| Copper, Brass and Bronze                    |           5 |
-| Deif, Muhammad                              |           5 |
-| Elections                                   |           5 |
-| Gardens and Gardening                       |           5 |
-| Gaza Strip                                  |           5 |
-| Gender                                      |           5 |
-| Greensboro (NC)                             |           5 |
-| Hamas                                       |           5 |
-| Harris, Kamala D                            |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Trump, Donald J                       |          15 |
+| Biden, Joseph R Jr                    |          10 |
+| Deaths (Obituaries)                   |          10 |
+| Democratic Party                      |          10 |
+| Polls and Public Opinion              |          10 |
+| Presidential Election of 2024         |          10 |
+| United States Politics and Government |          10 |
+| audio-neutral-immersive               |           5 |
+| audio-neutral-informative             |           5 |
+| Baldwin, Tammy Suzanne Green          |           5 |
+| Canada                                |           5 |
+| Commonwealth Fund                     |           5 |
+| Computer Network Outages              |           5 |
+| Content Type: Personal Profile        |           5 |
+| Danone SA                             |           5 |
+| Democracy (Theory and Philosophy)     |           5 |
+| Elections, House of Representatives   |           5 |
+| Elections, Senate                     |           5 |
+| Ethics (Personal)                     |           5 |
+| Factories and Manufacturing           |           5 |
