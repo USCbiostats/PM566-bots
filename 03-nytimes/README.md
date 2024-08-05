@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-07-29.
+2024-08-05.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Harris, Kamala D                      |          20 |
-| Democratic Party                      |          15 |
-| Presidential Election of 2024         |          15 |
-| United States Politics and Government |          15 |
-| Beshear, Andrew G (1977- )            |          10 |
-| Biden, Joseph R Jr                    |          10 |
-| internal-storyline-no                 |          10 |
-| Trump, Donald J                       |          10 |
-| Albany (NY)                           |           5 |
-| Antibiotics                           |           5 |
-| Anxiety and Stress                    |           5 |
-| APPALACHIAN REGION                    |           5 |
-| Beth Israel Hospital                  |           5 |
-| Building (Construction)               |           5 |
-| Buildings (Structures)                |           5 |
-| Computer Security                     |           5 |
-| Computers and the Internet            |           5 |
-| Content Type: Personal Profile        |           5 |
-| Cooper, Roy A                         |           5 |
-| Cyberattacks and Hackers              |           5 |
+| Keyword                                                              | \# Articles |
+|:---------------------------------------------------------------------|------------:|
+| Content Type: Personal Profile                                       |          10 |
+| Hazardous and Toxic Substances                                       |          10 |
+| internal-storyline-no                                                |          10 |
+| Presidential Election of 2024                                        |          10 |
+| Regulation and Deregulation of Industry                              |          10 |
+| Trump, Donald J                                                      |          10 |
+| United States Politics and Government                                |          10 |
+| Women and Girls                                                      |          10 |
+| Ackman, William A                                                    |           5 |
+| Adams, Eric L                                                        |           5 |
+| ALGERIA                                                              |           5 |
+| Baupost Group                                                        |           5 |
+| Biden, Joseph R Jr                                                   |           5 |
+| Bonsucro                                                             |           5 |
+| Books and Literature                                                 |           5 |
+| Bronx River (Bronx, NY)                                              |           5 |
+| California                                                           |           5 |
+| Cats                                                                 |           5 |
+| Chevron v Natural Resources Defense Council (Supreme Court Decision) |           5 |
+| Child Labor                                                          |           5 |
