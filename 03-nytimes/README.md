@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-08-19.
+2024-08-26.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                      | \# Articles |
-|:-----------------------------|------------:|
-| Parenting                    |          10 |
-| Anxiety and Stress           |           5 |
-| Biden, Joseph R Jr           |           5 |
-| Brain                        |           5 |
-| Child Abuse and Neglect      |           5 |
-| China                        |           5 |
-| Chronic Condition (Health)   |           5 |
-| Content Type: Service        |           5 |
-| Creutzfeldt-Jakob Disease    |           5 |
-| Dancing                      |           5 |
-| Deaths (Fatalities)          |           5 |
-| Deaths (Obituaries)          |           5 |
-| Dementia                     |           5 |
-| Democratic Party             |           5 |
-| Education (K-12)             |           5 |
-| Elderly                      |           5 |
-| Falun Gong                   |           5 |
-| Fear (Emotion)               |           5 |
-| Food and Drug Administration |           5 |
-| Gabapentin (Drug)            |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Democratic National Convention        |          15 |
+| Harris, Kamala D                      |          15 |
+| Presidential Election of 2024         |          15 |
+| Defense and Military Forces           |          10 |
+| Epidemics                             |          10 |
+| Gaza Strip                            |          10 |
+| Hamas                                 |          10 |
+| Israel                                |          10 |
+| Israel-Gaza War (2023- )              |          10 |
+| Monkeypox                             |          10 |
+| Palestinians                          |          10 |
+| Psychology and Psychologists          |          10 |
+| Sweden                                |          10 |
+| Terrorism                             |          10 |
+| Trump, Donald J                       |          10 |
+| United States Politics and Government |          10 |
+| Walz, Tim                             |          10 |
+| World Health Organization             |          10 |
+| Abortion                              |           5 |
+| AFRICA                                |           5 |
