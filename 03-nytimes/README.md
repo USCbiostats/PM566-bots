@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-08-26.
+2024-09-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Democratic National Convention        |          15 |
-| Harris, Kamala D                      |          15 |
-| Presidential Election of 2024         |          15 |
-| Defense and Military Forces           |          10 |
-| Epidemics                             |          10 |
-| Gaza Strip                            |          10 |
-| Hamas                                 |          10 |
-| Israel                                |          10 |
-| Israel-Gaza War (2023- )              |          10 |
-| Monkeypox                             |          10 |
-| Palestinians                          |          10 |
-| Psychology and Psychologists          |          10 |
-| Sweden                                |          10 |
-| Terrorism                             |          10 |
-| Trump, Donald J                       |          10 |
-| United States Politics and Government |          10 |
-| Walz, Tim                             |          10 |
-| World Health Organization             |          10 |
-| Abortion                              |           5 |
-| AFRICA                                |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Presidential Election of 2024              |          20 |
+| Harris, Kamala D                           |          15 |
+| Trump, Donald J                            |          15 |
+| Abortion                                   |          10 |
+| Deaths (Fatalities)                        |          10 |
+| New York State                             |          10 |
+| Republican Party                           |          10 |
+| United States Politics and Government      |          10 |
+| AGRICULTURE DEPARTMENT                     |           5 |
+| Ambulances                                 |           5 |
+| audio-neutral-informative                  |           5 |
+| Bacteria                                   |           5 |
+| Boar’s Head Brand                          |           5 |
+| Boston (Mass)                              |           5 |
+| Brain                                      |           5 |
+| California                                 |           5 |
+| Caribbean Area                             |           5 |
+| Carville, James                            |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Cervical Cancer                            |           5 |
