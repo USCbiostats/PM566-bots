@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-09-02.
+2024-09-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                    | \# Articles |
 |:-------------------------------------------|------------:|
-| Presidential Election of 2024              |          20 |
-| Harris, Kamala D                           |          15 |
-| Trump, Donald J                            |          15 |
+| Presidential Election of 2024              |          15 |
+| United States Politics and Government      |          15 |
 | Abortion                                   |          10 |
-| Deaths (Fatalities)                        |          10 |
-| New York State                             |          10 |
-| Republican Party                           |          10 |
-| United States Politics and Government      |          10 |
-| AGRICULTURE DEPARTMENT                     |           5 |
-| Ambulances                                 |           5 |
-| audio-neutral-informative                  |           5 |
-| Bacteria                                   |           5 |
-| Boar’s Head Brand                          |           5 |
-| Boston (Mass)                              |           5 |
-| Brain                                      |           5 |
+| Immigration and Emigration                 |          10 |
+| Movies                                     |          10 |
+| Polls and Public Opinion                   |          10 |
+| Abbasi, Ali (Film Director)                |           5 |
+| Affordable Housing                         |           5 |
+| AFRICA                                     |           5 |
+| Air Pollution                              |           5 |
+| Apalachee High School, Ga, Shooting (2024) |           5 |
+| Automobiles                                |           5 |
+| Better Man (Movie)                         |           5 |
+| Bribery and Kickbacks                      |           5 |
 | California                                 |           5 |
-| Caribbean Area                             |           5 |
-| Carville, James                            |           5 |
 | Centers for Disease Control and Prevention |           5 |
-| Cervical Cancer                            |           5 |
+| Circumcision                               |           5 |
+| Clinton, Hillary Rodham                    |           5 |
+| Democratic Party                           |           5 |
+| Diesel Power                               |           5 |
