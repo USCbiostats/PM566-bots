@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-09-09.
+2024-09-16.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -87,21 +87,21 @@ knitr::kable(tab, row.names = FALSE)
 |:-------------------------------------------|------------:|
 | Presidential Election of 2024              |          15 |
 | United States Politics and Government      |          15 |
-| Abortion                                   |          10 |
-| Immigration and Emigration                 |          10 |
-| Movies                                     |          10 |
-| Polls and Public Opinion                   |          10 |
-| Abbasi, Ali (Film Director)                |           5 |
-| Affordable Housing                         |           5 |
-| AFRICA                                     |           5 |
-| Air Pollution                              |           5 |
-| Apalachee High School, Ga, Shooting (2024) |           5 |
-| Automobiles                                |           5 |
-| Better Man (Movie)                         |           5 |
-| Bribery and Kickbacks                      |           5 |
-| California                                 |           5 |
+| Debates (Political)                        |          10 |
+| Harris, Kamala D                           |          10 |
+| Protectionism (Trade)                      |          10 |
+| Abortion                                   |           5 |
+| Apologies                                  |           5 |
+| Art                                        |           5 |
+| Audio Recordings, Downloads and Streaming  |           5 |
+| audio-neutral-informative                  |           5 |
+| Bacteria                                   |           5 |
+| Biden, Joseph R Jr                         |           5 |
+| Boar’s Head Brand                          |           5 |
+| Cancer                                     |           5 |
+| Catherine, Princess of Wales               |           5 |
 | Centers for Disease Control and Prevention |           5 |
-| Circumcision                               |           5 |
-| Clinton, Hillary Rodham                    |           5 |
-| Democratic Party                           |           5 |
-| Diesel Power                               |           5 |
+| Charles III, King of the United Kingdom    |           5 |
+| Cheney, Dick                               |           5 |
+| Cheney, Liz                                |           5 |
+| City Council (NYC)                         |           5 |
