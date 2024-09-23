@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-09-16.
+2024-09-23.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Presidential Election of 2024              |          15 |
-| United States Politics and Government      |          15 |
-| Debates (Political)                        |          10 |
-| Harris, Kamala D                           |          10 |
-| Protectionism (Trade)                      |          10 |
-| Abortion                                   |           5 |
-| Apologies                                  |           5 |
-| Art                                        |           5 |
-| Audio Recordings, Downloads and Streaming  |           5 |
-| audio-neutral-informative                  |           5 |
-| Bacteria                                   |           5 |
-| Biden, Joseph R Jr                         |           5 |
-| Boar’s Head Brand                          |           5 |
-| Cancer                                     |           5 |
-| Catherine, Princess of Wales               |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Charles III, King of the United Kingdom    |           5 |
-| Cheney, Dick                               |           5 |
-| Cheney, Liz                                |           5 |
-| City Council (NYC)                         |           5 |
+| Keyword                                                                           | \# Articles |
+|:----------------------------------------------------------------------------------|------------:|
+| Books and Literature                                                              |          15 |
+| Lebanon                                                                           |          10 |
+| Politics and Government                                                           |          10 |
+| Presidential Election of 2024                                                     |          10 |
+| A Wilder Shore: The Romantic Odyssey of Fanny and Robert Louis Stevenson (Book)   |           5 |
+| ALLERGIES                                                                         |           5 |
+| AMERICAN ACADEMY OF PEDIATRICS                                                    |           5 |
+| AMERICAN RED CROSS                                                                |           5 |
+| ARABIC LANGUAGE                                                                   |           5 |
+| Arabs                                                                             |           5 |
+| Bekaa Valley (Lebanon)                                                            |           5 |
+| Blind Spots: When Medicine Gets It Wrong, and What It Means for Our Health (Book) |           5 |
+| Blood Donation                                                                    |           5 |
+| Boot, Max                                                                         |           5 |
+| China                                                                             |           5 |
+| Chinese-Americans                                                                 |           5 |
+| Civilian Casualties                                                               |           5 |
+| Communist Party of China                                                          |           5 |
+| Deaths (Obituaries)                                                               |           5 |
+| Defense and Military Forces                                                       |           5 |
