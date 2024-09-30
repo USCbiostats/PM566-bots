@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-09-23.
+2024-09-30.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                                                           | \# Articles |
-|:----------------------------------------------------------------------------------|------------:|
-| Books and Literature                                                              |          15 |
-| Lebanon                                                                           |          10 |
-| Politics and Government                                                           |          10 |
-| Presidential Election of 2024                                                     |          10 |
-| A Wilder Shore: The Romantic Odyssey of Fanny and Robert Louis Stevenson (Book)   |           5 |
-| ALLERGIES                                                                         |           5 |
-| AMERICAN ACADEMY OF PEDIATRICS                                                    |           5 |
-| AMERICAN RED CROSS                                                                |           5 |
-| ARABIC LANGUAGE                                                                   |           5 |
-| Arabs                                                                             |           5 |
-| Bekaa Valley (Lebanon)                                                            |           5 |
-| Blind Spots: When Medicine Gets It Wrong, and What It Means for Our Health (Book) |           5 |
-| Blood Donation                                                                    |           5 |
-| Boot, Max                                                                         |           5 |
-| China                                                                             |           5 |
-| Chinese-Americans                                                                 |           5 |
-| Civilian Casualties                                                               |           5 |
-| Communist Party of China                                                          |           5 |
-| Deaths (Obituaries)                                                               |           5 |
-| Defense and Military Forces                                                       |           5 |
+| Keyword                                        | \# Articles |
+|:-----------------------------------------------|------------:|
+| Adams, Eric L                                  |           5 |
+| Banks, David C (1962- )                        |           5 |
+| Beirut (Lebanon)                               |           5 |
+| Black People                                   |           5 |
+| Blacks                                         |           5 |
+| Books and Literature                           |           5 |
+| Caban, Edward (1967- )                         |           5 |
+| California                                     |           5 |
+| Content Type: Personal Profile                 |           5 |
+| Corruption (Institutional)                     |           5 |
+| Demonstrations, Protests and Riots             |           5 |
+| Energy Department                              |           5 |
+| Eric Adams Federal Corruption Case (24 CR 556) |           5 |
+| Ethics and Official Misconduct                 |           5 |
+| Gaza Strip                                     |           5 |
+| General Assembly (UN)                          |           5 |
+| Generation Z                                   |           5 |
+| Gladwell, Malcolm                              |           5 |
+| Global Warming                                 |           5 |
+| Greenhouse Gas Emissions                       |           5 |
