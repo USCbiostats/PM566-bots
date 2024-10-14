@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-10-07.
+2024-10-14.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                    | \# Articles |
 |:-------------------------------------------|------------:|
-| Content Type: Personal Profile             |          10 |
-| internal-storyline-no                      |          10 |
+| Medicine and Health                        |          20 |
+| Nobel Prizes                               |          10 |
+| United States Politics and Government      |          10 |
 | Abortion                                   |           5 |
-| Addiction (Psychology)                     |           5 |
-| AFRICA                                     |           5 |
-| American Pickers (TV Program)              |           5 |
-| Antiques                                   |           5 |
-| Bonta, Rob (1972- )                        |           5 |
+| Ambros, Victor R                           |           5 |
+| American Hospital Assn                     |           5 |
+| Artificial Intelligence                    |           5 |
+| Autoimmune Diseases                        |           5 |
+| Biden, Joseph R Jr                         |           5 |
+| Bone Marrow                                |           5 |
 | Books and Literature                       |           5 |
-| Buses                                      |           5 |
-| California                                 |           5 |
-| Cannabis Foods and Products                |           5 |
+| Brown University                           |           5 |
+| Cancer                                     |           5 |
+| Catherine, Princess of Wales               |           5 |
+| Celebrities                                |           5 |
 | Centers for Disease Control and Prevention |           5 |
-| Collectors and Collections                 |           5 |
-| Conservatism (US Politics)                 |           5 |
-| Coronavirus Return to Office               |           5 |
-| Death and Dying                            |           5 |
-| Deaths (Obituaries)                        |           5 |
-| Debates (Political)                        |           5 |
-| Diabetes                                   |           5 |
+| Content Type: Service                      |           5 |
+| Coover, Robert                             |           5 |
+| Coronavirus (2019-nCoV)                    |           5 |
+| Couric, Katie                              |           5 |
