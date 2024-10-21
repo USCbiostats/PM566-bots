@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-10-14.
+2024-10-21.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Medicine and Health                        |          20 |
-| Nobel Prizes                               |          10 |
-| United States Politics and Government      |          10 |
-| Abortion                                   |           5 |
-| Ambros, Victor R                           |           5 |
-| American Hospital Assn                     |           5 |
-| Artificial Intelligence                    |           5 |
-| Autoimmune Diseases                        |           5 |
-| Biden, Joseph R Jr                         |           5 |
-| Bone Marrow                                |           5 |
-| Books and Literature                       |           5 |
-| Brown University                           |           5 |
-| Cancer                                     |           5 |
-| Catherine, Princess of Wales               |           5 |
-| Celebrities                                |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Content Type: Service                      |           5 |
-| Coover, Robert                             |           5 |
-| Coronavirus (2019-nCoV)                    |           5 |
-| Couric, Katie                              |           5 |
+| Keyword                                         | \# Articles |
+|:------------------------------------------------|------------:|
+| United States Politics and Government           |          15 |
+| Books and Literature                            |          10 |
+| Otisville Correctional Facility (Otisville, NY) |          10 |
+| Weddings and Engagements                        |          10 |
+| Afghanistan War (2001- )                        |           5 |
+| Alaska                                          |           5 |
+| Amnesties, Commutations and Pardons             |           5 |
+| audio-neutral-informative                       |           5 |
+| Begich, Nick III                                |           5 |
+| Block, Frederic L                               |           5 |
+| Brookfield Zoo                                  |           5 |
+| Chemicals                                       |           5 |
+| College of Charleston                           |           5 |
+| Conservation of Resources                       |           5 |
+| Content Type: Service                           |           5 |
+| Criminal Justice                                |           5 |
+| Decisions and Verdicts                          |           5 |
+| Democratic Party                                |           5 |
+| Dolphins and Porpoises                          |           5 |
+| Eckerd College                                  |           5 |
