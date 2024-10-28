@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-10-21.
+2024-10-28.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                         | \# Articles |
-|:------------------------------------------------|------------:|
-| United States Politics and Government           |          15 |
-| Books and Literature                            |          10 |
-| Otisville Correctional Facility (Otisville, NY) |          10 |
-| Weddings and Engagements                        |          10 |
-| Afghanistan War (2001- )                        |           5 |
-| Alaska                                          |           5 |
-| Amnesties, Commutations and Pardons             |           5 |
-| audio-neutral-informative                       |           5 |
-| Begich, Nick III                                |           5 |
-| Block, Frederic L                               |           5 |
-| Brookfield Zoo                                  |           5 |
-| Chemicals                                       |           5 |
-| College of Charleston                           |           5 |
-| Conservation of Resources                       |           5 |
-| Content Type: Service                           |           5 |
-| Criminal Justice                                |           5 |
-| Decisions and Verdicts                          |           5 |
-| Democratic Party                                |           5 |
-| Dolphins and Porpoises                          |           5 |
-| Eckerd College                                  |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Harris, Kamala D                         |          15 |
+| Presidential Election of 2024            |          15 |
+| internal-paywall-exempt-elections-app    |          10 |
+| Obama, Barack                            |          10 |
+| Trump, Donald J                          |          10 |
+| APPALACHIAN REGION                       |           5 |
+| AppHarvest Inc                           |           5 |
+| Atlanta (Ga)                             |           5 |
+| Authoritarianism (Theory and Philosophy) |           5 |
+| Biden, Joseph R Jr                       |           5 |
+| Canada                                   |           5 |
+| Case, Stephen M                          |           5 |
+| Cemeteries                               |           5 |
+| Charlotte (NC)                           |           5 |
+| City Council (NYC)                       |           5 |
+| CNN                                      |           5 |
+| Democratic Party                         |           5 |
+| Elections                                |           5 |
+| Foreign Workers                          |           5 |
+| Hotel Association of New York            |           5 |
