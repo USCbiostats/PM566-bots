@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-11-04.
+2024-11-11.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Presidential Election of 2024         |          25 |
-| Trump, Donald J                       |          20 |
-| United States Politics and Government |          20 |
-| Harris, Kamala D                      |          15 |
-| internal-storyline-no                 |          10 |
-| Obama, Michelle                       |          10 |
-| Accidents and Safety                  |           5 |
-| Alpha Kappa Alpha                     |           5 |
-| Atlanta (Ga)                          |           5 |
-| audio-neutral-immersive               |           5 |
-| audio-neutral-informative             |           5 |
-| Beef                                  |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Books and Literature                  |           5 |
-| Children and Childhood                |           5 |
-| Ciara                                 |           5 |
-| Colorado                              |           5 |
-| Computers and the Internet            |           5 |
-| Constellation Energy Group            |           5 |
-| Courts and the Judiciary              |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Trump, Donald J                          |          30 |
+| Presidential Election of 2024            |          25 |
+| United States Politics and Government    |          15 |
+| Biden, Joseph R Jr                       |          10 |
+| Harris, Kamala D                         |          10 |
+| Polls and Public Opinion                 |          10 |
+| Abortion                                 |           5 |
+| Arizona                                  |           5 |
+| Astoria (Queens, NY)                     |           5 |
+| Asylum, Right of                         |           5 |
+| Attash, Walid Muhammad Salih bin         |           5 |
+| Austin, Lloyd J III                      |           5 |
+| Authoritarianism (Theory and Philosophy) |           5 |
+| Bahrain                                  |           5 |
+| Border Barriers                          |           5 |
+| Buffett, Warren E                        |           5 |
+| Congestion Pricing                       |           5 |
+| Conservatism (US Politics)               |           5 |
+| Cook, Timothy D                          |           5 |
+| Cuban, Mark                              |           5 |
