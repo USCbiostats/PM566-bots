@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-11-11.
+2024-11-18.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Trump, Donald J                          |          30 |
-| Presidential Election of 2024            |          25 |
-| United States Politics and Government    |          15 |
-| Biden, Joseph R Jr                       |          10 |
-| Harris, Kamala D                         |          10 |
-| Polls and Public Opinion                 |          10 |
-| Abortion                                 |           5 |
-| Arizona                                  |           5 |
-| Astoria (Queens, NY)                     |           5 |
-| Asylum, Right of                         |           5 |
-| Attash, Walid Muhammad Salih bin         |           5 |
-| Austin, Lloyd J III                      |           5 |
-| Authoritarianism (Theory and Philosophy) |           5 |
-| Bahrain                                  |           5 |
-| Border Barriers                          |           5 |
-| Buffett, Warren E                        |           5 |
-| Congestion Pricing                       |           5 |
-| Conservatism (US Politics)               |           5 |
-| Cook, Timothy D                          |           5 |
-| Cuban, Mark                              |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Trump, Donald J                       |          30 |
+| United States Politics and Government |          25 |
+| Presidential Election of 2024         |          15 |
+| Coronavirus (2019-nCoV)               |          10 |
+| Democratic Party                      |          10 |
+| House of Representatives              |          10 |
+| Immigration and Emigration            |          10 |
+| internal-paywall-exempt-elections-app |          10 |
+| Presidential Transition (US)          |          10 |
+| Prices (Fares, Fees and Rates)        |          10 |
+| Republican Party                      |          10 |
+| Agriculture and Farming               |           5 |
+| Alsobrooks, Angela                    |           5 |
+| Appointments and Executive Changes    |           5 |
+| Aztecs                                |           5 |
+| Bathing and Showering                 |           5 |
+| Bay Area Rapid Transit                |           5 |
+| Black Panther Party                   |           5 |
+| Black People                          |           5 |
+| Blacks                                |           5 |
