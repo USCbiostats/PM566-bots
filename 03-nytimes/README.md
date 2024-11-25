@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-11-18.
+2024-11-25.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Trump, Donald J                       |          30 |
-| United States Politics and Government |          25 |
-| Presidential Election of 2024         |          15 |
-| Coronavirus (2019-nCoV)               |          10 |
-| Democratic Party                      |          10 |
-| House of Representatives              |          10 |
-| Immigration and Emigration            |          10 |
-| internal-paywall-exempt-elections-app |          10 |
-| Presidential Transition (US)          |          10 |
-| Prices (Fares, Fees and Rates)        |          10 |
-| Republican Party                      |          10 |
-| Agriculture and Farming               |           5 |
-| Alsobrooks, Angela                    |           5 |
-| Appointments and Executive Changes    |           5 |
-| Aztecs                                |           5 |
-| Bathing and Showering                 |           5 |
-| Bay Area Rapid Transit                |           5 |
-| Black Panther Party                   |           5 |
-| Black People                          |           5 |
-| Blacks                                |           5 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Regulation and Deregulation of Industry |          15 |
+| Trump, Donald J                         |          15 |
+| United States Politics and Government   |          15 |
+| Coronavirus (2019-nCoV)                 |          10 |
+| Demonstrations, Protests and Riots      |          10 |
+| Gaza Strip                              |          10 |
+| Health and Human Services Department    |          10 |
+| Hezbollah                               |          10 |
+| Israel                                  |          10 |
+| Israel-Gaza War (2023- )                |          10 |
+| Kennedy, Robert F Jr                    |          10 |
+| Lebanon                                 |          10 |
+| Water Pollution                         |          10 |
+| Agriculture and Farming                 |           5 |
+| ALITO, SAMUEL A JR                      |           5 |
+| ANDES MOUNTAINS                         |           5 |
+| Appointments and Executive Changes      |           5 |
+| Bannon, Stephen K                       |           5 |
+| Beirut (Lebanon)                        |           5 |
+| Biden, Joseph R Jr                      |           5 |
