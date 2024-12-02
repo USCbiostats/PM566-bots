@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-11-25.
+2024-12-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                 | \# Articles |
-|:----------------------------------------|------------:|
-| Regulation and Deregulation of Industry |          15 |
-| Trump, Donald J                         |          15 |
-| United States Politics and Government   |          15 |
-| Coronavirus (2019-nCoV)                 |          10 |
-| Demonstrations, Protests and Riots      |          10 |
-| Gaza Strip                              |          10 |
-| Health and Human Services Department    |          10 |
-| Hezbollah                               |          10 |
-| Israel                                  |          10 |
-| Israel-Gaza War (2023- )                |          10 |
-| Kennedy, Robert F Jr                    |          10 |
-| Lebanon                                 |          10 |
-| Water Pollution                         |          10 |
-| Agriculture and Farming                 |           5 |
-| ALITO, SAMUEL A JR                      |           5 |
-| ANDES MOUNTAINS                         |           5 |
-| Appointments and Executive Changes      |           5 |
-| Bannon, Stephen K                       |           5 |
-| Beirut (Lebanon)                        |           5 |
-| Biden, Joseph R Jr                      |           5 |
+| Keyword                          | \# Articles |
+|:---------------------------------|------------:|
+| Trump, Donald J                  |          15 |
+| Democratic Party                 |          10 |
+| Presidential Election of 2024    |          10 |
+| Biology and Biochemistry         |           5 |
+| Conservation of Resources        |           5 |
+| Conservatism (US Politics)       |           5 |
+| Costa, Jim (1952- )              |           5 |
+| Crispr (DNA)                     |           5 |
+| Dating and Relationships         |           5 |
+| DNA (Deoxyribonucleic Acid)      |           5 |
+| Embryos (Human)                  |           5 |
+| Emotions                         |           5 |
+| Genetic Engineering              |           5 |
+| Genetics and Heredity            |           5 |
+| Global Warming                   |           5 |
+| Greenhouse Gas Emissions         |           5 |
+| Grief (Emotion)                  |           5 |
+| Grijalva, Raul M                 |           5 |
+| House Committee on the Judiciary |           5 |
+| House of Representatives         |           5 |
