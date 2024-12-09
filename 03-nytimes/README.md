@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-12-02.
+2024-12-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                          | \# Articles |
-|:---------------------------------|------------:|
-| Trump, Donald J                  |          15 |
-| Democratic Party                 |          10 |
-| Presidential Election of 2024    |          10 |
-| Biology and Biochemistry         |           5 |
-| Conservation of Resources        |           5 |
-| Conservatism (US Politics)       |           5 |
-| Costa, Jim (1952- )              |           5 |
-| Crispr (DNA)                     |           5 |
-| Dating and Relationships         |           5 |
-| DNA (Deoxyribonucleic Acid)      |           5 |
-| Embryos (Human)                  |           5 |
-| Emotions                         |           5 |
-| Genetic Engineering              |           5 |
-| Genetics and Heredity            |           5 |
-| Global Warming                   |           5 |
-| Greenhouse Gas Emissions         |           5 |
-| Grief (Emotion)                  |           5 |
-| Grijalva, Raul M                 |           5 |
-| House Committee on the Judiciary |           5 |
-| House of Representatives         |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Midtown Area (Manhattan, NY)                |          10 |
+| Murders, Attempted Murders and Homicides    |          10 |
+| Rumors and Misinformation                   |          10 |
+| Thompson, Brian (1974-2024)                 |          10 |
+| UnitedHealth Group Inc                      |          10 |
+| Abbott, Gregory W (1957- )                  |           5 |
+| Actors and Actresses                        |           5 |
+| Age, Chronological                          |           5 |
+| Appointments and Executive Changes          |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| Bloomberg, Michael R                        |           5 |
+| Border Barriers                             |           5 |
+| China                                       |           5 |
+| Chronic Condition (Health)                  |           5 |
+| Compensation for Damages (Law)              |           5 |
+| Content Type: Personal Profile              |           5 |
+| Content Type: Service                       |           5 |
+| Discrimination                              |           5 |
+| E-Cigarettes                                |           5 |
+| Elderly                                     |           5 |
