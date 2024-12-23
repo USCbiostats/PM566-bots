@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-12-16.
+2024-12-23.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Health Insurance and Managed Care           |          20 |
-| United States Politics and Government       |          20 |
-| internal-storyline-no                       |          15 |
-| UnitedHealth Group Inc                      |          15 |
-| Assassinations and Attempted Assassinations |          10 |
-| Illegal Immigration                         |          10 |
-| Mangione, Luigi                             |          10 |
-| Trump, Donald J                             |          10 |
-| United States                               |          10 |
-| Adams, Eric L                               |           5 |
-| Addiction (Psychology)                      |           5 |
-| Assaults                                    |           5 |
-| Biden, Joseph R Jr                          |           5 |
-| Blue Cross and Blue Shield Assn             |           5 |
-| Bronx (NYC)                                 |           5 |
-| Children and Childhood                      |           5 |
-| Comedy and Humor                            |           5 |
-| Computers and the Internet                  |           5 |
-| Corona (Queens, NY)                         |           5 |
-| Cyberharassment                             |           5 |
+| Keyword                                        | \# Articles |
+|:-----------------------------------------------|------------:|
+| Artificial Intelligence                        |          10 |
+| Drones (Pilotless Planes)                      |          10 |
+| New Year                                       |          10 |
+| Polls and Public Opinion                       |          10 |
+| United States International Relations          |          10 |
+| United States Politics and Government          |          10 |
+| Adams, Eric L                                  |           5 |
+| Budgets and Budgeting                          |           5 |
+| Central Park (Manhattan, NY)                   |           5 |
+| Compensation for Damages (Law)                 |           5 |
+| Content Type: Service                          |           5 |
+| CVS Caremark Corporation                       |           5 |
+| Doctors                                        |           5 |
+| Drugs (Pharmaceuticals)                        |           5 |
+| Drugstores                                     |           5 |
+| Elderly                                        |           5 |
+| Eric Adams Federal Corruption Case (24 CR 556) |           5 |
+| Federal Bureau of Investigation                |           5 |
+| Fire Department (NYC)                          |           5 |
+| Fireworks                                      |           5 |
