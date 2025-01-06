@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2024-12-30.
+2025-01-06.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Child Abuse and Neglect               |          10 |
-| New York City                         |          10 |
-| United States Politics and Government |          10 |
-| Accidents and Safety                  |           5 |
-| AMERICAN ACADEMY OF PEDIATRICS        |           5 |
-| Anesthesia and Anesthetics            |           5 |
-| Asylum, Right of                      |           5 |
-| audio-neutral-informative             |           5 |
-| Avian Influenza                       |           5 |
-| Babies and Infants                    |           5 |
-| Bathrooms and Toilets                 |           5 |
-| Bitcoin (Currency)                    |           5 |
+| United States Politics and Government |          15 |
+| Biden, Joseph R Jr                    |          10 |
+| Bombs and Explosives                  |          10 |
+| Content Type: Personal Profile        |          10 |
+| Content Type: Service                 |          10 |
+| Defense and Military Forces           |          10 |
+| Gaza Strip                            |          10 |
+| Israel                                |          10 |
+| Israel-Gaza War (2023- )              |          10 |
+| New Year                              |          10 |
+| Russia                                |          10 |
+| Russian Invasion of Ukraine (2022)    |          10 |
+| Ukraine                               |          10 |
+| Bernstein, Jared                      |           5 |
+| Blinken, Antony J                     |           5 |
+| Carter Center                         |           5 |
 | Carter, Jimmy                         |           5 |
-| China                                 |           5 |
-| City Council (NYC)                    |           5 |
-| Communist Party of China              |           5 |
-| Content Type: Service                 |           5 |
-| Dancing                               |           5 |
-| Decisions and Verdicts                |           5 |
-| Demonstrations, Protests and Riots    |           5 |
+| Carter, Rosalynn                      |           5 |
+| Civilian Casualties                   |           5 |
+| Clinton, Bill                         |           5 |
