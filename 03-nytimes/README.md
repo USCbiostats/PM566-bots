@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-01-06.
+2025-01-13.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| United States Politics and Government |          15 |
+| United States Politics and Government |          20 |
 | Biden, Joseph R Jr                    |          10 |
-| Bombs and Explosives                  |          10 |
-| Content Type: Personal Profile        |          10 |
-| Content Type: Service                 |          10 |
-| Defense and Military Forces           |          10 |
-| Gaza Strip                            |          10 |
-| Israel                                |          10 |
-| Israel-Gaza War (2023- )              |          10 |
-| New Year                              |          10 |
-| Russia                                |          10 |
-| Russian Invasion of Ukraine (2022)    |          10 |
-| Ukraine                               |          10 |
-| Bernstein, Jared                      |           5 |
-| Blinken, Antony J                     |           5 |
-| Carter Center                         |           5 |
-| Carter, Jimmy                         |           5 |
-| Carter, Rosalynn                      |           5 |
-| Civilian Casualties                   |           5 |
-| Clinton, Bill                         |           5 |
+| Carter, Jimmy                         |          10 |
+| Politics and Government               |          10 |
+| Trump, Donald J                       |          10 |
+| Wildfires                             |          10 |
+| Adams, Eric L                         |           5 |
+| AFRICA                                |           5 |
+| Air Pollution                         |           5 |
+| Al Hela, Abdulsalam                   |           5 |
+| Alwi, Moath Hamza Ahmed al            |           5 |
+| AMERICAN ECONOMIC ASSN                |           5 |
+| AMPUTATION                            |           5 |
+| Animal Attacks                        |           5 |
+| Animal Behavior                       |           5 |
+| Antibodies                            |           5 |
+| Anxiety and Stress                    |           5 |
+| Asthma                                |           5 |
+| audio-neutral-informative             |           5 |
+| bin Attash, Hassan                    |           5 |
