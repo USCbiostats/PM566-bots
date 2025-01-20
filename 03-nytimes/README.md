@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-01-13.
+2025-01-20.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          20 |
-| Biden, Joseph R Jr                    |          10 |
-| Carter, Jimmy                         |          10 |
-| Politics and Government               |          10 |
-| Trump, Donald J                       |          10 |
-| Wildfires                             |          10 |
-| Adams, Eric L                         |           5 |
-| AFRICA                                |           5 |
-| Air Pollution                         |           5 |
-| Al Hela, Abdulsalam                   |           5 |
-| Alwi, Moath Hamza Ahmed al            |           5 |
-| AMERICAN ECONOMIC ASSN                |           5 |
-| AMPUTATION                            |           5 |
-| Animal Attacks                        |           5 |
-| Animal Behavior                       |           5 |
-| Antibodies                            |           5 |
-| Anxiety and Stress                    |           5 |
-| Asthma                                |           5 |
-| audio-neutral-informative             |           5 |
-| bin Attash, Hassan                    |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Trump, Donald J                          |          25 |
+| United States Politics and Government    |          25 |
+| Presidential Transition (US)             |          15 |
+| Computers and the Internet               |          10 |
+| Illegal Immigration                      |          10 |
+| Presidential Election of 2024            |          10 |
+| Presidents and Presidency (US)           |          10 |
+| Abortion                                 |           5 |
+| Addiction (Psychology)                   |           5 |
+| Age, Chronological                       |           5 |
+| Air Pollution                            |           5 |
+| AIRLINES AND AIRPLANES                   |           5 |
+| Authoritarianism (Theory and Philosophy) |           5 |
+| Biden, Hunter                            |           5 |
+| Biden, Jill Tracy Jacobs                 |           5 |
+| Biden, Joseph R Jr                       |           5 |
+| Biotechnology and Bioengineering         |           5 |
+| Border Patrol (US)                       |           5 |
+| Cal Fire                                 |           5 |
+| California                               |           5 |
