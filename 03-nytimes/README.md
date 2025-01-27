@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-01-20.
+2025-01-27.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Trump, Donald J                          |          25 |
-| United States Politics and Government    |          25 |
-| Presidential Transition (US)             |          15 |
-| Computers and the Internet               |          10 |
-| Illegal Immigration                      |          10 |
-| Presidential Election of 2024            |          10 |
-| Presidents and Presidency (US)           |          10 |
-| Abortion                                 |           5 |
-| Addiction (Psychology)                   |           5 |
-| Age, Chronological                       |           5 |
-| Air Pollution                            |           5 |
-| AIRLINES AND AIRPLANES                   |           5 |
-| Authoritarianism (Theory and Philosophy) |           5 |
-| Biden, Hunter                            |           5 |
-| Biden, Jill Tracy Jacobs                 |           5 |
-| Biden, Joseph R Jr                       |           5 |
-| Biotechnology and Bioengineering         |           5 |
-| Border Patrol (US)                       |           5 |
-| Cal Fire                                 |           5 |
-| California                               |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Trump, Donald J                             |          40 |
+| United States Politics and Government       |          35 |
+| Executive Orders and Memorandums            |          15 |
+| Illegal Immigration                         |          15 |
+| Amnesties, Commutations and Pardons         |          10 |
+| Asylum, Right of                            |          10 |
+| Presidential Election of 2024               |          10 |
+| United States Economy                       |          10 |
+| Abortion                                    |           5 |
+| Acquired Immune Deficiency Syndrome         |           5 |
+| AFRICA                                      |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| Biden, Joseph R Jr                          |           5 |
+| Border Patrol (US)                          |           5 |
+| Bove, Emil                                  |           5 |
+| Customs (Tariff)                            |           5 |
+| Demonstrations, Protests and Riots          |           5 |
+| Deportation                                 |           5 |
+| Developing Countries                        |           5 |
+| Elections                                   |           5 |
