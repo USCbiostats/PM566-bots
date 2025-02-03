@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-01-27.
+2025-02-03.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Trump, Donald J                             |          40 |
-| United States Politics and Government       |          35 |
-| Executive Orders and Memorandums            |          15 |
-| Illegal Immigration                         |          15 |
-| Amnesties, Commutations and Pardons         |          10 |
-| Asylum, Right of                            |          10 |
-| Presidential Election of 2024               |          10 |
-| United States Economy                       |          10 |
-| Abortion                                    |           5 |
-| Acquired Immune Deficiency Syndrome         |           5 |
-| AFRICA                                      |           5 |
-| Assassinations and Attempted Assassinations |           5 |
-| Biden, Joseph R Jr                          |           5 |
-| Border Patrol (US)                          |           5 |
-| Bove, Emil                                  |           5 |
-| Customs (Tariff)                            |           5 |
-| Demonstrations, Protests and Riots          |           5 |
-| Deportation                                 |           5 |
-| Developing Countries                        |           5 |
-| Elections                                   |           5 |
+| Keyword                                | \# Articles |
+|:---------------------------------------|------------:|
+| Research                               |          15 |
+| Trump, Donald J                        |          15 |
+| United States                          |          15 |
+| Health and Human Services Department   |          10 |
+| Kennedy, Robert F Jr                   |          10 |
+| United States Politics and Government  |          10 |
+| Vaccination and Immunization           |          10 |
+| Acquired Immune Deficiency Syndrome    |           5 |
+| AFRICA                                 |           5 |
+| Appointments and Executive Changes     |           5 |
+| Artificial Intelligence                |           5 |
+| Asphyxiation, Choking, and Suffocation |           5 |
+| Babies and Infants                     |           5 |
+| Beverages                              |           5 |
+| California                             |           5 |
+| Child Abuse and Neglect                |           5 |
+| Children’s Health Defense              |           5 |
+| Conspiracy Theories                    |           5 |
+| Content Type: Service                  |           5 |
+| Crime and Criminals                    |           5 |
