@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-02-03.
+2025-02-10.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                | \# Articles |
-|:---------------------------------------|------------:|
-| Research                               |          15 |
-| Trump, Donald J                        |          15 |
-| United States                          |          15 |
-| Health and Human Services Department   |          10 |
-| Kennedy, Robert F Jr                   |          10 |
-| United States Politics and Government  |          10 |
-| Vaccination and Immunization           |          10 |
-| Acquired Immune Deficiency Syndrome    |           5 |
-| AFRICA                                 |           5 |
-| Appointments and Executive Changes     |           5 |
-| Artificial Intelligence                |           5 |
-| Asphyxiation, Choking, and Suffocation |           5 |
-| Babies and Infants                     |           5 |
-| Beverages                              |           5 |
-| California                             |           5 |
-| Child Abuse and Neglect                |           5 |
-| Children’s Health Defense              |           5 |
-| Conspiracy Theories                    |           5 |
-| Content Type: Service                  |           5 |
-| Crime and Criminals                    |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| United States Politics and Government |          25 |
+| Trump, Donald J                       |          20 |
+| Diet and Nutrition                    |          10 |
+| Executive Orders and Memorandums      |          10 |
+| Transgender                           |          10 |
+| United States                         |          10 |
+| audio-neutral-informative             |           5 |
+| audio-positive-escape                 |           5 |
+| Birth Control and Family Planning     |           5 |
+| Brookhaven (NY)                       |           5 |
+| Brookhaven National Laboratory        |           5 |
+| Center for Bioethics                  |           5 |
+| Chefs                                 |           5 |
+| Colleges and Universities             |           5 |
+| Computer Security                     |           5 |
+| Content Type: Personal Profile        |           5 |
+| Cooking and Cookbooks                 |           5 |
+| Coronavirus (2019-nCoV)               |           5 |
+| Coronavirus Reopenings                |           5 |
+| Coronavirus Return to Office          |           5 |
