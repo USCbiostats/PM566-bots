@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-02-10.
+2025-02-17.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| United States Politics and Government |          25 |
 | Trump, Donald J                       |          20 |
-| Diet and Nutrition                    |          10 |
-| Executive Orders and Memorandums      |          10 |
-| Transgender                           |          10 |
-| United States                         |          10 |
-| audio-neutral-informative             |           5 |
-| audio-positive-escape                 |           5 |
-| Birth Control and Family Planning     |           5 |
-| Brookhaven (NY)                       |           5 |
-| Brookhaven National Laboratory        |           5 |
-| Center for Bioethics                  |           5 |
-| Chefs                                 |           5 |
-| Colleges and Universities             |           5 |
-| Computer Security                     |           5 |
-| Content Type: Personal Profile        |           5 |
-| Cooking and Cookbooks                 |           5 |
-| Coronavirus (2019-nCoV)               |           5 |
-| Coronavirus Reopenings                |           5 |
-| Coronavirus Return to Office          |           5 |
+| United States Politics and Government |          20 |
+| Health and Human Services Department  |          10 |
+| United States International Relations |          10 |
+| Abortion                              |           5 |
+| Africa                                |           5 |
+| Appointments and Executive Changes    |           5 |
+| Belarus                               |           5 |
+| Birth Defects                         |           5 |
+| Black People                          |           5 |
+| Blacks                                |           5 |
+| Border Patrol (US)                    |           5 |
+| Caribbean Area                        |           5 |
+| Child Custody and Support             |           5 |
+| Children and Childhood                |           5 |
+| Civilian Casualties                   |           5 |
+| Deaths (Fatalities)                   |           5 |
+| Decisions and Verdicts                |           5 |
+| Defense and Military Forces           |           5 |
+| Demonstrations, Protests and Riots    |           5 |
