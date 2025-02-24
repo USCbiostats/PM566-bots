@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-02-17.
+2025-02-24.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Trump, Donald J                       |          20 |
-| United States Politics and Government |          20 |
-| Health and Human Services Department  |          10 |
-| United States International Relations |          10 |
-| Abortion                              |           5 |
-| Africa                                |           5 |
-| Appointments and Executive Changes    |           5 |
-| Belarus                               |           5 |
-| Birth Defects                         |           5 |
-| Black People                          |           5 |
-| Blacks                                |           5 |
-| Border Patrol (US)                    |           5 |
-| Caribbean Area                        |           5 |
-| Child Custody and Support             |           5 |
-| Children and Childhood                |           5 |
-| Civilian Casualties                   |           5 |
-| Deaths (Fatalities)                   |           5 |
-| Decisions and Verdicts                |           5 |
-| Defense and Military Forces           |           5 |
-| Demonstrations, Protests and Riots    |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Trump, Donald J                            |          20 |
+| United States Politics and Government      |          20 |
+| Avian Influenza                            |          10 |
+| Centers for Disease Control and Prevention |          10 |
+| Food and Drug Administration               |          10 |
+| Health and Human Services Department       |          10 |
+| Kennedy, Robert F Jr                       |          10 |
+| Layoffs and Job Reductions                 |          10 |
+| Age, Chronological                         |           5 |
+| Agriculture and Farming                    |           5 |
+| AGRICULTURE DEPARTMENT                     |           5 |
+| Bergman, Ronen                             |           5 |
+| Blood Pressure                             |           5 |
+| Bloomberg BusinessWeek                     |           5 |
+| Careers and Professions                    |           5 |
+| Centers for Medicare and Medicaid Services |           5 |
+| Columbine High School                      |           5 |
+| Content Type: Service                      |           5 |
+| Dairy Products                             |           5 |
+| Deaths (Fatalities)                        |           5 |
