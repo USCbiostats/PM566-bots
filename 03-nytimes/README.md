@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-02-24.
+2025-03-03.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Trump, Donald J                            |          20 |
-| United States Politics and Government      |          20 |
-| Avian Influenza                            |          10 |
-| Centers for Disease Control and Prevention |          10 |
-| Food and Drug Administration               |          10 |
-| Health and Human Services Department       |          10 |
-| Kennedy, Robert F Jr                       |          10 |
-| Layoffs and Job Reductions                 |          10 |
-| Age, Chronological                         |           5 |
-| Agriculture and Farming                    |           5 |
-| AGRICULTURE DEPARTMENT                     |           5 |
-| Bergman, Ronen                             |           5 |
-| Blood Pressure                             |           5 |
-| Bloomberg BusinessWeek                     |           5 |
-| Careers and Professions                    |           5 |
-| Centers for Medicare and Medicaid Services |           5 |
-| Columbine High School                      |           5 |
-| Content Type: Service                      |           5 |
-| Dairy Products                             |           5 |
-| Deaths (Fatalities)                        |           5 |
+| Keyword                                           | \# Articles |
+|:--------------------------------------------------|------------:|
+| Trump, Donald J                                   |          25 |
+| United States Politics and Government             |          25 |
+| Federal-State Relations (US)                      |          10 |
+| Global Warming                                    |          10 |
+| Research                                          |          10 |
+| Adams, Eric L                                     |           5 |
+| Agriculture and Farming                           |           5 |
+| al-Shara, Ahmed (Abu Mohammad al-Jolani) (1982- ) |           5 |
+| Alternative and Renewable Energy                  |           5 |
+| Appointments and Executive Changes                |           5 |
+| Chromosomes                                       |           5 |
+| Cincinnati (Ohio)                                 |           5 |
+| Commission on Gender Equity (NYC)                 |           5 |
+| Content Type: Service                             |           5 |
+| Defense and Military Forces                       |           5 |
+| Deportation                                       |           5 |
+| Diet and Nutrition                                |           5 |
+| Disasters and Emergencies                         |           5 |
+| Drugs (Pharmaceuticals)                           |           5 |
+| Environment                                       |           5 |
