@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-03-03.
+2025-03-10.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                           | \# Articles |
-|:--------------------------------------------------|------------:|
-| Trump, Donald J                                   |          25 |
-| United States Politics and Government             |          25 |
-| Federal-State Relations (US)                      |          10 |
-| Global Warming                                    |          10 |
-| Research                                          |          10 |
-| Adams, Eric L                                     |           5 |
-| Agriculture and Farming                           |           5 |
-| al-Shara, Ahmed (Abu Mohammad al-Jolani) (1982- ) |           5 |
-| Alternative and Renewable Energy                  |           5 |
-| Appointments and Executive Changes                |           5 |
-| Chromosomes                                       |           5 |
-| Cincinnati (Ohio)                                 |           5 |
-| Commission on Gender Equity (NYC)                 |           5 |
-| Content Type: Service                             |           5 |
-| Defense and Military Forces                       |           5 |
-| Deportation                                       |           5 |
-| Diet and Nutrition                                |           5 |
-| Disasters and Emergencies                         |           5 |
-| Drugs (Pharmaceuticals)                           |           5 |
-| Environment                                       |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| United States Politics and Government |          30 |
+| Research                              |          20 |
+| National Institutes of Health         |          15 |
+| Trump, Donald J                       |          15 |
+| Bhattacharya, Jay                     |          10 |
+| City Council (NYC)                    |          10 |
+| Colleges and Universities             |          10 |
+| Demonstrations, Protests and Riots    |          10 |
+| Federal Aid (US)                      |          10 |
+| Immigration and Emigration            |          10 |
+| Layoffs and Job Reductions            |          10 |
+| Medicine and Health                   |          10 |
+| New York City                         |          10 |
+| Politics and Government               |          10 |
+| Protectionism (Trade)                 |          10 |
+| United States Economy                 |          10 |
+| Adams, Adrienne (1960- )              |           5 |
+| ADIRONDACK CORRECTIONAL FACILITY      |           5 |
+| Anti-Semitism                         |           5 |
+| Appointments and Executive Changes    |           5 |
