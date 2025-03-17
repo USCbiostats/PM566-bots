@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-03-10.
+2025-03-17.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| United States Politics and Government |          30 |
-| Research                              |          20 |
-| National Institutes of Health         |          15 |
-| Trump, Donald J                       |          15 |
-| Bhattacharya, Jay                     |          10 |
-| City Council (NYC)                    |          10 |
-| Colleges and Universities             |          10 |
-| Demonstrations, Protests and Riots    |          10 |
-| Federal Aid (US)                      |          10 |
-| Immigration and Emigration            |          10 |
-| Layoffs and Job Reductions            |          10 |
-| Medicine and Health                   |          10 |
-| New York City                         |          10 |
-| Politics and Government               |          10 |
-| Protectionism (Trade)                 |          10 |
-| United States Economy                 |          10 |
-| Adams, Adrienne (1960- )              |           5 |
-| ADIRONDACK CORRECTIONAL FACILITY      |           5 |
-| Anti-Semitism                         |           5 |
+| United States Politics and Government |          20 |
+| Senate                                |          10 |
+| Trump, Donald J                       |          10 |
+| ACADEMIC FREEDOM                      |           5 |
 | Appointments and Executive Changes    |           5 |
+| Assaults                              |           5 |
+| Atkins, Toni G                        |           5 |
+| Bernardez, Selwyn (1995- )            |           5 |
+| California                            |           5 |
+| Chavez-DeRemer, Lori                  |           5 |
+| Children and Childhood                |           5 |
+| Collective Bargaining                 |           5 |
+| Colleges and Universities             |           5 |
+| Columbia University                   |           5 |
+| Content Type: Personal Profile        |           5 |
+| Coronavirus (2019-nCoV)               |           5 |
+| Crown Heights (Brooklyn, NY)          |           5 |
+| Defense and Military Forces           |           5 |
+| Disease Rates                         |           5 |
+| Drug Abuse and Traffic                |           5 |
