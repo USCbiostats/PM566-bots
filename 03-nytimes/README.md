@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-03-17.
+2025-03-24.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          20 |
-| Senate                                |          10 |
-| Trump, Donald J                       |          10 |
-| ACADEMIC FREEDOM                      |           5 |
-| Appointments and Executive Changes    |           5 |
-| Assaults                              |           5 |
-| Atkins, Toni G                        |           5 |
-| Bernardez, Selwyn (1995- )            |           5 |
-| California                            |           5 |
-| Chavez-DeRemer, Lori                  |           5 |
-| Children and Childhood                |           5 |
-| Collective Bargaining                 |           5 |
-| Colleges and Universities             |           5 |
-| Columbia University                   |           5 |
-| Content Type: Personal Profile        |           5 |
-| Coronavirus (2019-nCoV)               |           5 |
-| Crown Heights (Brooklyn, NY)          |           5 |
-| Defense and Military Forces           |           5 |
-| Disease Rates                         |           5 |
-| Drug Abuse and Traffic                |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| United States Politics and Government      |          20 |
+| Trump, Donald J                            |          15 |
+| Colleges and Universities                  |          10 |
+| Computers and the Internet                 |          10 |
+| Health and Human Services Department       |          10 |
+| Musk, Elon                                 |          10 |
+| your-feed-science                          |          10 |
+| Acquired Immune Deficiency Syndrome        |           5 |
+| Agriculture and Farming                    |           5 |
+| AGRICULTURE DEPARTMENT                     |           5 |
+| Alphabet Inc                               |           5 |
+| Andreessen, Marc L                         |           5 |
+| Animal Abuse, Rights and Welfare           |           5 |
+| Avian Influenza                            |           5 |
+| Bones                                      |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Civilian Casualties                        |           5 |
+| Cloud Computing                            |           5 |
+| Columbia University                        |           5 |
+| Computer Security                          |           5 |
