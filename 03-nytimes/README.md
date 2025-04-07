@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-03-31.
+2025-04-07.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Content Type: Service                      |          10 |
-| Coronavirus (2019-nCoV)                    |          10 |
-| Measles                                    |          10 |
-| Polls and Public Opinion                   |          10 |
-| Vaccination and Immunization               |          10 |
-| Anxiety and Stress                         |           5 |
-| Artificial Intelligence                    |           5 |
-| Books and Literature                       |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Charleston (SC)                            |           5 |
-| Children and Childhood                     |           5 |
-| Computers and the Internet                 |           5 |
-| Cuomo, Andrew M                            |           5 |
-| Dating and Relationships                   |           5 |
-| Death and Dying                            |           5 |
-| Democratic Party                           |           5 |
-| DeRosa, Melissa                            |           5 |
-| Disease Rates                              |           5 |
-| Elections, Mayors                          |           5 |
-| Emotions                                   |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| United States Politics and Government |          20 |
+| Trump, Donald J                       |          15 |
+| Buildings (Structures)                |          10 |
+| Government Employees                  |          10 |
+| Layoffs and Job Reductions            |          10 |
+| Musk, Elon                            |          10 |
+| ACADEMIC FREEDOM                      |           5 |
+| ALITO, SAMUEL A JR                    |           5 |
+| Art                                   |           5 |
+| Bacon, Don (1963- )                   |           5 |
+| Bangkok (Thailand)                    |           5 |
+| Blink 182                             |           5 |
+| Booker, Cory A                        |           5 |
+| Books and Literature                  |           5 |
+| Bronx (NYC)                           |           5 |
+| Buildings Department (NYC)            |           5 |
+| Canada                                |           5 |
+| Colleges and Universities             |           5 |
+| Content Type: Personal Profile        |           5 |
+| Cultural Affairs Department           |           5 |
