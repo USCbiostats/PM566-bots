@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-04-07.
+2025-04-14.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          20 |
-| Trump, Donald J                       |          15 |
-| Buildings (Structures)                |          10 |
-| Government Employees                  |          10 |
-| Layoffs and Job Reductions            |          10 |
-| Musk, Elon                            |          10 |
-| ACADEMIC FREEDOM                      |           5 |
-| ALITO, SAMUEL A JR                    |           5 |
-| Art                                   |           5 |
-| Bacon, Don (1963- )                   |           5 |
-| Bangkok (Thailand)                    |           5 |
-| Blink 182                             |           5 |
-| Booker, Cory A                        |           5 |
-| Books and Literature                  |           5 |
-| Bronx (NYC)                           |           5 |
-| Buildings Department (NYC)            |           5 |
-| Canada                                |           5 |
-| Colleges and Universities             |           5 |
-| Content Type: Personal Profile        |           5 |
-| Cultural Affairs Department           |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Trump, Donald J                          |          10 |
+| United States Politics and Government    |          10 |
+| Adderall (Drug)                          |           5 |
+| Animals                                  |           5 |
+| Attention Deficit Hyperactivity Disorder |           5 |
+| Bessent, Scott                           |           5 |
+| Brain                                    |           5 |
+| Cats                                     |           5 |
+| Christians and Christianity              |           5 |
+| Conley, Sean Patrick                     |           5 |
+| Correa, Rafael                           |           5 |
+| Dogs                                     |           5 |
+| Drug Abuse and Traffic                   |           5 |
+| Easter and Holy Week                     |           5 |
+| Ecuador                                  |           5 |
+| Elections                                |           5 |
+| Federal Budget (US)                      |           5 |
+| Fish and Other Marine Life               |           5 |
+| Gaza Strip                               |           5 |
+| Gonzalez, Luisa                          |           5 |
