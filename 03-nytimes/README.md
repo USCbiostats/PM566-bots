@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-04-14.
+2025-04-21.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Trump, Donald J                          |          10 |
-| United States Politics and Government    |          10 |
-| Adderall (Drug)                          |           5 |
-| Animals                                  |           5 |
-| Attention Deficit Hyperactivity Disorder |           5 |
-| Bessent, Scott                           |           5 |
-| Brain                                    |           5 |
-| Cats                                     |           5 |
-| Christians and Christianity              |           5 |
-| Conley, Sean Patrick                     |           5 |
-| Correa, Rafael                           |           5 |
-| Dogs                                     |           5 |
-| Drug Abuse and Traffic                   |           5 |
-| Easter and Holy Week                     |           5 |
-| Ecuador                                  |           5 |
-| Elections                                |           5 |
-| Federal Budget (US)                      |           5 |
-| Fish and Other Marine Life               |           5 |
-| Gaza Strip                               |           5 |
-| Gonzalez, Luisa                          |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Trump, Donald J                       |          25 |
+| United States Politics and Government |          15 |
+| Francis                               |          10 |
+| Musk, Elon                            |          10 |
+| Presidential Election of 2024         |          10 |
+| United States                         |          10 |
+| Agriculture and Farming               |           5 |
+| Alzheimer’s Disease                   |           5 |
+| Boycotts                              |           5 |
+| Brazil                                |           5 |
+| Buddhism                              |           5 |
+| China                                 |           5 |
+| Christians and Christianity           |           5 |
+| Civil Rights and Liberties            |           5 |
+| Coaches and Managers                  |           5 |
+| Collective Bargaining                 |           5 |
+| College Athletics                     |           5 |
+| Colleges and Universities             |           5 |
+| Content Type: Personal Profile        |           5 |
+| Content Type: Service                 |           5 |
