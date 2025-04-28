@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-04-21.
+2025-04-28.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Trump, Donald J                       |          25 |
-| United States Politics and Government |          15 |
-| Francis                               |          10 |
-| Musk, Elon                            |          10 |
-| Presidential Election of 2024         |          10 |
-| United States                         |          10 |
-| Agriculture and Farming               |           5 |
-| Alzheimer’s Disease                   |           5 |
-| Boycotts                              |           5 |
-| Brazil                                |           5 |
-| Buddhism                              |           5 |
-| China                                 |           5 |
-| Christians and Christianity           |           5 |
-| Civil Rights and Liberties            |           5 |
-| Coaches and Managers                  |           5 |
-| Collective Bargaining                 |           5 |
-| College Athletics                     |           5 |
-| Colleges and Universities             |           5 |
-| Content Type: Personal Profile        |           5 |
-| Content Type: Service                 |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| United States Politics and Government      |          20 |
+| Deaths (Fatalities)                        |          15 |
+| Fires and Firefighters                     |          10 |
+| Medicine and Health                        |          10 |
+| Trump, Donald J                            |          10 |
+| Academic Freedom                           |           5 |
+| Actors and Actresses                       |           5 |
+| Air Traffic Control                        |           5 |
+| Airlines and Airplanes                     |           5 |
+| Ambulances                                 |           5 |
+| American Airlines Flight 5342              |           5 |
+| American Assn of Colleges and Universities |           5 |
+| Assaults                                   |           5 |
+| Assn of American Universities              |           5 |
+| audio-neutral-informative                  |           5 |
+| Autism                                     |           5 |
+| Aviation Accidents, Safety and Disasters   |           5 |
+| Caliente, Jiggly (1980-2025)               |           5 |
+| Chapel Hill (NC)                           |           5 |
+| Charles, RuPaul                            |           5 |
