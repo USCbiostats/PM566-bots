@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-04-28.
+2025-05-05.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| United States Politics and Government      |          20 |
-| Deaths (Fatalities)                        |          15 |
-| Fires and Firefighters                     |          10 |
-| Medicine and Health                        |          10 |
-| Trump, Donald J                            |          10 |
-| Academic Freedom                           |           5 |
-| Actors and Actresses                       |           5 |
-| Air Traffic Control                        |           5 |
-| Airlines and Airplanes                     |           5 |
-| Ambulances                                 |           5 |
-| American Airlines Flight 5342              |           5 |
-| American Assn of Colleges and Universities |           5 |
-| Assaults                                   |           5 |
-| Assn of American Universities              |           5 |
-| audio-neutral-informative                  |           5 |
-| Autism                                     |           5 |
-| Aviation Accidents, Safety and Disasters   |           5 |
-| Caliente, Jiggly (1980-2025)               |           5 |
-| Chapel Hill (NC)                           |           5 |
-| Charles, RuPaul                            |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Israel-Gaza War (2023- )              |          10 |
+| Medicine and Health                   |          10 |
+| Trump, Donald J                       |          10 |
+| United States Politics and Government |          10 |
+| Artificial Intelligence               |           5 |
+| Birth Control and Family Planning     |           5 |
+| Bloom, Paul                           |           5 |
+| California                            |           5 |
+| Civilian Casualties                   |           5 |
+| Compensation for Damages (Law)        |           5 |
+| Coronavirus Return to Office          |           5 |
+| Crossword Puzzles                     |           5 |
+| Death and Dying                       |           5 |
+| Deaths (Fatalities)                   |           5 |
+| Deaths (Obituaries)                   |           5 |
+| Doctors                               |           5 |
+| Drugs (Pharmaceuticals)               |           5 |
+| Elderly                               |           5 |
+| Eli Lilly and Company                 |           5 |
+| Empathy                               |           5 |
