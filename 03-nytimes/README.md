@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-05-12.
+2025-05-19.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                | \# Articles |
-|:---------------------------------------|------------:|
-| Trump, Donald J                        |          15 |
-| Content Type: Personal Profile         |          10 |
-| Medicine and Health                    |          10 |
-| United States Politics and Government  |          10 |
-| Advertising and Marketing              |           5 |
-| Age, Chronological                     |           5 |
-| Babies and Infants                     |           5 |
-| Baby Carriages, Strollers and Carriers |           5 |
-| Beatdapp Software Inc                  |           5 |
-| Books and Literature                   |           5 |
-| Canada                                 |           5 |
-| Cantor Fitzgerald LP                   |           5 |
-| Children and Childhood                 |           5 |
-| Christians and Christianity            |           5 |
-| Clinical Trials                        |           5 |
-| Colorado                               |           5 |
-| CVS Caremark Corporation               |           5 |
-| Death and Dying                        |           5 |
-| Democratic Party                       |           5 |
-| Depression (Mental)                    |           5 |
+| Keyword                                           | \# Articles |
+|:--------------------------------------------------|------------:|
+| United States Politics and Government             |          18 |
+| Books and Literature                              |          12 |
+| Railroads                                         |          12 |
+| Republican Party                                  |          12 |
+| Transit Systems                                   |          12 |
+| Airlines and Airplanes                            |           6 |
+| Amtrak                                            |           6 |
+| Austin (Tex)                                      |           6 |
+| Babies and Infants                                |           6 |
+| Baby Foods                                        |           6 |
+| Biden, Joseph R Jr                                |           6 |
+| Bigtree, Del                                      |           6 |
+| Black People                                      |           6 |
+| Brotherhood of Locomotive Engineers and Trainmen  |           6 |
+| Civilian Casualties                               |           6 |
+| Commuting                                         |           6 |
+| Content Type: Personal Profile                    |           6 |
+| Damatac, Jill                                     |           6 |
+| Defense and Military Forces                       |           6 |
+| Dirty Kitchen: A Memoir of Food and Family (Book) |           6 |
