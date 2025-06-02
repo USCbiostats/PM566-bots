@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-05-26.
+2025-06-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| United States Politics and Government    |          25 |
-| Medicaid                                 |          15 |
-| Trump, Donald J                          |          15 |
-| Health Insurance and Managed Care        |          10 |
-| House of Representatives                 |          10 |
-| Law and Legislation                      |          10 |
-| Republican Party                         |          10 |
-| Senate                                   |          10 |
-| Authoritarianism (Theory and Philosophy) |           5 |
-| Biden, Joseph R Jr                       |           5 |
-| Book Bans                                |           5 |
-| Bush, George                             |           5 |
-| Bush, George W                           |           5 |
-| Canada                                   |           5 |
-| Civilian Casualties                      |           5 |
-| Coaches (Non-Sports)                     |           5 |
-| Colleges and Universities                |           5 |
-| Compensation for Damages (Law)           |           5 |
-| Connolly, Gerald E (1950- )              |           5 |
-| CrossFit Inc                             |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Accordions                            |           5 |
+| Aint Nothin but a Polka Band          |           5 |
+| American Society of Clinical Oncology |           5 |
+| Appointments and Executive Changes    |           5 |
+| AstraZeneca PLC                       |           5 |
+| Black People                          |           5 |
+| Breast Cancer                         |           5 |
+| Campaign Finance                      |           5 |
+| Classical Music                       |           5 |
+| Clinical Trials                       |           5 |
+| Creativity                            |           5 |
+| Deaths (Fatalities)                   |           5 |
+| Deaths (Obituaries)                   |           5 |
+| Democratic Party                      |           5 |
+| Demonstrations, Protests and Riots    |           5 |
+| Drugs (Pharmaceuticals)               |           5 |
+| Elections, Governors                  |           5 |
+| Food and Drug Administration          |           5 |
+| Food Contamination and Poisoning      |           5 |
+| Georgia                               |           5 |
