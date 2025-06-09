@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-06-02.
+2025-06-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Accordions                            |           5 |
-| Aint Nothin but a Polka Band          |           5 |
-| American Society of Clinical Oncology |           5 |
-| Appointments and Executive Changes    |           5 |
-| AstraZeneca PLC                       |           5 |
-| Black People                          |           5 |
-| Breast Cancer                         |           5 |
-| Campaign Finance                      |           5 |
-| Classical Music                       |           5 |
-| Clinical Trials                       |           5 |
-| Creativity                            |           5 |
-| Deaths (Fatalities)                   |           5 |
-| Deaths (Obituaries)                   |           5 |
-| Democratic Party                      |           5 |
-| Demonstrations, Protests and Riots    |           5 |
-| Drugs (Pharmaceuticals)               |           5 |
-| Elections, Governors                  |           5 |
-| Food and Drug Administration          |           5 |
-| Food Contamination and Poisoning      |           5 |
-| Georgia                               |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| United States Politics and Government       |          20 |
+| Trump, Donald J                             |          15 |
+| Israel                                      |          10 |
+| Psychology and Psychologists                |          10 |
+| Republican Party                            |          10 |
+| Supreme Court (US)                          |          10 |
+| Age, Chronological                          |           5 |
+| American Ballet Theater                     |           5 |
+| Ames, Marlean A                             |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| Bacon, Don (1963- )                         |           5 |
+| Black People                                |           5 |
+| Bridges and Tunnels                         |           5 |
+| Brooklyn (NYC)                              |           5 |
+| Butler (Pa)                                 |           5 |
+| Child Abuse and Neglect                     |           5 |
+| Civil Rights and Liberties                  |           5 |
+| Copeland, Misty                             |           5 |
+| Corruption (Institutional)                  |           5 |
+| Crooks, Thomas Matthew (2003-24)            |           5 |
