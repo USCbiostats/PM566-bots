@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-06-09.
+2025-06-16.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| United States Politics and Government       |          20 |
-| Trump, Donald J                             |          15 |
-| Israel                                      |          10 |
-| Psychology and Psychologists                |          10 |
-| Republican Party                            |          10 |
-| Supreme Court (US)                          |          10 |
-| Age, Chronological                          |           5 |
-| American Ballet Theater                     |           5 |
-| Ames, Marlean A                             |           5 |
-| Assassinations and Attempted Assassinations |           5 |
-| Bacon, Don (1963- )                         |           5 |
-| Black People                                |           5 |
-| Bridges and Tunnels                         |           5 |
-| Brooklyn (NYC)                              |           5 |
-| Butler (Pa)                                 |           5 |
-| Child Abuse and Neglect                     |           5 |
-| Civil Rights and Liberties                  |           5 |
-| Copeland, Misty                             |           5 |
-| Corruption (Institutional)                  |           5 |
-| Crooks, Thomas Matthew (2003-24)            |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| War and Armed Conflicts                  |          15 |
+| Iran                                     |          10 |
+| Iran-Israel Proxy Conflict               |          10 |
+| Israel                                   |          10 |
+| Pregnancy and Childbirth                 |          10 |
+| Trump, Donald J                          |          10 |
+| United States                            |          10 |
+| United States Politics and Government    |          10 |
+| Women and Girls                          |          10 |
+| Women’s Rights                           |          10 |
+| Ahmedabad (India)                        |           5 |
+| Air India Flight 171                     |           5 |
+| Arms Trade                               |           5 |
+| Aviation Accidents, Safety and Disasters |           5 |
+| Babies and Infants                       |           5 |
+| Balearic Islands (Spain)                 |           5 |
+| Barcelona (Spain)                        |           5 |
+| Birth Control and Family Planning        |           5 |
+| Birth Rates                              |           5 |
+| Books and Literature                     |           5 |
