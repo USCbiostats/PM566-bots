@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-06-16.
+2025-06-23.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| War and Armed Conflicts                  |          15 |
-| Iran                                     |          10 |
-| Iran-Israel Proxy Conflict               |          10 |
-| Israel                                   |          10 |
-| Pregnancy and Childbirth                 |          10 |
-| Trump, Donald J                          |          10 |
-| United States                            |          10 |
-| United States Politics and Government    |          10 |
-| Women and Girls                          |          10 |
-| Women’s Rights                           |          10 |
-| Ahmedabad (India)                        |           5 |
-| Air India Flight 171                     |           5 |
-| Arms Trade                               |           5 |
-| Aviation Accidents, Safety and Disasters |           5 |
-| Babies and Infants                       |           5 |
-| Balearic Islands (Spain)                 |           5 |
-| Barcelona (Spain)                        |           5 |
-| Birth Control and Family Planning        |           5 |
-| Birth Rates                              |           5 |
-| Books and Literature                     |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Deaths (Fatalities)                         |          15 |
+| Israel                                      |          15 |
+| Deaths (Obituaries)                         |          10 |
+| Iran                                        |          10 |
+| Israel-Gaza War (2023- )                    |          10 |
+| Trump, Donald J                             |          10 |
+| United States                               |          10 |
+| Abdalla, Noor (1996- )                      |           5 |
+| Air Conditioning                            |           5 |
+| Arms Control and Limitation and Disarmament |           5 |
+| Brain Cancer                                |           5 |
+| Churches (Buildings)                        |           5 |
+| Civilian Casualties                         |           5 |
+| Columbia University                         |           5 |
+| Content Type: Service                       |           5 |
+| Cooking and Cookbooks                       |           5 |
+| Crosspointe Church                          |           5 |
+| Defense and Military Forces                 |           5 |
+| Delivery Services                           |           5 |
+| Demonstrations, Protests and Riots          |           5 |
