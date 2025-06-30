@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-06-23.
+2025-06-30.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Deaths (Fatalities)                         |          15 |
-| Israel                                      |          15 |
-| Deaths (Obituaries)                         |          10 |
-| Iran                                        |          10 |
-| Israel-Gaza War (2023- )                    |          10 |
-| Trump, Donald J                             |          10 |
-| United States                               |          10 |
-| Abdalla, Noor (1996- )                      |           5 |
-| Air Conditioning                            |           5 |
-| Arms Control and Limitation and Disarmament |           5 |
-| Brain Cancer                                |           5 |
-| Churches (Buildings)                        |           5 |
-| Civilian Casualties                         |           5 |
-| Columbia University                         |           5 |
-| Content Type: Service                       |           5 |
-| Cooking and Cookbooks                       |           5 |
-| Crosspointe Church                          |           5 |
-| Defense and Military Forces                 |           5 |
-| Delivery Services                           |           5 |
-| Demonstrations, Protests and Riots          |           5 |
+| Keyword                                              | \# Articles |
+|:-----------------------------------------------------|------------:|
+| United States Politics and Government                |          30 |
+| Senate                                               |          25 |
+| Federal Budget (US)                                  |          20 |
+| Trump, Donald J                                      |          20 |
+| Law and Legislation                                  |          15 |
+| Congressional Budget Office                          |          10 |
+| House of Representatives                             |          10 |
+| Republican Party                                     |          10 |
+| Addiction (Psychology)                               |           5 |
+| Anti-Semitism                                        |           5 |
+| Defense and Military Forces                          |           5 |
+| Europe                                               |           5 |
+| Evin Prison                                          |           5 |
+| Festivals                                            |           5 |
+| France                                               |           5 |
+| Glastonbury Festival of Contemporary Performing Arts |           5 |
+| Global Warming                                       |           5 |
+| Great Britain                                        |           5 |
+| Greece                                               |           5 |
+| Health Insurance and Managed Care                    |           5 |
