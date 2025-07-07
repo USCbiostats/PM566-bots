@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-06-30.
+2025-07-07.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                              | \# Articles |
-|:-----------------------------------------------------|------------:|
-| United States Politics and Government                |          30 |
-| Senate                                               |          25 |
-| Federal Budget (US)                                  |          20 |
-| Trump, Donald J                                      |          20 |
-| Law and Legislation                                  |          15 |
-| Congressional Budget Office                          |          10 |
-| House of Representatives                             |          10 |
-| Republican Party                                     |          10 |
-| Addiction (Psychology)                               |           5 |
-| Anti-Semitism                                        |           5 |
-| Defense and Military Forces                          |           5 |
-| Europe                                               |           5 |
-| Evin Prison                                          |           5 |
-| Festivals                                            |           5 |
-| France                                               |           5 |
-| Glastonbury Festival of Contemporary Performing Arts |           5 |
-| Global Warming                                       |           5 |
-| Great Britain                                        |           5 |
-| Greece                                               |           5 |
-| Health Insurance and Managed Care                    |           5 |
+| Keyword                                          | \# Articles |
+|:-------------------------------------------------|------------:|
+| Trump, Donald J                                  |          20 |
+| Law and Legislation                              |          15 |
+| United States Politics and Government            |          15 |
+| One Big Beautiful Bill Act (2025)                |          10 |
+| Pennsylvania                                     |          10 |
+| Republican Party                                 |          10 |
+| Senate                                           |          10 |
+| Tillis, Thomas R                                 |          10 |
+| United States                                    |          10 |
+| Anxiety and Stress                               |           5 |
+| Artificial Intelligence                          |           5 |
+| Australia                                        |           5 |
+| Birmingham (England)                             |           5 |
+| Bisignano, Frank J                               |           5 |
+| Black Sabbath (Music Group)                      |           5 |
+| Brain                                            |           5 |
+| Butler, Geezer                                   |           5 |
+| Center for Applied Rationality (Berkeley, Calif) |           5 |
+| Children and Childhood                           |           5 |
+| Colleges and Universities                        |           5 |
