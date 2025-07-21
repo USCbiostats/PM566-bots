@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-07-14.
+2025-07-21.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Trump, Donald J                       |          20 |
-| United States Politics and Government |          20 |
-| Developing Countries                  |          10 |
-| Doctors                               |          10 |
-| Justice Department                    |          10 |
-| Africa                                |           5 |
-| Amnesties, Commutations and Pardons   |           5 |
-| Biodiversity                          |           5 |
-| Birth Rates                           |           5 |
-| Bluesky (Social Network)              |           5 |
-| Boko Haram                            |           5 |
-| Bondi, Pamela J                       |           5 |
-| Boomtown Rats (Music Group)           |           5 |
-| Buhari, Muhammadu                     |           5 |
-| Colleges and Universities             |           5 |
-| Coronavirus (2019-nCoV)               |           5 |
-| Corruption (Institutional)            |           5 |
-| Covington & Burling                   |           5 |
-| Deaths (Obituaries)                   |           5 |
-| Defense and Military Forces           |           5 |
+| Keyword                         | \# Articles |
+|:--------------------------------|------------:|
+| internal-storyline-no           |          10 |
+| Anxiety and Stress              |           5 |
+| Arson                           |           5 |
+| Artificial Intelligence         |           5 |
+| Aspen (Colo)                    |           5 |
+| Aspen Music Festival and School |           5 |
+| audio-negative-sad              |           5 |
+| audio-negative-tragedy          |           5 |
+| audio-neutral-informative       |           5 |
+| Autism                          |           5 |
+| Baldness                        |           5 |
+| California                      |           5 |
+| Classical Music                 |           5 |
+| Colleges and Universities       |           5 |
+| Content Type: Personal Profile  |           5 |
+| Cosi Fan Tutte (Opera)          |           5 |
+| Death and Dying                 |           5 |
+| Deaths (Fatalities)             |           5 |
+| Deaths (Obituaries)             |           5 |
+| Defense and Military Forces     |           5 |
