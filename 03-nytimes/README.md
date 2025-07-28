@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-07-21.
+2025-07-28.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                         | \# Articles |
-|:--------------------------------|------------:|
-| internal-storyline-no           |          10 |
-| Anxiety and Stress              |           5 |
-| Arson                           |           5 |
-| Artificial Intelligence         |           5 |
-| Aspen (Colo)                    |           5 |
-| Aspen Music Festival and School |           5 |
-| audio-negative-sad              |           5 |
-| audio-negative-tragedy          |           5 |
-| audio-neutral-informative       |           5 |
-| Autism                          |           5 |
-| Baldness                        |           5 |
-| California                      |           5 |
-| Classical Music                 |           5 |
-| Colleges and Universities       |           5 |
-| Content Type: Personal Profile  |           5 |
-| Cosi Fan Tutte (Opera)          |           5 |
-| Death and Dying                 |           5 |
-| Deaths (Fatalities)             |           5 |
-| Deaths (Obituaries)             |           5 |
-| Defense and Military Forces     |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Gaza Strip                            |          15 |
+| Israel                                |          15 |
+| Israel-Gaza War (2023- )              |          15 |
+| Diet and Nutrition                    |          10 |
+| Famine                                |          10 |
+| Food Aid                              |          10 |
+| Proteins                              |          10 |
+| 401(k), 403(b) and 457 Plans          |           5 |
+| Advertising and Marketing             |           5 |
+| Air Pollution                         |           5 |
+| Antitrust Laws and Competition Issues |           5 |
+| Biotechnology and Bioengineering      |           5 |
+| Canada                                |           5 |
+| Children and Childhood                |           5 |
+| Chiron Corporation                    |           5 |
+| Civil Rights and Liberties            |           5 |
+| Civilian Casualties                   |           5 |
+| Colleges and Universities             |           5 |
+| Committee to Protect Journalists      |           5 |
+| Constitution (US)                     |           5 |
