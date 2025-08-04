@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-07-28.
+2025-08-04.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Gaza Strip                            |          15 |
-| Israel                                |          15 |
-| Israel-Gaza War (2023- )              |          15 |
-| Diet and Nutrition                    |          10 |
-| Famine                                |          10 |
-| Food Aid                              |          10 |
-| Proteins                              |          10 |
-| 401(k), 403(b) and 457 Plans          |           5 |
-| Advertising and Marketing             |           5 |
+| Deaths (Fatalities)                   |          10 |
+| Trump, Donald J                       |          10 |
+| United States Politics and Government |          10 |
+| War and Armed Conflicts               |          10 |
+| Abyan (Yemen)                         |           5 |
+| Accidents and Safety                  |           5 |
 | Air Pollution                         |           5 |
-| Antitrust Laws and Competition Issues |           5 |
-| Biotechnology and Bioengineering      |           5 |
-| Canada                                |           5 |
-| Children and Childhood                |           5 |
-| Chiron Corporation                    |           5 |
-| Civil Rights and Liberties            |           5 |
-| Civilian Casualties                   |           5 |
+| Anaconda (Mont)                       |           5 |
+| Andia, Tatiana (d 2025)               |           5 |
+| audio-negative-sad                    |           5 |
+| audio-neutral-informative             |           5 |
+| Becket (Mass)                         |           5 |
+| Berkshires (Mass)                     |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Bloomberg News                        |           5 |
+| Chanos, James S                       |           5 |
+| Chelsea (Manhattan, NY)               |           5 |
+| China                                 |           5 |
+| Clean Air Act                         |           5 |
 | Colleges and Universities             |           5 |
-| Committee to Protect Journalists      |           5 |
-| Constitution (US)                     |           5 |
