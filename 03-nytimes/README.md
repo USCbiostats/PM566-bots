@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-08-04.
+2025-08-11.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Deaths (Fatalities)                   |          10 |
-| Trump, Donald J                       |          10 |
-| United States Politics and Government |          10 |
-| War and Armed Conflicts               |          10 |
-| Abyan (Yemen)                         |           5 |
-| Accidents and Safety                  |           5 |
-| Air Pollution                         |           5 |
-| Anaconda (Mont)                       |           5 |
-| Andia, Tatiana (d 2025)               |           5 |
-| audio-negative-sad                    |           5 |
-| audio-neutral-informative             |           5 |
-| Becket (Mass)                         |           5 |
-| Berkshires (Mass)                     |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Bloomberg News                        |           5 |
-| Chanos, James S                       |           5 |
-| Chelsea (Manhattan, NY)               |           5 |
-| China                                 |           5 |
-| Clean Air Act                         |           5 |
-| Colleges and Universities             |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Gaza Strip                                 |          10 |
+| Hamas                                      |          10 |
+| Israel-Gaza War (2023- )                   |          10 |
+| Trump, Donald J                            |          10 |
+| Actors and Actresses                       |           5 |
+| Al Jazeera                                 |           5 |
+| Alpha Kappa Alpha                          |           5 |
+| Atlanta (Ga)                               |           5 |
+| Ben-Gvir, Itamar                           |           5 |
+| Black People                               |           5 |
+| Books and Literature                       |           5 |
+| California                                 |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Civilian Casualties                        |           5 |
+| Coronavirus (2019-nCoV)                    |           5 |
+| Crockett, Jasmine                          |           5 |
+| Deaths (Obituaries)                        |           5 |
+| Defense and Military Forces                |           5 |
+| Detransition                               |           5 |
+| Discrimination                             |           5 |
