@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-08-11.
+2025-08-18.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Gaza Strip                                 |          10 |
-| Hamas                                      |          10 |
-| Israel-Gaza War (2023- )                   |          10 |
-| Trump, Donald J                            |          10 |
-| Actors and Actresses                       |           5 |
-| Al Jazeera                                 |           5 |
-| Alpha Kappa Alpha                          |           5 |
-| Atlanta (Ga)                               |           5 |
-| Ben-Gvir, Itamar                           |           5 |
-| Black People                               |           5 |
-| Books and Literature                       |           5 |
-| California                                 |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Civilian Casualties                        |           5 |
-| Coronavirus (2019-nCoV)                    |           5 |
-| Crockett, Jasmine                          |           5 |
-| Deaths (Obituaries)                        |           5 |
-| Defense and Military Forces                |           5 |
-| Detransition                               |           5 |
-| Discrimination                             |           5 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| United States Politics and Government   |          20 |
+| International Trade and World Market    |          15 |
+| Medicine and Health                     |          15 |
+| Trump, Donald J                         |          15 |
+| United States                           |          15 |
+| Deaths (Fatalities)                     |          10 |
+| Demonstrations, Protests and Riots      |          10 |
+| Politics and Government                 |          10 |
+| Regulation and Deregulation of Industry |          10 |
+| Research                                |          10 |
+| Agriculture and Farming                 |           5 |
+| Agriculture Department                  |           5 |
+| Animal Attacks                          |           5 |
+| Arce, Luis                              |           5 |
+| Artificial Intelligence                 |           5 |
+| Banking and Financial Institutions      |           5 |
+| Biotechnology and Bioengineering        |           5 |
+| Bolivia                                 |           5 |
+| Brain                                   |           5 |
+| California                              |           5 |
