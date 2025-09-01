@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-08-25.
+2025-09-01.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                              | \# Articles |
-|:-----------------------------------------------------|------------:|
-| Trump, Donald J                                      |          15 |
-| Chicago (Ill)                                        |          10 |
-| Computers and the Internet                           |          10 |
-| Federal Bureau of Investigation                      |          10 |
-| National Guard                                       |          10 |
-| United States Politics and Government                |          10 |
-| US Federal Takeover of Metropolitan Police Dept (DC) |          10 |
-| Washington (DC)                                      |          10 |
-| Airlines and Airplanes                               |           5 |
-| Airports                                             |           5 |
-| Alternative and Renewable Energy                     |           5 |
-| Alzheimer’s Disease                                  |           5 |
-| Artificial Intelligence                              |           5 |
-| Assaults                                             |           5 |
-| Baltimore (Md)                                       |           5 |
-| Bureau of Alcohol, Tobacco, Firearms and Explosives  |           5 |
-| Cancer                                               |           5 |
-| ChatGPT                                              |           5 |
-| Constitution (US)                                    |           5 |
-| Crime and Criminals                                  |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Conservatism (US Politics)            |          10 |
+| Deaths (Fatalities)                   |          10 |
+| Gaza Strip                            |          10 |
+| Hamas                                 |          10 |
+| Israel                                |          10 |
+| Israel-Gaza War (2023- )              |          10 |
+| New York City                         |          10 |
+| United States Politics and Government |          10 |
+| Acoustics                             |           5 |
+| Agriculture Department                |           5 |
+| Assad, Bashar al-                     |           5 |
+| Avila, Jimmy                          |           5 |
+| Bars and Nightclubs                   |           5 |
+| Billa, Ardit                          |           5 |
+| Borneo (Malaysia)                     |           5 |
+| Bourdain, Anthony                     |           5 |
+| China                                 |           5 |
+| Civilian Casualties                   |           5 |
+| Clinton, Bill                         |           5 |
+| Committee to Protect Journalists      |           5 |
