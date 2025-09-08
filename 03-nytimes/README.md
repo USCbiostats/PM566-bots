@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-09-01.
+2025-09-08.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Conservatism (US Politics)            |          10 |
-| Deaths (Fatalities)                   |          10 |
-| Gaza Strip                            |          10 |
-| Hamas                                 |          10 |
-| Israel                                |          10 |
-| Israel-Gaza War (2023- )              |          10 |
-| New York City                         |          10 |
-| United States Politics and Government |          10 |
-| Acoustics                             |           5 |
-| Agriculture Department                |           5 |
-| Assad, Bashar al-                     |           5 |
-| Avila, Jimmy                          |           5 |
-| Bars and Nightclubs                   |           5 |
-| Billa, Ardit                          |           5 |
-| Borneo (Malaysia)                     |           5 |
-| Bourdain, Anthony                     |           5 |
-| China                                 |           5 |
-| Civilian Casualties                   |           5 |
-| Clinton, Bill                         |           5 |
-| Committee to Protect Journalists      |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| United States Politics and Government      |          25 |
+| Democratic Party                           |          15 |
+| Centers for Disease Control and Prevention |          10 |
+| Content Type: Personal Profile             |          10 |
+| Deaths (Obituaries)                        |          10 |
+| Drugs (Pharmaceuticals)                    |          10 |
+| Federal Budget (US)                        |          10 |
+| Kennedy, Robert F Jr                       |          10 |
+| Medicine and Health                        |          10 |
+| Presidential Power (US)                    |          10 |
+| Research                                   |          10 |
+| Trump, Donald J                            |          10 |
+| A-Frame Farm                               |           5 |
+| Acquired Immune Deficiency Syndrome        |           5 |
+| Age, Chronological                         |           5 |
+| Agriculture and Farming                    |           5 |
+| Air Pollution                              |           5 |
+| Amusement and Theme Parks                  |           5 |
+| Authoritarianism (Theory and Philosophy)   |           5 |
+| Baltimore, David (1938- )                  |           5 |
