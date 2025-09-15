@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-09-08.
+2025-09-15.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| United States Politics and Government      |          25 |
-| Democratic Party                           |          15 |
-| Centers for Disease Control and Prevention |          10 |
-| Content Type: Personal Profile             |          10 |
-| Deaths (Obituaries)                        |          10 |
-| Drugs (Pharmaceuticals)                    |          10 |
-| Federal Budget (US)                        |          10 |
-| Kennedy, Robert F Jr                       |          10 |
-| Medicine and Health                        |          10 |
-| Presidential Power (US)                    |          10 |
-| Research                                   |          10 |
-| Trump, Donald J                            |          10 |
-| A-Frame Farm                               |           5 |
-| Acquired Immune Deficiency Syndrome        |           5 |
-| Age, Chronological                         |           5 |
-| Agriculture and Farming                    |           5 |
-| Air Pollution                              |           5 |
-| Amusement and Theme Parks                  |           5 |
-| Authoritarianism (Theory and Philosophy)   |           5 |
-| Baltimore, David (1938- )                  |           5 |
+| Keyword                                 | \# Articles |
+|:----------------------------------------|------------:|
+| Artificial Intelligence                 |          10 |
+| Cancer                                  |          10 |
+| Medicine and Health                     |          10 |
+| Religion and Belief                     |          10 |
+| Research                                |          10 |
+| Trump, Donald J                         |          10 |
+| Abuse of the Disabled                   |           5 |
+| Alcoholic Beverages                     |           5 |
+| Amnesties, Commutations and Pardons     |           5 |
+| Archaeology and Anthropology            |           5 |
+| Assaults                                |           5 |
+| audio-neutral-informative               |           5 |
+| Beer                                    |           5 |
+| Bolsonaro, Jair (1955- )                |           5 |
+| Brazil                                  |           5 |
+| Children and Childhood                  |           5 |
+| Colleges and Universities               |           5 |
+| Content Type: Service                   |           5 |
+| Coups D’Etat and Attempted Coups D’Etat |           5 |
+| Da Silva, Luiz Inacio Lula              |           5 |
