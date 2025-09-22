@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-09-15.
+2025-09-22.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                 | \# Articles |
-|:----------------------------------------|------------:|
-| Artificial Intelligence                 |          10 |
-| Cancer                                  |          10 |
-| Medicine and Health                     |          10 |
-| Religion and Belief                     |          10 |
-| Research                                |          10 |
-| Trump, Donald J                         |          10 |
-| Abuse of the Disabled                   |           5 |
-| Alcoholic Beverages                     |           5 |
-| Amnesties, Commutations and Pardons     |           5 |
-| Archaeology and Anthropology            |           5 |
-| Assaults                                |           5 |
-| audio-neutral-informative               |           5 |
-| Beer                                    |           5 |
-| Bolsonaro, Jair (1955- )                |           5 |
-| Brazil                                  |           5 |
-| Children and Childhood                  |           5 |
-| Colleges and Universities               |           5 |
-| Content Type: Service                   |           5 |
-| Coups D’Etat and Attempted Coups D’Etat |           5 |
-| Da Silva, Luiz Inacio Lula              |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Kirk, Charlie (1993- )                      |          15 |
+| Trump, Donald J                             |          15 |
+| United States Politics and Government       |          15 |
+| Books and Literature                        |          10 |
+| Funerals and Memorials                      |          10 |
+| Turning Point USA                           |          10 |
+| Africa                                      |           5 |
+| Air Pollution                               |           5 |
+| Amanda (Book)                               |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| Buddhism                                    |           5 |
+| Chad                                        |           5 |
+| Christians and Christianity                 |           5 |
+| Collins, Susan M                            |           5 |
+| Conservatism (US Politics)                  |           5 |
+| Cross, H. S.                                |           5 |
+| Elder Care                                  |           5 |
+| Elderly                                     |           5 |
+| Finances                                    |           5 |
+| Foreign Aid                                 |           5 |
