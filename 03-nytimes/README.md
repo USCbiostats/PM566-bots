@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-09-22.
+2025-09-29.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                     | \# Articles |
 |:--------------------------------------------|------------:|
-| Kirk, Charlie (1993- )                      |          15 |
-| Trump, Donald J                             |          15 |
-| United States Politics and Government       |          15 |
-| Books and Literature                        |          10 |
-| Funerals and Memorials                      |          10 |
-| Turning Point USA                           |          10 |
-| Africa                                      |           5 |
-| Air Pollution                               |           5 |
-| Amanda (Book)                               |           5 |
+| Trump, Donald J                             |          30 |
+| United States Politics and Government       |          25 |
+| Republican Party                            |          15 |
+| Christians and Christianity                 |          10 |
+| Democratic Party                            |          10 |
+| Federal Budget (US)                         |          10 |
+| Government Employees                        |          10 |
+| House of Representatives                    |          10 |
+| Kirk, Charlie (1993- )                      |          10 |
+| Mass Shootings                              |          10 |
+| Right-Wing Extremism and Alt-Right          |          10 |
+| Shutdowns (Institutional)                   |          10 |
+| Adams, Phillip M (1988-2021)                |           5 |
 | Assassinations and Attempted Assassinations |           5 |
-| Buddhism                                    |           5 |
-| Chad                                        |           5 |
-| Christians and Christianity                 |           5 |
-| Collins, Susan M                            |           5 |
-| Conservatism (US Politics)                  |           5 |
-| Cross, H. S.                                |           5 |
-| Elder Care                                  |           5 |
-| Elderly                                     |           5 |
-| Finances                                    |           5 |
-| Foreign Aid                                 |           5 |
+| Atheism                                     |           5 |
+| audio-negative-sad                          |           5 |
+| audio-negative-tragedy                      |           5 |
+| audio-neutral-informative                   |           5 |
+| audio-neutral-suspenseful                   |           5 |
+| Black People                                |           5 |
