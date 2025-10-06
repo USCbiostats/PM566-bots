@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-09-29.
+2025-10-06.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Trump, Donald J                             |          30 |
-| United States Politics and Government       |          25 |
-| Republican Party                            |          15 |
-| Christians and Christianity                 |          10 |
-| Democratic Party                            |          10 |
-| Federal Budget (US)                         |          10 |
-| Government Employees                        |          10 |
-| House of Representatives                    |          10 |
-| Kirk, Charlie (1993- )                      |          10 |
-| Mass Shootings                              |          10 |
-| Right-Wing Extremism and Alt-Right          |          10 |
-| Shutdowns (Institutional)                   |          10 |
-| Adams, Phillip M (1988-2021)                |           5 |
-| Assassinations and Attempted Assassinations |           5 |
-| Atheism                                     |           5 |
-| audio-negative-sad                          |           5 |
-| audio-negative-tragedy                      |           5 |
-| audio-neutral-informative                   |           5 |
-| audio-neutral-suspenseful                   |           5 |
-| Black People                                |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Trump, Donald J                          |          25 |
+| United States Politics and Government    |          25 |
+| Democratic Party                         |          15 |
+| Republican Party                         |          15 |
+| Federal Budget (US)                      |          10 |
+| Health Insurance and Managed Care        |          10 |
+| Johnson, Mike (1972- )                   |          10 |
+| Murders, Attempted Murders and Homicides |          10 |
+| Schumer, Charles E                       |          10 |
+| Shutdowns (Institutional)                |          10 |
+| Adair, Charles (1974-2025)               |           5 |
+| Asphyxiation, Choking, and Suffocation   |           5 |
+| Canada                                   |           5 |
+| Christians and Christianity              |           5 |
+| Churches (Buildings)                     |           5 |
+| Costco Wholesale Corporation             |           5 |
+| Customs, Etiquette and Manners           |           5 |
+| Discount Selling                         |           5 |
+| Drugs (Pharmaceuticals)                  |           5 |
+| Elderly                                  |           5 |
