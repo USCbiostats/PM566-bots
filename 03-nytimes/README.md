@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-10-06.
+2025-10-13.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Trump, Donald J                          |          25 |
-| United States Politics and Government    |          25 |
-| Democratic Party                         |          15 |
-| Republican Party                         |          15 |
-| Federal Budget (US)                      |          10 |
-| Health Insurance and Managed Care        |          10 |
-| Johnson, Mike (1972- )                   |          10 |
-| Murders, Attempted Murders and Homicides |          10 |
-| Schumer, Charles E                       |          10 |
-| Shutdowns (Institutional)                |          10 |
-| Adair, Charles (1974-2025)               |           5 |
-| Asphyxiation, Choking, and Suffocation   |           5 |
-| Canada                                   |           5 |
-| Christians and Christianity              |           5 |
-| Churches (Buildings)                     |           5 |
-| Costco Wholesale Corporation             |           5 |
-| Customs, Etiquette and Manners           |           5 |
-| Discount Selling                         |           5 |
-| Drugs (Pharmaceuticals)                  |           5 |
-| Elderly                                  |           5 |
+| Keyword                        | \# Articles |
+|:-------------------------------|------------:|
+| Computers and the Internet     |          15 |
+| Israel-Gaza War (2023- )       |          15 |
+| Content Type: Personal Profile |          10 |
+| Customer Relations             |          10 |
+| Gaza Strip                     |          10 |
+| Hamas                          |          10 |
+| Israel                         |          10 |
+| Netanyahu, Benjamin            |          10 |
+| Politics and Government        |          10 |
+| Trump, Donald J                |          10 |
+| \#MeToo Movement               |           5 |
+| Advertising and Marketing      |           5 |
+| Afghanistan                    |           5 |
+| Airlines and Airplanes         |           5 |
+| Artificial Intelligence        |           5 |
+| Athletics and Sports           |           5 |
+| Australia                      |           5 |
+| Black Markets                  |           5 |
+| Censorship                     |           5 |
+| Christians and Christianity    |           5 |
