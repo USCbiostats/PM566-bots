@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-10-20.
+2025-10-27.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          15 |
-| Democratic Party                      |          10 |
-| Pop and Rock Music                    |          10 |
-| Prices (Fares, Fees and Rates)        |          10 |
-| A Complete Unknown (Movie)            |           5 |
-| Airlifts                              |           5 |
-| Alaska                                |           5 |
-| Amadeus (Movie)                       |           5 |
-| Anchorage (Alaska)                    |           5 |
-| Baseball                              |           5 |
-| Beatles, The                          |           5 |
-| Ben-Gvir, Itamar                      |           5 |
-| Bering Sea                            |           5 |
-| Campaign Finance                      |           5 |
-| Consumer Behavior                     |           5 |
-| Credit and Debt                       |           5 |
-| Deaths (Obituaries)                   |           5 |
-| Defense and Military Forces           |           5 |
-| Demonstrations, Protests and Riots    |           5 |
-| Elvis (Movie)                         |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Trump, Donald J                             |          25 |
+| United States Politics and Government       |          20 |
+| Artificial Intelligence                     |          10 |
+| Jews and Judaism                            |          10 |
+| Republican Party                            |          10 |
+| United States                               |          10 |
+| Abyssinian Baptist Church                   |           5 |
+| Advertising and Marketing                   |           5 |
+| Air Traffic Control                         |           5 |
+| American Federation of Government Employees |           5 |
+| Anglican Churches                           |           5 |
+| Argentina                                   |           5 |
+| Atlantic Council                            |           5 |
+| audio-neutral-informative                   |           5 |
+| Bacteria                                    |           5 |
+| Beyer, Donald S Jr                          |           5 |
+| Bipartisan Policy Center                    |           5 |
+| Books and Literature                        |           5 |
+| Bragg, Alvin                                |           5 |
+| Capital Area Food Bank (Washington, DC)     |           5 |
