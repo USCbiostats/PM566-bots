@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-10-27.
+2025-11-03.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Trump, Donald J                             |          25 |
-| United States Politics and Government       |          20 |
-| Artificial Intelligence                     |          10 |
-| Jews and Judaism                            |          10 |
-| Republican Party                            |          10 |
-| United States                               |          10 |
-| Abyssinian Baptist Church                   |           5 |
-| Advertising and Marketing                   |           5 |
-| Air Traffic Control                         |           5 |
-| American Federation of Government Employees |           5 |
-| Anglican Churches                           |           5 |
-| Argentina                                   |           5 |
-| Atlantic Council                            |           5 |
-| audio-neutral-informative                   |           5 |
-| Bacteria                                    |           5 |
-| Beyer, Donald S Jr                          |           5 |
-| Bipartisan Policy Center                    |           5 |
-| Books and Literature                        |           5 |
-| Bragg, Alvin                                |           5 |
-| Capital Area Food Bank (Washington, DC)     |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Content Type: Personal Profile        |          10 |
+| New Jersey                            |          10 |
+| Trump, Donald J                       |          10 |
+| United States Politics and Government |          10 |
+| Virginia                              |          10 |
+| Agriculture Department                |           5 |
+| BeautyStat LLC                        |           5 |
+| Bell Gardens (Calif)                  |           5 |
+| Bieber, Hailey                        |           5 |
+| California                            |           5 |
+| Chemistry                             |           5 |
+| Ciattarelli, Jack M                   |           5 |
+| Comedy and Humor                      |           5 |
+| Cosmetics and Toiletries              |           5 |
+| Drugs (Pharmaceuticals)               |           5 |
+| Earle-Sears, Winsome                  |           5 |
+| Elections                             |           5 |
+| Elma (NY)                             |           5 |
+| Fashion and Apparel                   |           5 |
+| Federal Aid (US)                      |           5 |
