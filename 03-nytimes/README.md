@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-11-03.
+2025-11-10.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Content Type: Personal Profile        |          10 |
-| New Jersey                            |          10 |
-| Trump, Donald J                       |          10 |
-| United States Politics and Government |          10 |
-| Virginia                              |          10 |
-| Agriculture Department                |           5 |
-| BeautyStat LLC                        |           5 |
-| Bell Gardens (Calif)                  |           5 |
-| Bieber, Hailey                        |           5 |
-| California                            |           5 |
-| Chemistry                             |           5 |
-| Ciattarelli, Jack M                   |           5 |
-| Comedy and Humor                      |           5 |
-| Cosmetics and Toiletries              |           5 |
-| Drugs (Pharmaceuticals)               |           5 |
-| Earle-Sears, Winsome                  |           5 |
-| Elections                             |           5 |
-| Elma (NY)                             |           5 |
-| Fashion and Apparel                   |           5 |
-| Federal Aid (US)                      |           5 |
+| Keyword                                           | \# Articles |
+|:--------------------------------------------------|------------:|
+| Shutdowns (Institutional)                         |          15 |
+| Trump, Donald J                                   |          15 |
+| United States Politics and Government             |          15 |
+| Democratic Party                                  |          10 |
+| Patient Protection and Affordable Care Act (2010) |          10 |
+| Senate                                            |          10 |
+| United States                                     |          10 |
+| Addiction (Psychology)                            |           5 |
+| Age, Chronological                                |           5 |
+| Agriculture Department                            |           5 |
+| Air Traffic Control                               |           5 |
+| Airlines and Airplanes                            |           5 |
+| Airlines for America                              |           5 |
+| Airports                                          |           5 |
+| Alaska                                            |           5 |
+| Art                                               |           5 |
+| Arts and Antiquities Looting                      |           5 |
+| Athletics and Sports                              |           5 |
+| Babies and Infants                                |           5 |
+| Beef                                              |           5 |
