@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-11-10.
+2025-11-17.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                           | \# Articles |
-|:--------------------------------------------------|------------:|
-| Shutdowns (Institutional)                         |          15 |
-| Trump, Donald J                                   |          15 |
-| United States Politics and Government             |          15 |
-| Democratic Party                                  |          10 |
-| Patient Protection and Affordable Care Act (2010) |          10 |
-| Senate                                            |          10 |
-| United States                                     |          10 |
-| Addiction (Psychology)                            |           5 |
-| Age, Chronological                                |           5 |
-| Agriculture Department                            |           5 |
-| Air Traffic Control                               |           5 |
-| Airlines and Airplanes                            |           5 |
-| Airlines for America                              |           5 |
-| Airports                                          |           5 |
-| Alaska                                            |           5 |
-| Art                                               |           5 |
-| Arts and Antiquities Looting                      |           5 |
-| Athletics and Sports                              |           5 |
-| Babies and Infants                                |           5 |
-| Beef                                              |           5 |
+| Keyword                                               | \# Articles |
+|:------------------------------------------------------|------------:|
+| Artificial Intelligence                               |          10 |
+| ChatGPT                                               |          10 |
+| United Nations Framework Convention on Climate Change |          10 |
+| Women and Girls                                       |          10 |
+| Adams, Eric L                                         |           5 |
+| Addyi (Drug)                                          |           5 |
+| Alternative and Renewable Energy                      |           5 |
+| Amazon Jungle                                         |           5 |
+| Belgrade (Serbia)                                     |           5 |
+| Brazil                                                |           5 |
+| Children and Childhood                                |           5 |
+| Cold and Cold Spells                                  |           5 |
+| Corruption (Institutional)                            |           5 |
+| Crime and Criminals                                   |           5 |
+| de Blasio, Bill                                       |           5 |
+| Defense and Military Forces                           |           5 |
+| Demonstrations, Protests and Riots                    |           5 |
+| Detectives Endowment Assn                             |           5 |
+| Doctors                                               |           5 |
+| Drug Abuse and Traffic                                |           5 |
