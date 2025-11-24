@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-11-17.
+2025-11-24.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                               | \# Articles |
-|:------------------------------------------------------|------------:|
-| Artificial Intelligence                               |          10 |
-| ChatGPT                                               |          10 |
-| United Nations Framework Convention on Climate Change |          10 |
-| Women and Girls                                       |          10 |
-| Adams, Eric L                                         |           5 |
-| Addyi (Drug)                                          |           5 |
-| Alternative and Renewable Energy                      |           5 |
-| Amazon Jungle                                         |           5 |
-| Belgrade (Serbia)                                     |           5 |
-| Brazil                                                |           5 |
-| Children and Childhood                                |           5 |
-| Cold and Cold Spells                                  |           5 |
-| Corruption (Institutional)                            |           5 |
-| Crime and Criminals                                   |           5 |
-| de Blasio, Bill                                       |           5 |
-| Defense and Military Forces                           |           5 |
-| Demonstrations, Protests and Riots                    |           5 |
-| Detectives Endowment Assn                             |           5 |
-| Doctors                                               |           5 |
-| Drug Abuse and Traffic                                |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Israel                                      |          10 |
+| Israel-Gaza War (2023- )                    |          10 |
+| Altman, Samuel H                            |           5 |
+| Anthropic AI LLC                            |           5 |
+| Aoun, Joseph (1964- )                       |           5 |
+| Artificial Intelligence                     |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| Asylum, Right of                            |           5 |
+| Babies and Infants                          |           5 |
+| Beatles, The                                |           5 |
+| Becerra, Xavier                             |           5 |
+| Beirut (Lebanon)                            |           5 |
+| Bolsonaro, Jair (1955- )                    |           5 |
+| Brazil                                      |           5 |
+| ChatGPT                                     |           5 |
+| Child Abuse and Neglect                     |           5 |
+| Childish Gambino                            |           5 |
+| Children and Childhood                      |           5 |
+| Content Type: Personal Profile              |           5 |
+| Coups D’Etat and Attempted Coups D’Etat     |           5 |
