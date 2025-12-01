@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-11-24.
+2025-12-01.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                     | \# Articles |
 |:--------------------------------------------|------------:|
-| Israel                                      |          10 |
-| Israel-Gaza War (2023- )                    |          10 |
-| Altman, Samuel H                            |           5 |
-| Anthropic AI LLC                            |           5 |
-| Aoun, Joseph (1964- )                       |           5 |
-| Artificial Intelligence                     |           5 |
-| Assassinations and Attempted Assassinations |           5 |
-| Asylum, Right of                            |           5 |
-| Babies and Infants                          |           5 |
-| Beatles, The                                |           5 |
-| Becerra, Xavier                             |           5 |
-| Beirut (Lebanon)                            |           5 |
-| Bolsonaro, Jair (1955- )                    |           5 |
-| Brazil                                      |           5 |
-| ChatGPT                                     |           5 |
-| Child Abuse and Neglect                     |           5 |
-| Childish Gambino                            |           5 |
-| Children and Childhood                      |           5 |
-| Content Type: Personal Profile              |           5 |
-| Coups D’Etat and Attempted Coups D’Etat     |           5 |
+| Electric Bicycles, Motorcycles and Scooters |          10 |
+| New York City                               |          10 |
+| Air Pollution                               |           5 |
+| Anger (Emotion)                             |           5 |
+| Appointments and Executive Changes          |           5 |
+| Aura farming                                |           5 |
+| Beijing (China)                             |           5 |
+| Bicycles and Bicycling                      |           5 |
+| biohacking                                  |           5 |
+| Buddhism                                    |           5 |
+| California                                  |           5 |
+| Casper Grathwohl                            |           5 |
+| Christians and Christianity                 |           5 |
+| Christmas                                   |           5 |
+| Civil Rights and Liberties                  |           5 |
+| Consumer Product Safety Commission          |           5 |
+| Consumer Protection                         |           5 |
+| Dating and Relationships                    |           5 |
+| Deaths (Obituaries)                         |           5 |
+| Defense and Military Forces                 |           5 |
