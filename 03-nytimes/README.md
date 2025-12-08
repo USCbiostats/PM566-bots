@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-12-01.
+2025-12-08.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Electric Bicycles, Motorcycles and Scooters |          10 |
-| New York City                               |          10 |
-| Air Pollution                               |           5 |
-| Anger (Emotion)                             |           5 |
-| Appointments and Executive Changes          |           5 |
-| Aura farming                                |           5 |
-| Beijing (China)                             |           5 |
-| Bicycles and Bicycling                      |           5 |
-| biohacking                                  |           5 |
-| Buddhism                                    |           5 |
-| California                                  |           5 |
-| Casper Grathwohl                            |           5 |
-| Christians and Christianity                 |           5 |
-| Christmas                                   |           5 |
-| Civil Rights and Liberties                  |           5 |
-| Consumer Product Safety Commission          |           5 |
-| Consumer Protection                         |           5 |
-| Dating and Relationships                    |           5 |
-| Deaths (Obituaries)                         |           5 |
-| Defense and Military Forces                 |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| United States Politics and Government      |          25 |
+| Cost of Living and Affordability           |          10 |
+| Decisions and Verdicts                     |          10 |
+| Regulation and Deregulation of Industry    |          10 |
+| Supreme Court (US)                         |          10 |
+| Trump, Donald J                            |          10 |
+| Abortion                                   |           5 |
+| Age, Chronological                         |           5 |
+| American Academy of Pediatrics             |           5 |
+| Appointments and Executive Changes         |           5 |
+| Artificial Intelligence                    |           5 |
+| Asylum, Right of                           |           5 |
+| audio-neutral-informative                  |           5 |
+| Biden, Joseph R Jr                         |           5 |
+| Border Barriers                            |           5 |
+| Border Patrol (US)                         |           5 |
+| Brooks, David                              |           5 |
+| Carbondale (Ill)                           |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Central Intelligence Agency                |           5 |
