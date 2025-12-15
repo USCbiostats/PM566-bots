@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-12-08.
+2025-12-15.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| United States Politics and Government      |          25 |
-| Cost of Living and Affordability           |          10 |
-| Decisions and Verdicts                     |          10 |
-| Regulation and Deregulation of Industry    |          10 |
-| Supreme Court (US)                         |          10 |
-| Trump, Donald J                            |          10 |
-| Abortion                                   |           5 |
-| Age, Chronological                         |           5 |
-| American Academy of Pediatrics             |           5 |
-| Appointments and Executive Changes         |           5 |
-| Artificial Intelligence                    |           5 |
-| Asylum, Right of                           |           5 |
-| audio-neutral-informative                  |           5 |
-| Biden, Joseph R Jr                         |           5 |
-| Border Barriers                            |           5 |
-| Border Patrol (US)                         |           5 |
-| Brooks, David                              |           5 |
-| Carbondale (Ill)                           |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Central Intelligence Agency                |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| International Relations                  |          10 |
+| Parenting                                |          10 |
+| United Nations                           |          10 |
+| United States Politics and Government    |          10 |
+| Affordable Housing                       |           5 |
+| Anton, Michael (1970- )                  |           5 |
+| Apple Daily                              |           5 |
+| Area Planning and Renewal                |           5 |
+| Arroyo, Quemuel                          |           5 |
+| Building (Construction)                  |           5 |
+| Child Abuse and Neglect                  |           5 |
+| Children and Childhood                   |           5 |
+| China                                    |           5 |
+| Christians and Christianity              |           5 |
+| Clinton, Bill                            |           5 |
+| Clinton, Hillary Rodham                  |           5 |
+| Clubhouse (Mobile App)                   |           5 |
+| Coalition for Responsible Home Education |           5 |
+| Content Type: Personal Profile           |           5 |
+| Cost of Living and Affordability         |           5 |
