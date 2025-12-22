@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-12-15.
+2025-12-22.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| International Relations                  |          10 |
-| Parenting                                |          10 |
-| United Nations                           |          10 |
-| United States Politics and Government    |          10 |
-| Affordable Housing                       |           5 |
-| Anton, Michael (1970- )                  |           5 |
-| Apple Daily                              |           5 |
-| Area Planning and Renewal                |           5 |
-| Arroyo, Quemuel                          |           5 |
-| Building (Construction)                  |           5 |
-| Child Abuse and Neglect                  |           5 |
-| Children and Childhood                   |           5 |
-| China                                    |           5 |
-| Christians and Christianity              |           5 |
-| Clinton, Bill                            |           5 |
-| Clinton, Hillary Rodham                  |           5 |
-| Clubhouse (Mobile App)                   |           5 |
-| Coalition for Responsible Home Education |           5 |
-| Content Type: Personal Profile           |           5 |
-| Cost of Living and Affordability         |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| Health Insurance and Managed Care           |          15 |
+| New York City                               |          10 |
+| Psychology and Psychologists                |          10 |
+| Research                                    |          10 |
+| 3-D Printers                                |           5 |
+| Air Traffic Control                         |           5 |
+| Airbus Industrie                            |           5 |
+| Airlines and Airplanes                      |           5 |
+| Airports                                    |           5 |
+| Altoona (Pa)                                |           5 |
+| American Airlines                           |           5 |
+| Anxiety and Stress                          |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| audio-neutral-immersive                     |           5 |
+| audio-neutral-informative                   |           5 |
+| Backpacks                                   |           5 |
+| Bathrooms and Toilets                       |           5 |
+| Brain                                       |           5 |
+| California                                  |           5 |
+| Carro, Gregory                              |           5 |
