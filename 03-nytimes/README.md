@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-12-22.
+2025-12-29.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                     | \# Articles |
-|:--------------------------------------------|------------:|
-| Health Insurance and Managed Care           |          15 |
-| New York City                               |          10 |
-| Psychology and Psychologists                |          10 |
-| Research                                    |          10 |
-| 3-D Printers                                |           5 |
-| Air Traffic Control                         |           5 |
-| Airbus Industrie                            |           5 |
-| Airlines and Airplanes                      |           5 |
-| Airports                                    |           5 |
-| Altoona (Pa)                                |           5 |
-| American Airlines                           |           5 |
-| Anxiety and Stress                          |           5 |
-| Assassinations and Attempted Assassinations |           5 |
-| audio-neutral-immersive                     |           5 |
-| audio-neutral-informative                   |           5 |
-| Backpacks                                   |           5 |
-| Bathrooms and Toilets                       |           5 |
-| Brain                                       |           5 |
-| California                                  |           5 |
-| Carro, Gregory                              |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Social Media                               |          10 |
+| Trump, Donald J                            |          10 |
+| Two Thousand Twenty Five                   |          10 |
+| United States                              |          10 |
+| United States International Relations      |          10 |
+| United States Politics and Government      |          10 |
+| Atlantic Council                           |           5 |
+| Aung San Suu Kyi                           |           5 |
+| Autism                                     |           5 |
+| Books and Literature                       |           5 |
+| Cameroon                                   |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Children and Childhood                     |           5 |
+| Cocaine and Crack Cocaine                  |           5 |
+| Colombia                                   |           5 |
+| Conservation of Resources                  |           5 |
+| Defoliants and Herbicides                  |           5 |
+| Democracy (Theory and Philosophy)          |           5 |
+| Drug Abuse and Traffic                     |           5 |
+| Drugs (Pharmaceuticals)                    |           5 |
