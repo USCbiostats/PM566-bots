@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2025-12-29.
+2026-01-05.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Social Media                               |          10 |
-| Trump, Donald J                            |          10 |
-| Two Thousand Twenty Five                   |          10 |
-| United States                              |          10 |
-| United States International Relations      |          10 |
-| United States Politics and Government      |          10 |
-| Atlantic Council                           |           5 |
-| Aung San Suu Kyi                           |           5 |
-| Autism                                     |           5 |
-| Books and Literature                       |           5 |
-| Cameroon                                   |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Children and Childhood                     |           5 |
-| Cocaine and Crack Cocaine                  |           5 |
-| Colombia                                   |           5 |
-| Conservation of Resources                  |           5 |
-| Defoliants and Herbicides                  |           5 |
-| Democracy (Theory and Philosophy)          |           5 |
-| Drug Abuse and Traffic                     |           5 |
-| Drugs (Pharmaceuticals)                    |           5 |
+| Keyword                                   | \# Articles |
+|:------------------------------------------|------------:|
+| Trump, Donald J                           |          25 |
+| Maduro, Nicolas                           |          20 |
+| US-Venezuela Conflict (2025- )            |          20 |
+| Venezuela                                 |          15 |
+| International Relations                   |          10 |
+| United States Defense and Military Forces |          10 |
+| United States International Relations     |          10 |
+| United States Politics and Government     |          10 |
+| Actors and Actresses                      |           5 |
+| Animal Behavior                           |           5 |
+| Animals                                   |           5 |
+| Bannon, Stephen K                         |           5 |
+| Bats                                      |           5 |
+| Buttigieg, Pete (1982- )                  |           5 |
+| Caracas (Venezuela)                       |           5 |
+| Chavez, Hugo                              |           5 |
+| Content Type: Personal Profile            |           5 |
+| Cooking and Cookbooks                     |           5 |
+| Death and Dying                           |           5 |
+| Democratic Party                          |           5 |
