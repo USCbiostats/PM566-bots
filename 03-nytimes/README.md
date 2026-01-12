@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-01-05.
+2026-01-12.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                   | \# Articles |
-|:------------------------------------------|------------:|
-| Trump, Donald J                           |          25 |
-| Maduro, Nicolas                           |          20 |
-| US-Venezuela Conflict (2025- )            |          20 |
-| Venezuela                                 |          15 |
-| International Relations                   |          10 |
-| United States Defense and Military Forces |          10 |
-| United States International Relations     |          10 |
-| United States Politics and Government     |          10 |
-| Actors and Actresses                      |           5 |
-| Animal Behavior                           |           5 |
-| Animals                                   |           5 |
-| Bannon, Stephen K                         |           5 |
-| Bats                                      |           5 |
-| Buttigieg, Pete (1982- )                  |           5 |
-| Caracas (Venezuela)                       |           5 |
-| Chavez, Hugo                              |           5 |
-| Content Type: Personal Profile            |           5 |
-| Cooking and Cookbooks                     |           5 |
-| Death and Dying                           |           5 |
-| Democratic Party                          |           5 |
+| Keyword                                           | \# Articles |
+|:--------------------------------------------------|------------:|
+| Trump, Donald J                                   |          15 |
+| Deaths (Obituaries)                               |          10 |
+| Demonstrations, Protests and Riots                |          10 |
+| High Net Worth Individuals                        |          10 |
+| Immigration and Customs Enforcement (US)          |          10 |
+| Taxation                                          |          10 |
+| United States Politics and Government             |          10 |
+| ACT, Inc                                          |           5 |
+| Adichie, Chimamanda Ngozi                         |           5 |
+| al-Shara, Ahmed (Abu Mohammad al-Jolani) (1982- ) |           5 |
+| Alaska                                            |           5 |
+| Aleppo (Syria)                                    |           5 |
+| Alzheimer’s Disease                               |           5 |
+| Anesthesia and Anesthetics                        |           5 |
+| Artificial Intelligence                           |           5 |
+| Business Roundtable                               |           5 |
+| California                                        |           5 |
+| Campaign Finance                                  |           5 |
+| Children and Childhood                            |           5 |
+| Codey, Richard J                                  |           5 |
