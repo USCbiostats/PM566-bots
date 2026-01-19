@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-01-12.
+2026-01-19.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                           | \# Articles |
-|:--------------------------------------------------|------------:|
-| Trump, Donald J                                   |          15 |
-| Deaths (Obituaries)                               |          10 |
-| Demonstrations, Protests and Riots                |          10 |
-| High Net Worth Individuals                        |          10 |
-| Immigration and Customs Enforcement (US)          |          10 |
-| Taxation                                          |          10 |
-| United States Politics and Government             |          10 |
-| ACT, Inc                                          |           5 |
-| Adichie, Chimamanda Ngozi                         |           5 |
-| al-Shara, Ahmed (Abu Mohammad al-Jolani) (1982- ) |           5 |
-| Alaska                                            |           5 |
-| Aleppo (Syria)                                    |           5 |
-| Alzheimer’s Disease                               |           5 |
-| Anesthesia and Anesthetics                        |           5 |
-| Artificial Intelligence                           |           5 |
-| Business Roundtable                               |           5 |
-| California                                        |           5 |
-| Campaign Finance                                  |           5 |
-| Children and Childhood                            |           5 |
-| Codey, Richard J                                  |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Content Type: Personal Profile           |          10 |
+| European Union                           |          10 |
+| Greenland                                |          10 |
+| Immigration and Customs Enforcement (US) |          10 |
+| Republican Party                         |          10 |
+| Saunas and Sweat Lodges                  |          10 |
+| Trump, Donald J                          |          10 |
+| United States International Relations    |          10 |
+| United States Politics and Government    |          10 |
+| AARP                                     |           5 |
+| Adams, Eric L                            |           5 |
+| Agriculture and Farming                  |           5 |
+| American Journalism Project              |           5 |
+| Aspen (Colo)                             |           5 |
+| Baltimore (Md)                           |           5 |
+| Baltimore Banner, The (Newspaper)        |           5 |
+| Banking and Financial Institutions       |           5 |
+| Bathing Suits and Swimwear               |           5 |
+| Booker, Cory A                           |           5 |
+| Buttigieg, Pete (1982- )                 |           5 |
