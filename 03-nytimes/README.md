@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-01-19.
+2026-01-26.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Content Type: Personal Profile           |          10 |
-| European Union                           |          10 |
-| Greenland                                |          10 |
-| Immigration and Customs Enforcement (US) |          10 |
-| Republican Party                         |          10 |
-| Saunas and Sweat Lodges                  |          10 |
-| Trump, Donald J                          |          10 |
-| United States International Relations    |          10 |
-| United States Politics and Government    |          10 |
-| AARP                                     |           5 |
-| Adams, Eric L                            |           5 |
-| Agriculture and Farming                  |           5 |
-| American Journalism Project              |           5 |
-| Aspen (Colo)                             |           5 |
-| Baltimore (Md)                           |           5 |
-| Baltimore Banner, The (Newspaper)        |           5 |
-| Banking and Financial Institutions       |           5 |
-| Bathing Suits and Swimwear               |           5 |
-| Booker, Cory A                           |           5 |
-| Buttigieg, Pete (1982- )                 |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| United States Politics and Government      |          20 |
+| Deaths (Obituaries)                        |          10 |
+| Trump, Donald J                            |          10 |
+| Acquired Immune Deficiency Syndrome        |           5 |
+| Africa                                     |           5 |
+| Anti-Semitism                              |           5 |
+| Appointments and Executive Changes         |           5 |
+| Armstrong, Katrina A                       |           5 |
+| Artificial Intelligence                    |           5 |
+| Beverages                                  |           5 |
+| Boards of Directors                        |           5 |
+| Bollinger, Lee C                           |           5 |
+| Books and Literature                       |           5 |
+| Britt, Katie (1982- )                      |           5 |
+| Building (Construction)                    |           5 |
+| Cannabis Foods and Products                |           5 |
+| Carter Center                              |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Colleges and Universities                  |           5 |
+| Columbia University                        |           5 |
