@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-01-26.
+2026-02-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| United States Politics and Government      |          20 |
-| Deaths (Obituaries)                        |          10 |
-| Trump, Donald J                            |          10 |
-| Acquired Immune Deficiency Syndrome        |           5 |
-| Africa                                     |           5 |
-| Anti-Semitism                              |           5 |
-| Appointments and Executive Changes         |           5 |
-| Armstrong, Katrina A                       |           5 |
-| Artificial Intelligence                    |           5 |
-| Beverages                                  |           5 |
-| Boards of Directors                        |           5 |
-| Bollinger, Lee C                           |           5 |
-| Books and Literature                       |           5 |
-| Britt, Katie (1982- )                      |           5 |
-| Building (Construction)                    |           5 |
-| Cannabis Foods and Products                |           5 |
-| Carter Center                              |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Colleges and Universities                  |           5 |
-| Columbia University                        |           5 |
+| Keyword                                          | \# Articles |
+|:-------------------------------------------------|------------:|
+| Defense and Military Forces                      |          15 |
+| War Crimes, Genocide and Crimes Against Humanity |          15 |
+| Egypt                                            |          10 |
+| Illegal Immigration                              |          10 |
+| Immigration and Customs Enforcement (US)         |          10 |
+| International Relations                          |          10 |
+| Trump, Donald J                                  |          10 |
+| United States International Relations            |          10 |
+| Africa                                           |           5 |
+| Agriculture and Farming                          |           5 |
+| Boko Haram                                       |           5 |
+| Bombs and Explosives                             |           5 |
+| Breastfeeding                                    |           5 |
+| Bukele, Nayib                                    |           5 |
+| Central America                                  |           5 |
+| Chad                                             |           5 |
+| Chaves, Rodrigo                                  |           5 |
+| Children and Childhood                           |           5 |
+| Christians and Christianity                      |           5 |
+| Civilian Casualties                              |           5 |
