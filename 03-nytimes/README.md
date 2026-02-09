@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-02-02.
+2026-02-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                          | \# Articles |
-|:-------------------------------------------------|------------:|
-| Defense and Military Forces                      |          15 |
-| War Crimes, Genocide and Crimes Against Humanity |          15 |
-| Egypt                                            |          10 |
-| Illegal Immigration                              |          10 |
-| Immigration and Customs Enforcement (US)         |          10 |
-| International Relations                          |          10 |
-| Trump, Donald J                                  |          10 |
-| United States International Relations            |          10 |
-| Africa                                           |           5 |
-| Agriculture and Farming                          |           5 |
-| Boko Haram                                       |           5 |
-| Bombs and Explosives                             |           5 |
-| Breastfeeding                                    |           5 |
-| Bukele, Nayib                                    |           5 |
-| Central America                                  |           5 |
-| Chad                                             |           5 |
-| Chaves, Rodrigo                                  |           5 |
-| Children and Childhood                           |           5 |
-| Christians and Christianity                      |           5 |
-| Civilian Casualties                              |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Artificial Intelligence                    |          27 |
+| Content Type: Service                      |          18 |
+| Families and Family Life                   |          18 |
+| United States Politics and Government      |          18 |
+| 401(k), 403(b) and 457 Plans               |           9 |
+| Actors and Actresses                       |           9 |
+| Addiction (Psychology)                     |           9 |
+| Band, Douglas J                            |           9 |
+| Centers for Disease Control and Prevention |           9 |
+| ChatGPT                                    |           9 |
+| Cleveland (Ohio)                           |           9 |
+| Clinton Global Initiative                  |           9 |
+| Clinton, Bill                              |           9 |
+| Clinton, Hillary Rodham                    |           9 |
+| Content Type: Personal Profile             |           9 |
+| Contra Costa County (Calif)                |           9 |
+| Deaths (Fatalities)                        |           9 |
+| Democratic Party                           |           9 |
+| DeWine, Mike                               |           9 |
+| Eisenberg, Deborah                         |           9 |
