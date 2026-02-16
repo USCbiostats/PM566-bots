@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-02-09.
+2026-02-16.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                    | \# Articles |
-|:-------------------------------------------|------------:|
-| Artificial Intelligence                    |          27 |
-| Content Type: Service                      |          18 |
-| Families and Family Life                   |          18 |
-| United States Politics and Government      |          18 |
-| 401(k), 403(b) and 457 Plans               |           9 |
-| Actors and Actresses                       |           9 |
-| Addiction (Psychology)                     |           9 |
-| Band, Douglas J                            |           9 |
-| Centers for Disease Control and Prevention |           9 |
-| ChatGPT                                    |           9 |
-| Cleveland (Ohio)                           |           9 |
-| Clinton Global Initiative                  |           9 |
-| Clinton, Bill                              |           9 |
-| Clinton, Hillary Rodham                    |           9 |
-| Content Type: Personal Profile             |           9 |
-| Contra Costa County (Calif)                |           9 |
-| Deaths (Fatalities)                        |           9 |
-| Democratic Party                           |           9 |
-| DeWine, Mike                               |           9 |
-| Eisenberg, Deborah                         |           9 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Parenting                                |          10 |
+| Trump, Donald J                          |          10 |
+| United States Politics and Government    |          10 |
+| Advertising and Marketing                |           5 |
+| Artificial Intelligence                  |           5 |
+| Australia                                |           5 |
+| Authoritarianism (Theory and Philosophy) |           5 |
+| Automobiles                              |           5 |
+| Babies and Infants                       |           5 |
+| Beaches                                  |           5 |
+| Between the Lines (Play)                 |           5 |
+| Black Markets                            |           5 |
+| Breastfeeding                            |           5 |
+| BroadwayHD                               |           5 |
+| Children and Childhood                   |           5 |
+| Computers and the Internet               |           5 |
+| Crooked Cross (Play)                     |           5 |
+| Customs and Border Protection (US)       |           5 |
+| Deportation                              |           5 |
+| Diet and Nutrition                       |           5 |
