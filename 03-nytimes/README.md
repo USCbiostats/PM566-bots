@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-02-16.
+2026-02-23.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Parenting                                |          10 |
-| Trump, Donald J                          |          10 |
-| United States Politics and Government    |          10 |
-| Advertising and Marketing                |           5 |
-| Artificial Intelligence                  |           5 |
-| Australia                                |           5 |
-| Authoritarianism (Theory and Philosophy) |           5 |
-| Automobiles                              |           5 |
-| Babies and Infants                       |           5 |
-| Beaches                                  |           5 |
-| Between the Lines (Play)                 |           5 |
-| Black Markets                            |           5 |
-| Breastfeeding                            |           5 |
-| BroadwayHD                               |           5 |
-| Children and Childhood                   |           5 |
-| Computers and the Internet               |           5 |
-| Crooked Cross (Play)                     |           5 |
-| Customs and Border Protection (US)       |           5 |
-| Deportation                              |           5 |
-| Diet and Nutrition                       |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Trump, Donald J                       |          15 |
+| Politics and Government               |          10 |
+| Strikes                               |          10 |
+| United States Politics and Government |          10 |
+| Alberta (Canada)                      |           5 |
+| Anno, Takahiro                        |           5 |
+| Anxiety and Stress                    |           5 |
+| Artificial Intelligence               |           5 |
+| Civilian Casualties                   |           5 |
+| Computers and the Internet            |           5 |
+| Defense and Military Forces           |           5 |
+| Denmark                               |           5 |
+| Depression (Mental)                   |           5 |
+| Dnipro River (Ukraine)                |           5 |
+| Doctors                               |           5 |
+| Domestic Violence                     |           5 |
+| Drones (Pilotless Planes)             |           5 |
+| Elections                             |           5 |
+| Engineering and Engineers             |           5 |
+| Family Leaves                         |           5 |
