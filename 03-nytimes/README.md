@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-02-23.
+2026-03-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Trump, Donald J                       |          15 |
-| Politics and Government               |          10 |
-| Strikes                               |          10 |
-| United States Politics and Government |          10 |
-| Alberta (Canada)                      |           5 |
-| Anno, Takahiro                        |           5 |
-| Anxiety and Stress                    |           5 |
-| Artificial Intelligence               |           5 |
-| Civilian Casualties                   |           5 |
-| Computers and the Internet            |           5 |
-| Defense and Military Forces           |           5 |
-| Denmark                               |           5 |
-| Depression (Mental)                   |           5 |
-| Dnipro River (Ukraine)                |           5 |
-| Doctors                               |           5 |
-| Domestic Violence                     |           5 |
-| Drones (Pilotless Planes)             |           5 |
-| Elections                             |           5 |
-| Engineering and Engineers             |           5 |
-| Family Leaves                         |           5 |
+| Keyword                                   | \# Articles |
+|:------------------------------------------|------------:|
+| Iran                                      |          25 |
+| US and Israeli Attack on Iran (2026)      |          20 |
+| Politics and Government                   |          15 |
+| Deaths (Fatalities)                       |          10 |
+| Demonstrations, Protests and Riots        |          10 |
+| Israel                                    |          10 |
+| Khamenei, Ali                             |          10 |
+| Middle East                               |          10 |
+| United States International Relations     |          10 |
+| Apple Inc                                 |           5 |
+| Artificial Intelligence                   |           5 |
+| Audio Recordings, Downloads and Streaming |           5 |
+| audio-neutral-immersive                   |           5 |
+| audio-neutral-informative                 |           5 |
+| audio-positive-escape                     |           5 |
+| Brain                                     |           5 |
+| California                                |           5 |
+| Castro, Fidel                             |           5 |
+| Castro, Raul                              |           5 |
+| Civilian Casualties                       |           5 |
