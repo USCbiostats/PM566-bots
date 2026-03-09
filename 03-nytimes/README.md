@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-03-02.
+2026-03-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                   | \# Articles |
 |:------------------------------------------|------------:|
-| Iran                                      |          25 |
-| US and Israeli Attack on Iran (2026)      |          20 |
-| Politics and Government                   |          15 |
+| US and Israeli Attack on Iran (2026)      |          30 |
+| Israel                                    |          15 |
+| United States Politics and Government     |          15 |
 | Deaths (Fatalities)                       |          10 |
-| Demonstrations, Protests and Riots        |          10 |
-| Israel                                    |          10 |
-| Khamenei, Ali                             |          10 |
-| Middle East                               |          10 |
-| United States International Relations     |          10 |
-| Apple Inc                                 |           5 |
-| Artificial Intelligence                   |           5 |
-| Audio Recordings, Downloads and Streaming |           5 |
-| audio-neutral-immersive                   |           5 |
-| audio-neutral-informative                 |           5 |
-| audio-positive-escape                     |           5 |
-| Brain                                     |           5 |
-| California                                |           5 |
-| Castro, Fidel                             |           5 |
-| Castro, Raul                              |           5 |
+| Defense and Military Forces               |          10 |
+| Hezbollah                                 |          10 |
+| Islamic Revolutionary Guards Corps        |          10 |
+| Lebanon                                   |          10 |
+| Trump, Donald J                           |          10 |
+| United States Defense and Military Forces |          10 |
+| War and Armed Conflicts                   |          10 |
+| Alexander, J (Miss J)                     |           5 |
+| Appointments and Executive Changes        |           5 |
+| Bahrain                                   |           5 |
+| Bayer AG                                  |           5 |
+| Beirut (Lebanon)                          |           5 |
+| Birth Rates                               |           5 |
+| Children and Childhood                    |           5 |
+| Christians and Christianity               |           5 |
 | Civilian Casualties                       |           5 |
