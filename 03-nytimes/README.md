@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-03-09.
+2026-03-16.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                   | \# Articles |
-|:------------------------------------------|------------:|
-| US and Israeli Attack on Iran (2026)      |          30 |
-| Israel                                    |          15 |
-| United States Politics and Government     |          15 |
-| Deaths (Fatalities)                       |          10 |
-| Defense and Military Forces               |          10 |
-| Hezbollah                                 |          10 |
-| Islamic Revolutionary Guards Corps        |          10 |
-| Lebanon                                   |          10 |
-| Trump, Donald J                           |          10 |
-| United States Defense and Military Forces |          10 |
-| War and Armed Conflicts                   |          10 |
-| Alexander, J (Miss J)                     |           5 |
-| Appointments and Executive Changes        |           5 |
-| Bahrain                                   |           5 |
-| Bayer AG                                  |           5 |
-| Beirut (Lebanon)                          |           5 |
-| Birth Rates                               |           5 |
-| Children and Childhood                    |           5 |
-| Christians and Christianity               |           5 |
-| Civilian Casualties                       |           5 |
+| Keyword                                      | \# Articles |
+|:---------------------------------------------|------------:|
+| US and Israeli Attack on Iran (2026)         |          15 |
+| Hezbollah                                    |          10 |
+| International Relations                      |          10 |
+| Israel                                       |          10 |
+| Lebanon                                      |          10 |
+| Politics and Government                      |          10 |
+| Trump, Donald J                              |          10 |
+| United States Politics and Government        |          10 |
+| War and Armed Conflicts                      |          10 |
+| Abortion                                     |           5 |
+| Academy Awards (Oscars)                      |           5 |
+| Advisory Committee on Immunization Practices |           5 |
+| Afghanistan                                  |           5 |
+| Agriculture and Farming                      |           5 |
+| Appointments and Executive Changes           |           5 |
+| Birth Control and Family Planning            |           5 |
+| Books and Literature                         |           5 |
+| Centers for Disease Control and Prevention   |           5 |
+| Civilian Casualties                          |           5 |
+| Clinton, George (1941- )                     |           5 |
