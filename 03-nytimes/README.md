@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-03-23.
+2026-03-30.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Israel                                   |          20 |
-| US and Israeli Attack on Iran (2026)     |          20 |
-| Arad (Israel)                            |          15 |
-| Dimona (Israel)                          |          15 |
-| Iran                                     |          15 |
-| War and Armed Conflicts                  |          15 |
-| Defense and Military Forces              |          10 |
-| Lebanon                                  |          10 |
-| Missiles and Missile Defense Systems     |          10 |
-| United States Politics and Government    |          10 |
-| Artificial Intelligence                  |           5 |
-| Attention Deficit Hyperactivity Disorder |           5 |
-| Beirut (Lebanon)                         |           5 |
-| Bombs and Explosives                     |           5 |
-| Cancer                                   |           5 |
-| Civilian Casualties                      |           5 |
-| Colleges and Universities                |           5 |
-| Content Type: Service                    |           5 |
-| Customs, Etiquette and Manners           |           5 |
-| Darfur (Sudan)                           |           5 |
+| Keyword                              | \# Articles |
+|:-------------------------------------|------------:|
+| US and Israeli Attack on Iran (2026) |          15 |
+| Budgets and Budgeting                |          10 |
+| Content Type: Personal Profile       |          10 |
+| Israel                               |          10 |
+| Lebanon                              |          10 |
+| War and Armed Conflicts              |          10 |
+| American Automobile Assn             |           5 |
+| Anxiety and Stress                   |           5 |
+| Appointments and Executive Changes   |           5 |
+| Artificial Intelligence              |           5 |
+| Boards of Directors                  |           5 |
+| Bronx (NYC)                          |           5 |
+| Cahillane, Steve                     |           5 |
+| Canada                               |           5 |
+| Cleansers, Detergents and Soaps      |           5 |
+| Consumer Behavior                    |           5 |
+| Corporations                         |           5 |
+| Corpus Christi (Tex)                 |           5 |
+| Deaths (Fatalities)                  |           5 |
+| Democratic Socialists of America     |           5 |
