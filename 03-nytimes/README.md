@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-03-30.
+2026-04-06.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                              | \# Articles |
-|:-------------------------------------|------------:|
-| US and Israeli Attack on Iran (2026) |          15 |
-| Budgets and Budgeting                |          10 |
-| Content Type: Personal Profile       |          10 |
-| Israel                               |          10 |
-| Lebanon                              |          10 |
-| War and Armed Conflicts              |          10 |
-| American Automobile Assn             |           5 |
-| Anxiety and Stress                   |           5 |
-| Appointments and Executive Changes   |           5 |
-| Artificial Intelligence              |           5 |
-| Boards of Directors                  |           5 |
-| Bronx (NYC)                          |           5 |
-| Cahillane, Steve                     |           5 |
-| Canada                               |           5 |
-| Cleansers, Detergents and Soaps      |           5 |
-| Consumer Behavior                    |           5 |
-| Corporations                         |           5 |
-| Corpus Christi (Tex)                 |           5 |
-| Deaths (Fatalities)                  |           5 |
-| Democratic Socialists of America     |           5 |
+| Keyword                                             | \# Articles |
+|:----------------------------------------------------|------------:|
+| Iran                                                |          15 |
+| Trump, Donald J                                     |          15 |
+| US and Israeli Attack on Iran (2026)                |          15 |
+| Central Intelligence Agency                         |          10 |
+| Christians and Christianity                         |          10 |
+| Easter and Holy Week                                |          10 |
+| United States Defense and Military Forces           |          10 |
+| Alliance of Motion Picture and Television Producers |           5 |
+| Anxiety and Stress                                  |           5 |
+| Artificial Intelligence                             |           5 |
+| Ashland (Neb)                                       |           5 |
+| Beirut (Lebanon)                                    |           5 |
+| Buddhism                                            |           5 |
+| Candles                                             |           5 |
+| Citizenship and Naturalization                      |           5 |
+| Defense Department                                  |           5 |
+| Deferred Action for Childhood Arrivals              |           5 |
+| Democratic Party                                    |           5 |
+| Deportation                                         |           5 |
+| Espionage and Intelligence Services                 |           5 |
