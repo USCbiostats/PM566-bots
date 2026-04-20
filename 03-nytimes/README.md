@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-04-13.
+2026-04-20.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                              | \# Articles |
-|:-------------------------------------|------------:|
-| US and Israeli Attack on Iran (2026) |          15 |
-| Israel                               |          10 |
-| Lebanon                              |          10 |
-| Affordable Housing                   |           5 |
-| Ambulances                           |           5 |
-| Anti-Semitism                        |           5 |
-| Appointments and Executive Changes   |           5 |
-| Area Planning and Renewal            |           5 |
-| Artificial Intelligence              |           5 |
-| Beaufort (SC)                        |           5 |
-| Bicycles and Bicycling               |           5 |
-| Boards of Directors                  |           5 |
-| Census                               |           5 |
-| Charleston (SC)                      |           5 |
-| Coastal Areas                        |           5 |
-| Company Reports                      |           5 |
-| Conservation of Resources            |           5 |
-| Content Type: Personal Profile       |           5 |
-| Customer Relations                   |           5 |
-| Defense and Military Forces          |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| United States Politics and Government |          20 |
+| Trump, Donald J                       |          10 |
+| American Psychiatric Assn             |           5 |
+| Americans Abroad                      |           5 |
+| Architecture                          |           5 |
+| Arlington National Cemetery           |           5 |
+| Arson                                 |           5 |
+| Art                                   |           5 |
+| Artificial Intelligence               |           5 |
+| Banking and Financial Institutions    |           5 |
+| Birds                                 |           5 |
+| Body Building                         |           5 |
+| Budgets and Budgeting                 |           5 |
+| Children and Childhood                |           5 |
+| Company Reports                       |           5 |
+| Computers and the Internet            |           5 |
+| Corporate Taxes                       |           5 |
+| Corporations                          |           5 |
+| Crossword Puzzles                     |           5 |
+| Deaths (Obituaries)                   |           5 |
