@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-04-20.
+2026-04-27.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          20 |
-| Trump, Donald J                       |          10 |
-| American Psychiatric Assn             |           5 |
-| Americans Abroad                      |           5 |
-| Architecture                          |           5 |
-| Arlington National Cemetery           |           5 |
-| Arson                                 |           5 |
-| Art                                   |           5 |
-| Artificial Intelligence               |           5 |
-| Banking and Financial Institutions    |           5 |
-| Birds                                 |           5 |
-| Body Building                         |           5 |
-| Budgets and Budgeting                 |           5 |
-| Children and Childhood                |           5 |
-| Company Reports                       |           5 |
-| Computers and the Internet            |           5 |
-| Corporate Taxes                       |           5 |
-| Corporations                          |           5 |
-| Crossword Puzzles                     |           5 |
-| Deaths (Obituaries)                   |           5 |
+| Keyword                                                      | \# Articles |
+|:-------------------------------------------------------------|------------:|
+| Trump, Donald J                                              |          20 |
+| Washington (DC)                                              |          20 |
+| White House Correspondents’ Dinner Shooting (April 25, 2026) |          20 |
+| Assassinations and Attempted Assassinations                  |          15 |
+| United States Politics and Government                        |          15 |
+| Allen, Cole Tomas                                            |          10 |
+| News and News Media                                          |          10 |
+| White House Correspondents Assn                              |          10 |
+| Agriculture and Farming                                      |           5 |
+| Artificial Intelligence                                      |           5 |
+| Bayer AG                                                     |           5 |
+| Blanche, Todd (Attorney)                                     |           5 |
+| Blankfein, Lloyd C                                           |           5 |
+| Brain                                                        |           5 |
+| Brooklyn (NYC)                                               |           5 |
+| Budgets and Budgeting                                        |           5 |
+| CBS News                                                     |           5 |
+| Chemicals                                                    |           5 |
+| Child Abuse and Neglect                                      |           5 |
+| Child Care                                                   |           5 |
