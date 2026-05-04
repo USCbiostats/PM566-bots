@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-04-27.
+2026-05-04.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                                      | \# Articles |
-|:-------------------------------------------------------------|------------:|
-| Trump, Donald J                                              |          20 |
-| Washington (DC)                                              |          20 |
-| White House Correspondents’ Dinner Shooting (April 25, 2026) |          20 |
-| Assassinations and Attempted Assassinations                  |          15 |
-| United States Politics and Government                        |          15 |
-| Allen, Cole Tomas                                            |          10 |
-| News and News Media                                          |          10 |
-| White House Correspondents Assn                              |          10 |
-| Agriculture and Farming                                      |           5 |
-| Artificial Intelligence                                      |           5 |
-| Bayer AG                                                     |           5 |
-| Blanche, Todd (Attorney)                                     |           5 |
-| Blankfein, Lloyd C                                           |           5 |
-| Brain                                                        |           5 |
-| Brooklyn (NYC)                                               |           5 |
-| Budgets and Budgeting                                        |           5 |
-| CBS News                                                     |           5 |
-| Chemicals                                                    |           5 |
-| Child Abuse and Neglect                                      |           5 |
-| Child Care                                                   |           5 |
+| Keyword                                   | \# Articles |
+|:------------------------------------------|------------:|
+| United States Politics and Government     |          20 |
+| Cruises                                   |          10 |
+| Deaths (Fatalities)                       |          10 |
+| Hantavirus                                |          10 |
+| Midterm Elections (2026)                  |          10 |
+| Respiratory Diseases                      |          10 |
+| Africa                                    |           5 |
+| All India Trinamool Congress              |           5 |
+| Alternative and Complementary Medicine    |           5 |
+| American College of Physicians            |           5 |
+| Amnesty International                     |           5 |
+| Anxiety and Stress                        |           5 |
+| Artificial Intelligence                   |           5 |
+| Assam (India)                             |           5 |
+| Atlantic Ocean                            |           5 |
+| Bharatiya Janata Party                    |           5 |
+| Citizenship and Immigration Services (US) |           5 |
+| College of Physicians                     |           5 |
+| Colom, Scott                              |           5 |
+| Conservatism (US Politics)                |           5 |
