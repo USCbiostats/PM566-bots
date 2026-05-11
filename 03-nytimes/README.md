@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-05-04.
+2026-05-11.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                   | \# Articles |
-|:------------------------------------------|------------:|
-| United States Politics and Government     |          20 |
-| Cruises                                   |          10 |
-| Deaths (Fatalities)                       |          10 |
-| Hantavirus                                |          10 |
-| Midterm Elections (2026)                  |          10 |
-| Respiratory Diseases                      |          10 |
-| Africa                                    |           5 |
-| All India Trinamool Congress              |           5 |
-| Alternative and Complementary Medicine    |           5 |
-| American College of Physicians            |           5 |
-| Amnesty International                     |           5 |
-| Anxiety and Stress                        |           5 |
-| Artificial Intelligence                   |           5 |
-| Assam (India)                             |           5 |
-| Atlantic Ocean                            |           5 |
-| Bharatiya Janata Party                    |           5 |
-| Citizenship and Immigration Services (US) |           5 |
-| College of Physicians                     |           5 |
-| Colom, Scott                              |           5 |
-| Conservatism (US Politics)                |           5 |
+| Keyword                     | \# Articles |
+|:----------------------------|------------:|
+| Al Qaeda                    |           5 |
+| Ansari, Aziz                |           5 |
+| Arsham, Daniel              |           5 |
+| Art                         |           5 |
+| Books and Literature        |           5 |
+| Burnham, Andrew M (1970- )  |           5 |
+| Cancer                      |           5 |
+| Catherine West              |           5 |
+| Central Intelligence Agency |           5 |
+| Children and Childhood      |           5 |
+| Cole (USS)                  |           5 |
+| Collectors and Collections  |           5 |
+| Comedy and Humor            |           5 |
+| Content Type: Service       |           5 |
+| Cooper, Yvette (1969- )     |           5 |
+| Courts and the Judiciary    |           5 |
+| Criminal Justice            |           5 |
+| Cruises                     |           5 |
+| Damon, Matt                 |           5 |
+| Deaths (Fatalities)         |           5 |
