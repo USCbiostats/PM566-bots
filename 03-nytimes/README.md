@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-05-11.
+2026-05-18.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                     | \# Articles |
-|:----------------------------|------------:|
-| Al Qaeda                    |           5 |
-| Ansari, Aziz                |           5 |
-| Arsham, Daniel              |           5 |
-| Art                         |           5 |
-| Books and Literature        |           5 |
-| Burnham, Andrew M (1970- )  |           5 |
-| Cancer                      |           5 |
-| Catherine West              |           5 |
-| Central Intelligence Agency |           5 |
-| Children and Childhood      |           5 |
-| Cole (USS)                  |           5 |
-| Collectors and Collections  |           5 |
-| Comedy and Humor            |           5 |
-| Content Type: Service       |           5 |
-| Cooper, Yvette (1969- )     |           5 |
-| Courts and the Judiciary    |           5 |
-| Criminal Justice            |           5 |
-| Cruises                     |           5 |
-| Damon, Matt                 |           5 |
-| Deaths (Fatalities)         |           5 |
+| Keyword                                        | \# Articles |
+|:-----------------------------------------------|------------:|
+| Artificial Intelligence                        |          10 |
+| Midterm Elections (2026)                       |          10 |
+| United States Politics and Government          |          10 |
+| Actors and Actresses                           |           5 |
+| Alternative and Renewable Energy               |           5 |
+| Altman, Samuel H                               |           5 |
+| Animated Films                                 |           5 |
+| Arms Trade                                     |           5 |
+| Asbestos                                       |           5 |
+| Bezos, Jeffrey P                               |           5 |
+| Books and Literature                           |           5 |
+| Cassidy, Bill (1957- )                         |           5 |
+| Celebrities                                    |           5 |
+| Colleges and Universities                      |           5 |
+| Commencement Speeches                          |           5 |
+| Computers and the Internet                     |           5 |
+| Congo, Democratic Republic of (Congo-Kinshasa) |           5 |
+| Content Type: Personal Profile                 |           5 |
+| Culture (Arts)                                 |           5 |
+| Defense and Military Forces                    |           5 |
