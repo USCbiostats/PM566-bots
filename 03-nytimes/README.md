@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-05-18.
+2026-05-25.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                        | \# Articles |
-|:-----------------------------------------------|------------:|
-| Artificial Intelligence                        |          10 |
-| Midterm Elections (2026)                       |          10 |
-| United States Politics and Government          |          10 |
-| Actors and Actresses                           |           5 |
-| Alternative and Renewable Energy               |           5 |
-| Altman, Samuel H                               |           5 |
-| Animated Films                                 |           5 |
-| Arms Trade                                     |           5 |
-| Asbestos                                       |           5 |
-| Bezos, Jeffrey P                               |           5 |
-| Books and Literature                           |           5 |
-| Cassidy, Bill (1957- )                         |           5 |
-| Celebrities                                    |           5 |
-| Colleges and Universities                      |           5 |
-| Commencement Speeches                          |           5 |
-| Computers and the Internet                     |           5 |
-| Congo, Democratic Republic of (Congo-Kinshasa) |           5 |
-| Content Type: Personal Profile                 |           5 |
-| Culture (Arts)                                 |           5 |
-| Defense and Military Forces                    |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| California                            |          10 |
+| Deaths (Fatalities)                   |          10 |
+| Midterm Elections (2026)              |          10 |
+| Senate                                |          10 |
+| United States Politics and Government |          10 |
+| American Psychiatric Assn             |           5 |
+| Antidepressants                       |           5 |
+| Artificial Intelligence               |           5 |
+| Automobiles                           |           5 |
+| Baluchistan (Pakistan)                |           5 |
+| Baseball                              |           5 |
+| Brooks, Bob (1973- )                  |           5 |
+| Bunia (Congo, Democratic Republic of) |           5 |
+| ChatGPT                               |           5 |
+| Conservatism (US Politics)            |           5 |
+| Cooke, Rebecca (1987- )               |           5 |
+| Cornyn, John                          |           5 |
+| Crossword Puzzles                     |           5 |
+| Deaths (Obituaries)                   |           5 |
+| Democratic Party                      |           5 |
