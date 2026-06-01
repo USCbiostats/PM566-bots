@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-05-25.
+2026-06-01.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| California                            |          10 |
-| Deaths (Fatalities)                   |          10 |
-| Midterm Elections (2026)              |          10 |
-| Senate                                |          10 |
-| United States Politics and Government |          10 |
-| American Psychiatric Assn             |           5 |
-| Antidepressants                       |           5 |
-| Artificial Intelligence               |           5 |
-| Automobiles                           |           5 |
-| Baluchistan (Pakistan)                |           5 |
-| Baseball                              |           5 |
-| Brooks, Bob (1973- )                  |           5 |
-| Bunia (Congo, Democratic Republic of) |           5 |
-| ChatGPT                               |           5 |
-| Conservatism (US Politics)            |           5 |
-| Cooke, Rebecca (1987- )               |           5 |
-| Cornyn, John                          |           5 |
-| Crossword Puzzles                     |           5 |
-| Deaths (Obituaries)                   |           5 |
-| Democratic Party                      |           5 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| Artificial Intelligence            |          10 |
+| Roman Catholic Church              |          10 |
+| Actors and Actresses               |           5 |
+| American University                |           5 |
+| Animals                            |           5 |
+| Appointments and Executive Changes |           5 |
+| Bars and Nightclubs                |           5 |
+| Black People                       |           5 |
+| Booker, Cory A                     |           5 |
+| Canada                             |           5 |
+| Cats                               |           5 |
+| Celebrities                        |           5 |
+| Christians and Christianity        |           5 |
+| Clergy                             |           5 |
+| College of the Holy Cross          |           5 |
+| Colleges and Universities          |           5 |
+| Content Type: Personal Profile     |           5 |
+| Cuba                               |           5 |
+| Deaths (Fatalities)                |           5 |
+| DEBEVOISE & PLIMPTON               |           5 |
