@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-06-08.
+2026-06-15.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                    | \# Articles |
 |:-------------------------------------------|------------:|
+| Trump, Donald J                            |          20 |
 | United States Politics and Government      |          15 |
-| Diet and Nutrition                         |          10 |
-| Ministers (Protestant)                     |          10 |
-| Trump, Donald J                            |          10 |
-| Adventure Travel                           |           5 |
-| Ahmadinejad, Mahmoud                       |           5 |
-| Anxiety and Stress                         |           5 |
-| Appointments and Executive Changes         |           5 |
-| Babies and Infants                         |           5 |
-| Bhattacharya, Jay                          |           5 |
-| Books and Literature                       |           5 |
-| Careers and Professions                    |           5 |
-| Centers for Disease Control and Prevention |           5 |
-| Christians and Christianity                |           5 |
-| Civilian Casualties                        |           5 |
-| Clergy                                     |           5 |
-| Cookies                                    |           5 |
-| Credit Cards                               |           5 |
-| Customs, Etiquette and Manners             |           5 |
-| Debt Collection                            |           5 |
+| Age, Chronological                         |          10 |
+| Artificial Intelligence                    |          10 |
+| Content Type: Personal Profile             |          10 |
+| Elderly                                    |          10 |
+| World Cup 2026 (Soccer)                    |          10 |
+| Anunoby, OG                                |           5 |
+| Baby Boomers                               |           5 |
+| Basketball                                 |           5 |
+| Beirut, Lebanon, Explosions (2020)         |           5 |
+| Biden, Joseph R Jr                         |           5 |
+| Broadway (Manhattan, NY)                   |           5 |
+| Centers for Medicare and Medicaid Services |           5 |
+| Collins, Michael A Jr (1967- )             |           5 |
+| Comcast Corporation                        |           5 |
+| Computers and the Internet                 |           5 |
+| Conde, Cesar                               |           5 |
+| Content Type: Service                      |           5 |
+| Dahiya (Lebanon)                           |           5 |
