@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-06-15.
+2026-06-22.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                                    | \# Articles |
 |:-------------------------------------------|------------:|
-| Trump, Donald J                            |          20 |
-| United States Politics and Government      |          15 |
-| Age, Chronological                         |          10 |
-| Artificial Intelligence                    |          10 |
-| Content Type: Personal Profile             |          10 |
-| Elderly                                    |          10 |
-| World Cup 2026 (Soccer)                    |          10 |
-| Anunoby, OG                                |           5 |
-| Baby Boomers                               |           5 |
-| Basketball                                 |           5 |
-| Beirut, Lebanon, Explosions (2020)         |           5 |
-| Biden, Joseph R Jr                         |           5 |
-| Broadway (Manhattan, NY)                   |           5 |
-| Centers for Medicare and Medicaid Services |           5 |
-| Collins, Michael A Jr (1967- )             |           5 |
-| Comcast Corporation                        |           5 |
-| Computers and the Internet                 |           5 |
-| Conde, Cesar                               |           5 |
-| Content Type: Service                      |           5 |
-| Dahiya (Lebanon)                           |           5 |
+| Trump, Donald J                            |          15 |
+| United States International Relations      |          15 |
+| Cepeda, Ivan                               |          10 |
+| Colombia                                   |          10 |
+| De La Espriella, Abelardo                  |          10 |
+| Defense and Military Forces                |          10 |
+| Elections                                  |          10 |
+| Politics and Government                    |          10 |
+| Air Pollution                              |           5 |
+| American Indian Movement                   |           5 |
+| Boyle Heights (Los Angeles, Calif)         |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| China                                      |           5 |
+| Christians and Christianity                |           5 |
+| Cruises                                    |           5 |
+| Custer, George Armstrong                   |           5 |
+| Drug Abuse and Traffic                     |           5 |
+| Fire Department (Los Angeles)              |           5 |
+| Fires and Firefighters                     |           5 |
+| France                                     |           5 |
