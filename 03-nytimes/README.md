@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-06-29.
+2026-07-06.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                        | \# Articles |
-|:-----------------------------------------------|------------:|
-| United States Politics and Government          |          15 |
-| Accidents and Safety                           |          10 |
-| Trump, Donald J                                |          10 |
-| Workplace Hazards and Violations               |          10 |
-| Air Conditioning                               |           5 |
-| Animal Abuse, Rights and Welfare               |           5 |
-| Badenoch, Kemi                                 |           5 |
-| Bennet, Michael Farrand                        |           5 |
-| Caracas (Venezuela)                            |           5 |
-| Carriages                                      |           5 |
-| Central Park (Manhattan, NY)                   |           5 |
-| Central Park Conservancy                       |           5 |
-| City Council (NYC)                             |           5 |
-| City Councils                                  |           5 |
-| Clark, William (1770-1838)                     |           5 |
-| Colorado                                       |           5 |
-| Congo, Democratic Republic of (Congo-Kinshasa) |           5 |
-| Deaths (Fatalities)                            |           5 |
-| Defense and Military Forces                    |           5 |
-| Defense Department                             |           5 |
+| Keyword                                             | \# Articles |
+|:----------------------------------------------------|------------:|
+| United States Politics and Government               |          25 |
+| Trump, Donald J                                     |          15 |
+| Animal Behavior                                     |           5 |
+| Animal Cognition                                    |           5 |
+| Anxiety and Stress                                  |           5 |
+| Archer, Bill                                        |           5 |
+| Birds                                               |           5 |
+| Black People                                        |           5 |
+| Brain                                               |           5 |
+| Bureau of Alcohol, Tobacco, Firearms and Explosives |           5 |
+| Careers and Professions                             |           5 |
+| Civil Rights and Liberties                          |           5 |
+| Deaths (Obituaries)                                 |           5 |
+| Democratic Party                                    |           5 |
+| Demonstrations, Protests and Riots                  |           5 |
+| Discrimination                                      |           5 |
+| Diversity Initiatives                               |           5 |
+| Domestic Policy Council (US)                        |           5 |
+| El-Sayed, Abdul                                     |           5 |
+| Elections, Senate                                   |           5 |
