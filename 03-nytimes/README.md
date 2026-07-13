@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-07-06.
+2026-07-13.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                             | \# Articles |
-|:----------------------------------------------------|------------:|
-| United States Politics and Government               |          25 |
-| Trump, Donald J                                     |          15 |
-| Animal Behavior                                     |           5 |
-| Animal Cognition                                    |           5 |
-| Anxiety and Stress                                  |           5 |
-| Archer, Bill                                        |           5 |
-| Birds                                               |           5 |
-| Black People                                        |           5 |
-| Brain                                               |           5 |
-| Bureau of Alcohol, Tobacco, Firearms and Explosives |           5 |
-| Careers and Professions                             |           5 |
-| Civil Rights and Liberties                          |           5 |
-| Deaths (Obituaries)                                 |           5 |
-| Democratic Party                                    |           5 |
-| Demonstrations, Protests and Riots                  |           5 |
-| Discrimination                                      |           5 |
-| Diversity Initiatives                               |           5 |
-| Domestic Policy Council (US)                        |           5 |
-| El-Sayed, Abdul                                     |           5 |
-| Elections, Senate                                   |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| United States Politics and Government |          20 |
+| Graham, Lindsey                       |          15 |
+| Senate                                |          15 |
+| Age, Chronological                    |          10 |
+| McConnell, Mitch                      |          10 |
+| Midterm Elections (2026)              |          10 |
+| New York City                         |          10 |
+| Republican Party                      |          10 |
+| Trump, Donald J                       |          10 |
+| Abdurraqib, Hanif                     |           5 |
+| Actors and Actresses                  |           5 |
+| Adultery                              |           5 |
+| Almeria (Spain)                       |           5 |
+| Andalusia (Spain)                     |           5 |
+| Aorta                                 |           5 |
+| Attia, Peter                          |           5 |
+| Avila Chevalier, Darializa            |           5 |
+| Bar Pitti (Manhattan, NY, Restaurant) |           5 |
+| Biden, Joseph R Jr                    |           5 |
+| Books and Literature                  |           5 |
