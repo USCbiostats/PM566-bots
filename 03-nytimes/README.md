@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-07-13.
+2026-07-20.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          20 |
-| Graham, Lindsey                       |          15 |
-| Senate                                |          15 |
-| Age, Chronological                    |          10 |
-| McConnell, Mitch                      |          10 |
-| Midterm Elections (2026)              |          10 |
-| New York City                         |          10 |
-| Republican Party                      |          10 |
-| Trump, Donald J                       |          10 |
-| Abdurraqib, Hanif                     |           5 |
-| Actors and Actresses                  |           5 |
-| Adultery                              |           5 |
-| Almeria (Spain)                       |           5 |
-| Andalusia (Spain)                     |           5 |
-| Aorta                                 |           5 |
-| Attia, Peter                          |           5 |
-| Avila Chevalier, Darializa            |           5 |
-| Bar Pitti (Manhattan, NY, Restaurant) |           5 |
-| Biden, Joseph R Jr                    |           5 |
-| Books and Literature                  |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Democratic Party                           |          15 |
+| Midterm Elections (2026)                   |          15 |
+| Bellows, Shenna                            |          10 |
+| Health and Mental Hygiene Department (NYC) |          10 |
+| Jackson, Troy D (1968- )                   |          10 |
+| Parasites                                  |          10 |
+| Politics and Government                    |          10 |
+| United States                              |          10 |
+| United States Politics and Government      |          10 |
+| Argentina                                  |           5 |
+| Assaults                                   |           5 |
+| Bacteria                                   |           5 |
+| Boutros, Andrew                            |           5 |
+| Buenos Aires (Argentina)                   |           5 |
+| Burnham, Andrew M (1970- )                 |           5 |
+| Capitalism (Theory and Philosophy)         |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Chicago (Ill)                              |           5 |
+| Collins, Susan M                           |           5 |
+| Deaths (Fatalities)                        |           5 |
