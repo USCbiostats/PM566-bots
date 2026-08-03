@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-07-27.
+2026-08-03.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Content Type: Personal Profile        |          18 |
-| Social Media                          |          18 |
-| United States Politics and Government |          18 |
-| Andrews, Paul (1948-2026)             |           9 |
-| Anxiety and Stress                    |           9 |
-| Apple TV                              |           9 |
-| Apple TV Plus                         |           9 |
-| Boats and Boating                     |           9 |
-| Capitalism (Theory and Philosophy)    |           9 |
-| Cartier SA                            |           9 |
-| Cockroach Janta Party (India)         |           9 |
-| Colleges and Universities             |           9 |
-| Communism (Theory and Philosophy)     |           9 |
-| Conventions, Fairs and Trade Shows    |           9 |
-| Deaths (Obituaries)                   |           9 |
-| Delhi (India)                         |           9 |
-| Democratic Party                      |           9 |
-| Demonstrations, Protests and Riots    |           9 |
-| Depression (Mental)                   |           9 |
-| Dipke, Abhijeet                       |           9 |
+| Keyword                                          | \# Articles |
+|:-------------------------------------------------|------------:|
+| United States Politics and Government            |          15 |
+| Books and Literature                             |          10 |
+| Midterm Elections (2026)                         |          10 |
+| Social Media                                     |          10 |
+| Water                                            |          10 |
+| Agriculture and Farming                          |           5 |
+| Alzheimer’s Disease                              |           5 |
+| Artificial Intelligence                          |           5 |
+| Cannabis Foods and Products                      |           5 |
+| Chicago (Ill)                                    |           5 |
+| Chicago Teachers Union                           |           5 |
+| Children and Childhood                           |           5 |
+| Computer Security                                |           5 |
+| Computers and the Internet                       |           5 |
+| Content Type: Personal Profile                   |           5 |
+| Cyberattacks and Hackers                         |           5 |
+| Cybersecurity and Infrastructure Security Agency |           5 |
+| Cyberwarfare and Defense                         |           5 |
+| Data Centers                                     |           5 |
+| Dementia                                         |           5 |
