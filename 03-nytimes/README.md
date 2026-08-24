@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-08-17.
+2026-08-24.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Trump, Donald J                       |          20 |
-| Midterm Elections (2026)              |          15 |
-| United States Politics and Government |          10 |
-| Alaska                                |           5 |
-| Annet Rost                            |           5 |
+| United States                         |          15 |
+| United States Politics and Government |          15 |
+| Democratic Party                      |          10 |
+| Elections, House of Representatives   |          10 |
+| Midterm Elections (2026)              |          10 |
+| Trump, Donald J                       |          10 |
+| American Federation of Teachers       |           5 |
+| Argentina                             |           5 |
 | Artificial Intelligence               |           5 |
-| Books and Literature                  |           5 |
-| Bou Meng (1941-2026)                  |           5 |
-| Cambodia                              |           5 |
-| ChatGPT                               |           5 |
-| Cholera                               |           5 |
+| Big Tech                              |           5 |
+| Brazil                                |           5 |
+| Bukele, Nayib                         |           5 |
+| Bush, George W                        |           5 |
+| Clancy, Lindsay (1990- )              |           5 |
+| Clear Eyes Maximum Itchy Eye Relief   |           5 |
+| Colombia                              |           5 |
+| Computer Science Teachers Assn        |           5 |
 | Computers and the Internet            |           5 |
-| Curaleaf Inc                          |           5 |
-| Deaths (Obituaries)                   |           5 |
-| Defense Department                    |           5 |
-| Democratic Party                      |           5 |
-| Democratic Socialists of America      |           5 |
-| Deportation                           |           5 |
-| Disease Rates                         |           5 |
-| Dunleavy, Mike J                      |           5 |
+| Copilot                               |           5 |
+| Cosmetics and Toiletries              |           5 |
