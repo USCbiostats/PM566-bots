@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-08-24.
+2026-08-31.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| United States                         |          15 |
-| United States Politics and Government |          15 |
-| Democratic Party                      |          10 |
-| Elections, House of Representatives   |          10 |
-| Midterm Elections (2026)              |          10 |
-| Trump, Donald J                       |          10 |
-| American Federation of Teachers       |           5 |
-| Argentina                             |           5 |
-| Artificial Intelligence               |           5 |
-| Big Tech                              |           5 |
-| Brazil                                |           5 |
-| Bukele, Nayib                         |           5 |
-| Bush, George W                        |           5 |
-| Clancy, Lindsay (1990- )              |           5 |
-| Clear Eyes Maximum Itchy Eye Relief   |           5 |
-| Colombia                              |           5 |
-| Computer Science Teachers Assn        |           5 |
-| Computers and the Internet            |           5 |
-| Copilot                               |           5 |
-| Cosmetics and Toiletries              |           5 |
+| Pennsylvania                          |          10 |
+| United States Politics and Government |          10 |
+| Women and Girls                       |          10 |
+| Africa                                |           5 |
+| Air Pollution                         |           5 |
+| Airlines and Airplanes                |           5 |
+| American Girl Inc                     |           5 |
+| Anxiety and Stress                    |           5 |
+| Asylum, Right of                      |           5 |
+| Ayuso, Isabel Diaz                    |           5 |
+| Barbie (Doll)                         |           5 |
+| Barcelona (Spain)                     |           5 |
+| Barnes & Noble Inc                    |           5 |
+| Books and Literature                  |           5 |
+| Boyle Heights (Los Angeles, Calif)    |           5 |
+| Catalonia (Spain)                     |           5 |
+| Civil Rights and Liberties            |           5 |
+| Content Type: Personal Profile        |           5 |
+| Coronavirus (2019-nCoV)               |           5 |
+| Country Music                         |           5 |
