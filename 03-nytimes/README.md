@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-08-31.
+2026-09-07.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Pennsylvania                          |          10 |
-| United States Politics and Government |          10 |
-| Women and Girls                       |          10 |
-| Africa                                |           5 |
-| Air Pollution                         |           5 |
-| Airlines and Airplanes                |           5 |
-| American Girl Inc                     |           5 |
-| Anxiety and Stress                    |           5 |
-| Asylum, Right of                      |           5 |
-| Ayuso, Isabel Diaz                    |           5 |
-| Barbie (Doll)                         |           5 |
-| Barcelona (Spain)                     |           5 |
-| Barnes & Noble Inc                    |           5 |
-| Books and Literature                  |           5 |
-| Boyle Heights (Los Angeles, Calif)    |           5 |
-| Catalonia (Spain)                     |           5 |
-| Civil Rights and Liberties            |           5 |
-| Content Type: Personal Profile        |           5 |
-| Coronavirus (2019-nCoV)               |           5 |
-| Country Music                         |           5 |
+| Keyword                                   | \# Articles |
+|:------------------------------------------|------------:|
+| New York City                             |          15 |
+| Content Type: Personal Profile            |          10 |
+| Mamdani, Zohran                           |          10 |
+| National September 11 Memorial and Museum |          10 |
+| September 11 (2001)                       |          10 |
+| Accidents and Safety                      |           5 |
+| Age, Chronological                        |           5 |
+| Alternative for Germany                   |           5 |
+| Asheville (NC)                            |           5 |
+| Becket (Mass)                             |           5 |
+| Berkshires (Mass)                         |           5 |
+| Books and Literature                      |           5 |
+| Cisneros, Pamela (1977-2026)              |           5 |
+| Dallas (Tex)                              |           5 |
+| Dancing                                   |           5 |
+| Deaths (Fatalities)                       |           5 |
+| Deaths (Obituaries)                       |           5 |
+| Doris Duke Theater (Becket, Mass)         |           5 |
+| Edward Field                              |           5 |
+| Elder Care                                |           5 |
