@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-09-09.
+2026-09-14.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Midterm Elections (2026)              |          20 |
-| New Hampshire                         |          15 |
+| United States Politics and Government |          20 |
 | Trump, Donald J                       |          15 |
-| United States Politics and Government |          15 |
-| Decisions and Verdicts                |          10 |
-| Elections, Senate                     |          10 |
-| Politics and Government               |          10 |
-| Air Pollution                         |           5 |
-| Appeals Courts (US)                   |           5 |
-| Asbestos                              |           5 |
-| Bloomberg, Michael R                  |           5 |
-| Brown, Scott P                        |           5 |
-| Catholic Relief Services              |           5 |
-| China                                 |           5 |
-| Clancy, Lindsay (1990- )              |           5 |
+| Appointments and Executive Changes    |           5 |
+| Bankruptcies                          |           5 |
+| Black Lives Matter Movement           |           5 |
+| Boards of Directors                   |           5 |
+| Brain                                 |           5 |
+| Bronx (NYC)                           |           5 |
+| Bunch, Lonnie G III                   |           5 |
+| Child Care                            |           5 |
+| Children and Childhood                |           5 |
+| Chronic Traumatic Encephalopathy      |           5 |
+| Deaths (Fatalities)                   |           5 |
 | Deaths (Obituaries)                   |           5 |
-| Democracy (Theory and Philosophy)     |           5 |
-| Democratic Party                      |           5 |
-| Disasters and Emergencies             |           5 |
-| Earthquakes                           |           5 |
+| DeSantis, Ron                         |           5 |
+| Education (Pre-School)                |           5 |
+| Elections                             |           5 |
+| Elections, Senate                     |           5 |
+| Epidemics                             |           5 |
+| Executive Orders and Memorandums      |           5 |
