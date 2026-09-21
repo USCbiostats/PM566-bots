@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-09-14.
+2026-09-21.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| United States Politics and Government |          20 |
-| Trump, Donald J                       |          15 |
-| Appointments and Executive Changes    |           5 |
-| Bankruptcies                          |           5 |
-| Black Lives Matter Movement           |           5 |
-| Boards of Directors                   |           5 |
-| Brain                                 |           5 |
-| Bronx (NYC)                           |           5 |
-| Bunch, Lonnie G III                   |           5 |
-| Child Care                            |           5 |
-| Children and Childhood                |           5 |
-| Chronic Traumatic Encephalopathy      |           5 |
-| Deaths (Fatalities)                   |           5 |
-| Deaths (Obituaries)                   |           5 |
-| DeSantis, Ron                         |           5 |
-| Education (Pre-School)                |           5 |
-| Elections                             |           5 |
-| Elections, Senate                     |           5 |
-| Epidemics                             |           5 |
-| Executive Orders and Memorandums      |           5 |
+| Keyword                                     | \# Articles |
+|:--------------------------------------------|------------:|
+| United States Politics and Government       |          20 |
+| Medicine and Health                         |          15 |
+| Politics and Government                     |          15 |
+| Trump, Donald J                             |          15 |
+| Research                                    |          10 |
+| Age, Chronological                          |           5 |
+| Amish                                       |           5 |
+| Art                                         |           5 |
+| Artificial Intelligence                     |           5 |
+| Assassinations and Attempted Assassinations |           5 |
+| Australia                                   |           5 |
+| Beatty, Joyce                               |           5 |
+| Bethel Park (Pa)                            |           5 |
+| Bhattacharya, Jay                           |           5 |
+| Boards of Directors                         |           5 |
+| Buildings (Structures)                      |           5 |
+| California                                  |           5 |
+| Centers for Disease Control and Prevention  |           5 |
+| Children and Childhood                      |           5 |
+| Collectors and Collections                  |           5 |
