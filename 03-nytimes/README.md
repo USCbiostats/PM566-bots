@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-09-28.
+2026-10-05.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                                         | \# Articles |
-|:----------------------------------------------------------------|------------:|
-| New York City                                                   |          10 |
-| United States Politics and Government                           |          10 |
-| Altman, Samuel H                                                |           5 |
-| America’s Sweethearts: Dallas Cowboys Cheerleaders (TV Program) |           5 |
-| Anthropic AI LLC                                                |           5 |
-| Aristotle                                                       |           5 |
-| Artificial Intelligence                                         |           5 |
-| Asphyxiation, Choking, and Suffocation                          |           5 |
-| Blogs and Blogging (Internet)                                   |           5 |
-| Books and Literature                                            |           5 |
-| Brock, Dee (1930-2026)                                          |           5 |
-| Brooklyn (NYC)                                                  |           5 |
-| BrooklynVegan (Web Site)                                        |           5 |
-| Building (Construction)                                         |           5 |
-| Cheerleaders                                                    |           5 |
-| Dallas (Tex)                                                    |           5 |
-| Dallas Cowboys                                                  |           5 |
-| Deaths (Fatalities)                                             |           5 |
-| Deaths (Obituaries)                                             |           5 |
-| Decisions and Verdicts                                          |           5 |
+| Keyword                                    | \# Articles |
+|:-------------------------------------------|------------:|
+| Oil (Petroleum) and Gasoline               |          15 |
+| Trump, Donald J                            |          15 |
+| Midterm Elections (2026)                   |          10 |
+| United States Politics and Government      |          10 |
+| Alternative and Complementary Medicine     |           5 |
+| Amish                                      |           5 |
+| Andrews, Annie (1980- )                    |           5 |
+| Arizona                                    |           5 |
+| Artificial Intelligence                    |           5 |
+| Astoria (Queens, NY)                       |           5 |
+| Athletics and Sports                       |           5 |
+| Automobile Service and Charging Stations   |           5 |
+| Automobiles                                |           5 |
+| Bars and Nightclubs                        |           5 |
+| Cancer                                     |           5 |
+| Capital Punishment                         |           5 |
+| Casinos                                    |           5 |
+| Centers for Disease Control and Prevention |           5 |
+| Chemotherapy                               |           5 |
+| Cookies                                    |           5 |
