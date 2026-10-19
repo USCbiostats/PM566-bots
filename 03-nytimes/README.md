@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-10-12.
+2026-10-19.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                               | \# Articles |
-|:--------------------------------------|------------:|
-| Democratic Party                      |          15 |
-| Midterm Elections (2026)              |          15 |
-| United States Politics and Government |          15 |
-| Collins, Susan M                      |          10 |
-| Defense and Military Forces           |          10 |
-| Refugees and Displaced Persons        |          10 |
-| Yemen                                 |          10 |
-| Appointments and Executive Changes    |           5 |
-| Arizona                               |           5 |
-| Artificial Intelligence               |           5 |
-| Bab al-Mandab Strait                  |           5 |
-| Bass, Karen Ruth                      |           5 |
-| Boats and Boating                     |           5 |
-| California                            |           5 |
-| China                                 |           5 |
-| Civilian Casualties                   |           5 |
-| Comedy and Humor                      |           5 |
-| Cyberharassment                       |           5 |
-| Deaths (Fatalities)                   |           5 |
-| Democratic Socialists of America      |           5 |
+| Keyword                                  | \# Articles |
+|:-----------------------------------------|------------:|
+| Trump, Donald J                          |          15 |
+| United States Politics and Government    |          15 |
+| Carney, Mark J                           |          10 |
+| Colleges and Universities                |          10 |
+| Defense and Military Forces              |          10 |
+| Midterm Elections (2026)                 |          10 |
+| Religion and Belief                      |          10 |
+| Republican Party                         |          10 |
+| Research                                 |          10 |
+| Alaska                                   |           5 |
+| Alberta (Canada)                         |           5 |
+| Anglican Churches                        |           5 |
+| Arizona                                  |           5 |
+| Artificial Intelligence                  |           5 |
+| Authoritarianism (Theory and Philosophy) |           5 |
+| Biggs, Andy (1958- )                     |           5 |
+| Books and Literature                     |           5 |
+| Brain                                    |           5 |
+| Budgets and Budgeting                    |           5 |
+| Business Schools                         |           5 |
