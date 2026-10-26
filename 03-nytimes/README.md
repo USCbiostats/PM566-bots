@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-10-19.
+2026-10-26.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                                  | \# Articles |
-|:-----------------------------------------|------------:|
-| Trump, Donald J                          |          15 |
-| United States Politics and Government    |          15 |
-| Carney, Mark J                           |          10 |
-| Colleges and Universities                |          10 |
-| Defense and Military Forces              |          10 |
-| Midterm Elections (2026)                 |          10 |
-| Religion and Belief                      |          10 |
-| Republican Party                         |          10 |
-| Research                                 |          10 |
-| Alaska                                   |           5 |
-| Alberta (Canada)                         |           5 |
-| Anglican Churches                        |           5 |
-| Arizona                                  |           5 |
-| Artificial Intelligence                  |           5 |
-| Authoritarianism (Theory and Philosophy) |           5 |
-| Biggs, Andy (1958- )                     |           5 |
-| Books and Literature                     |           5 |
-| Brain                                    |           5 |
-| Budgets and Budgeting                    |           5 |
-| Business Schools                         |           5 |
+| Keyword                            | \# Articles |
+|:-----------------------------------|------------:|
+| New York Times/Siena College Poll  |          25 |
+| Polls and Public Opinion           |          25 |
+| Bolsonaro, Flavio                  |           5 |
+| Bolsonaro, Jair (1955- )           |           5 |
+| Brazil                             |           5 |
+| Da Silva, Luiz Inacio Lula         |           5 |
+| Democratic Party                   |           5 |
+| Demonstrations, Protests and Riots |           5 |
+| Elections                          |           5 |
+| France                             |           5 |
+| France Unbowed (Political Party)   |           5 |
+| International Relations            |           5 |
+| Le Pen, Marine                     |           5 |
+| Macron, Emmanuel (1977- )          |           5 |
+| Midterm Elections (2026)           |           5 |
+| National Rally (France)            |           5 |
+| Obama, Barack                      |           5 |
+| Orleans (France)                   |           5 |
+| Paris (France)                     |           5 |
+| Republican Party                   |           5 |
