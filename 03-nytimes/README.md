@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-10-26.
+2026-11-02.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -83,25 +83,25 @@ colnames(tab) <- c("Keyword", "# Articles")
 knitr::kable(tab, row.names = FALSE)
 ```
 
-| Keyword                            | \# Articles |
-|:-----------------------------------|------------:|
-| New York Times/Siena College Poll  |          25 |
-| Polls and Public Opinion           |          25 |
-| Bolsonaro, Flavio                  |           5 |
-| Bolsonaro, Jair (1955- )           |           5 |
-| Brazil                             |           5 |
-| Da Silva, Luiz Inacio Lula         |           5 |
-| Democratic Party                   |           5 |
-| Demonstrations, Protests and Riots |           5 |
-| Elections                          |           5 |
-| France                             |           5 |
-| France Unbowed (Political Party)   |           5 |
-| International Relations            |           5 |
-| Le Pen, Marine                     |           5 |
-| Macron, Emmanuel (1977- )          |           5 |
-| Midterm Elections (2026)           |           5 |
-| National Rally (France)            |           5 |
-| Obama, Barack                      |           5 |
-| Orleans (France)                   |           5 |
-| Paris (France)                     |           5 |
-| Republican Party                   |           5 |
+| Keyword                               | \# Articles |
+|:--------------------------------------|------------:|
+| Midterm Elections (2026)              |          35 |
+| Trump, Donald J                       |          15 |
+| United States Politics and Government |          15 |
+| El-Sayed, Abdul                       |          10 |
+| Presidential Election of 2024         |          10 |
+| Senate                                |          10 |
+| Age, Chronological                    |           5 |
+| Belo-Osagie, Saidah                   |           5 |
+| California                            |           5 |
+| Che, Michael                          |           5 |
+| Christians and Christianity           |           5 |
+| Comedy and Humor                      |           5 |
+| Connecticut                           |           5 |
+| Content Type: Personal Profile        |           5 |
+| Defense Department                    |           5 |
+| Democratic Party                      |           5 |
+| Democratic Socialists of America      |           5 |
+| Elections, Senate                     |           5 |
+| Federal Taxes (US)                    |           5 |
+| Florida                               |           5 |
