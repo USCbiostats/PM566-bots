@@ -5,7 +5,7 @@ The following is an example of how to use the [NYTimes
 API](https://developer.nytimes.com/) to get a list of articles related
 to a particular term. Here we are searching articles that include the
 term `"health"`, and that were published up to seven days ago since
-2026-11-02.
+2026-11-09.
 
 ``` r
 # Preparing a function to use the GET method with the NYTimes API
@@ -85,23 +85,23 @@ knitr::kable(tab, row.names = FALSE)
 
 | Keyword                               | \# Articles |
 |:--------------------------------------|------------:|
-| Midterm Elections (2026)              |          35 |
+| United States Politics and Government |          20 |
+| Midterm Elections (2026)              |          15 |
 | Trump, Donald J                       |          15 |
-| United States Politics and Government |          15 |
-| El-Sayed, Abdul                       |          10 |
-| Presidential Election of 2024         |          10 |
-| Senate                                |          10 |
-| Age, Chronological                    |           5 |
-| Belo-Osagie, Saidah                   |           5 |
-| California                            |           5 |
-| Che, Michael                          |           5 |
+| US and Israeli Attack on Iran (2026)  |          15 |
+| Democratic Party                      |          10 |
+| House of Representatives              |          10 |
+| Religion and Belief                   |          10 |
+| al Ayyat (Egypt)                      |           5 |
+| Appointments and Executive Changes    |           5 |
+| Brooklyn (NYC)                        |           5 |
+| Cahn, Charlie III                     |           5 |
+| Cairo (Egypt)                         |           5 |
+| China                                 |           5 |
 | Christians and Christianity           |           5 |
-| Comedy and Humor                      |           5 |
 | Connecticut                           |           5 |
-| Content Type: Personal Profile        |           5 |
+| Deaths (Fatalities)                   |           5 |
 | Defense Department                    |           5 |
-| Democratic Party                      |           5 |
-| Democratic Socialists of America      |           5 |
-| Elections, Senate                     |           5 |
-| Federal Taxes (US)                    |           5 |
-| Florida                               |           5 |
+| Education (K-12)                      |           5 |
+| Egypt                                 |           5 |
+| Ethics and Official Misconduct        |           5 |
